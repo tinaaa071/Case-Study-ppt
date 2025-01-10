@@ -33,31 +33,19 @@ image: '/image/Home.png'
 
 ---
 transition: fade-out
+class: p-0
 ---
 
-# Works
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-App
-
-##111
-
-
+<div class="grid grid-cols-4 gap-4 h-full">  <!-- 設定網格容器高度填滿 -->
+  <div class="col-span-1 bg-red-200 h-full">  <!-- 左邊 1/4，並設定高度填滿 -->
+    <!-- 左邊內容 -->
+    <p>左邊內容</p>
+  </div>
+  <div class="col-span-3 h-full">  <!-- 右邊 3/4，並設定高度填滿 -->
+    <!-- 右邊內容 -->
+    <p>右邊內容</p>
+  </div>
 </div>
-<div>
-
-Web
-
-##111
-
-</div>
-</div>
-
-<!--
-Here is another comment.
--->
 
 ---
 transition: slide-up
