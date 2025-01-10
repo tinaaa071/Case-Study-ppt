@@ -28,7 +28,7 @@ image: '/image/Home.png'
 ---
 
 <div class="absolute bottom-10 text-black text-left left-10">
-  <h1>This<br>Title</h1>
+  <h1>Title<br>Evaluation</h1>
 </div>
 
 ---
@@ -160,11 +160,8 @@ layout: section
 ---
 
 <div class="w-fit">
-  <Video
-    videoSrc="https://i.imgur.com/EahTJg6.mp4"
-    class="top-1 sm:top-2 w-[77%] sm:w-[64%] xl:w-[77%] object-contain"
-    videoClass="aspect-video"
-  />
+  <h1>台灣 UX 工作者<span class="text-sm">（不含海外）</span></h1>
+  <h1 class="border-b-8 border-[#F4B461]">年薪平均 <span class="font-semibold text-[#F4B461]">88 萬</span>，中位數 <span class="font-semibold text-[#F4B461]">77 萬</span></h1>
   <div class="space-x-4 pt-2">
     <span class="px-3 py-2 border-3 rounded-lg border-[#F4B461]">104</span>
     <span class="px-3 py-2 border-3 rounded-lg border-[#F4B461]">1111</span>
