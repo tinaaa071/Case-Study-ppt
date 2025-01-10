@@ -42,22 +42,7 @@ transition: fade-out
 
 App
 
-<table>
-  <tr style="border: #fff">
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame1.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">台中派車</span>
-    </td>
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame5.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">UCARE</span>
-    </td>
-  </tr>
-</table>
+##111
 
 
 </div>
@@ -65,56 +50,7 @@ App
 
 Web
 
-<table>
-  <tr style="border: #fff">
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame4.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">老吾老</span>
-    </td>
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame3.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">第一郵捷</span>
-    </td>
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame9.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">哈佛健康管理</span>
-    </td>
-  </tr>
-  <tr style="border: #fff">
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame6.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">嘉義市城市備援整合</span>
-    </td>
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame7.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">春天藥局</span>
-    </td>
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame8.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">崇恩戰情中心</span>
-    </td>
-  </tr>
-  <tr style="border: #fff">
-    <td align="center">
-      <div class="border-3 rounded-lg border-[#F4B461] overflow-hidden ">
-        <img src="image/Frame2.png" class="hover:scale-125 transition duration-150" alt="Image 1" width="200" height="150">
-      </div>
-      <span class="text-sm">海外醫事人員培訓平台</span>
-    </td>
-  </tr>
-</table>
+##111
 
 </div>
 </div>
