@@ -34,6 +34,51 @@ image: '/image/Home.png'
 ---
 transition: fade-out
 class: p-0
+layout: full
+---
+
+<div class="flex flex-col justify-between h-full p-14">  <!-- 設定網格容器高度填滿 -->
+  <div class="space-y-2">
+    <p class="text-2xl font-black">Background</p>
+    <p class="text-base">
+      This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for foreign medical professionals. It also offers more complete training information and application services through the platform.
+    </p>
+  </div>
+  <div class="grid grid-cols-4">
+    <div class="space-y-2">
+      <p class="text-2xl font-black">Role</p>
+      <ul class="text-base ">
+        <li>UI/UX Designer</li>
+        <li>Product Roadmap</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-2xl font-black">Team</p>
+      <ul class="text-base ">
+        <li>UI/UX Designer</li>
+        <li>Product Roadmap</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-2xl font-black">Timeline</p>
+      <ul class="text-base ">
+        <li>UI/UX Designer</li>
+        <li>Product Roadmap</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-2xl font-black">Company</p>
+      <ul class="text-base ">
+        <li>Joint Commission of Taiwan</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
 ---
 
 <div class="grid grid-cols-4 gap-4 h-full">  <!-- 設定網格容器高度填滿 -->
