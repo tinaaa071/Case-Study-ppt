@@ -45,6 +45,54 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col justify-between p-14 h-full">  <!-- 設定網格容器高度填滿 -->
+  <div class="space-y-2">
+    <p class="text-xl font-black">Background</p>
+    <p class="text-sm">
+      This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for foreign medical professionals. It also offers more complete training information and application services through the platform.
+    </p>
+  </div>
+  <div class="grid grid-cols-4">
+    <div class="space-y-2">
+      <p class="text-xl font-black">Role</p>
+      <ul class="text-sm">
+        <li>UI/UX Designer</li>
+        <li>Product Roadmap</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Team</p>
+      <ul class="text-sm">
+        <li>1 Product Designer</li>
+        <li>1 Product Manager</li>
+        <li>1 Systems Analysis</li>
+        <li>1 Front-end Developer</li>
+        <li>3 Back-end Developer</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Timeline</p>
+      <p class="text-sm">
+        More than 1 year
+        <br>
+        (2023.10 - Now)
+      </p>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Company</p>
+      <ul class="text-sm">
+        <li>Joint Commission of Taiwan</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+transition: fade-out
 ---
 
 # Hello?
