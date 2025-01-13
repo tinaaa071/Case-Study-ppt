@@ -198,7 +198,7 @@ layout: full
 </div>
 
 ---
-transition: slide-left
+transition: fade-out
 class: p-0
 layout: full
 ---
@@ -253,6 +253,59 @@ layout: full
     ref="image"
     src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     class="object-cover object-center h-full"
+  />
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center p-14 h-full"> 
+  <p class="text-7xl font-black leading-loose">Research<br><br><br>&<br><br><br>Define</p>
+  <div>
+    <p>
+      After analyzing user needs and the functional architecture, I set 2 design directions for the project:
+    </p>
+    <ol class="text-sm list-decimal">
+      <li>
+        Target Audience-Oriented
+        <br>
+        <span>
+          <ul class="text-gray-500">
+            <li>Courses categorized by professional fields.</li>
+            <li>The color selection is composed of stable and medical tones.</li>
+          </ul>
+        </span>
+      </li>
+      <li>
+        Enhancing User Experience
+        <br>
+        <span>
+          <ul class="text-gray-500">
+            <li>Provide custom search and filter options.</li>
+            <li>A registration process that is easy to complete.</li>
+            <li>Convenient visibility of the review status.</li>
+          </ul>
+        </span>
+      </li>
+    </ol>
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="p-14 h-full text-center"> 
+  <p class="text-2xl font-black">Training Course Categories</p>
+  <img
+    ref="image"
+    src="https://i.imgur.com/Rm3Loa0.png"
+    class="scale-90"
   />
 </div>
 
