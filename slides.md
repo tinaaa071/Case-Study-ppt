@@ -310,6 +310,83 @@ layout: full
 </div>
 
 ---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col justify-between p-14 h-full"> 
+  <div class="space-y-2">
+    <p class="text-xl font-black">Competitive Analysis</p>
+    <p class="text-sm">
+      I researched products on the market with similar course registration features but did not find a suitable example.
+    </p>
+  </div>
+  <div class="grid grid-cols-3 gap-y-6 gap-x-32">
+    <div class="space-y-3 text-center">
+      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+        <img
+          ref="image"
+          src="https://i.imgur.com/7VlO2nB.png"
+          class="transition-all duration-200 ease-in-out hover:scale-110"
+        />
+      </div>
+      <p class="text-sm font-black">Hahow</p>
+    </div>
+    <div class="space-y-3 text-center">
+      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+        <img
+          ref="image"
+          src="https://i.imgur.com/IZHmUjI.png"
+          class="transition-all duration-200 ease-in-out hover:scale-110"
+        />
+      </div>
+      <p class="text-sm font-black">Udemy</p>
+    </div>
+    <div class="space-y-3 text-center">
+      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+        <img
+          ref="image"
+          src="https://i.imgur.com/BM5WXVl.png"
+          class="transition-all duration-200 ease-in-out hover:scale-110"
+        />
+      </div>
+      <p class="text-sm font-black">Coursera</p>
+    </div>
+    <div class="space-y-3 text-center">
+      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+        <img
+          ref="image"
+          src="https://i.imgur.com/G2pCFYH.png"
+          class="transition-all duration-200 ease-in-out hover:scale-110"
+        />
+      </div>
+      <p class="text-sm font-black">Future Learn</p>
+    </div>
+    <div class="space-y-3 text-center">
+      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+        <img
+          ref="image"
+          src="https://i.imgur.com/mHWGOe8.png"
+          class="transition-all duration-200 ease-in-out hover:scale-110"
+        />
+      </div>
+      <p class="text-sm font-black">Techable</p>
+    </div>
+    <div class="space-y-3 text-center">
+      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+        <img
+          ref="image"
+          src="https://i.imgur.com/IL9zMOt.png"
+          class="transition-all duration-200 ease-in-out hover:scale-110"
+        />
+      </div>
+      <p class="text-sm font-black">Klook</p>
+    </div>
+  </div>
+</div>
+
+---
 transition: slide-left
 ---
 
