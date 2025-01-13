@@ -478,12 +478,10 @@ layout: full
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
     <!-- 右邊內容 -->
-    <!-- <Video
+    <Video
       src="/video1.mp4"
-    /> -->
-    <video controls width="250">
-  <source src="/video1.mp4" type="video/webm" />
-</video>
+    />
+    
   </div>
 </div>
 

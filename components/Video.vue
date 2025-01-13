@@ -11,7 +11,7 @@
       loop
       playsinline
     >
-      <source :src="src" type="" />
+      <source :src="src" type="video/mp4" />
     </video>
   </div>
 </template>
