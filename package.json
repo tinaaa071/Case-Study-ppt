@@ -5,16 +5,18 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
-    "@slidev/cli": "^51.0.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@slidev/cli": "^51.0.0",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
   }
