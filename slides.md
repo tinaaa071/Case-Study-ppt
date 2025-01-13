@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: apple-basic
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -26,11 +26,11 @@ mdc: true
 
 Presentation slides for developers
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+<div @click="$slidev.nav.next" class="py-1 mt-12" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
 </div>
 
-<div class="abs-br m-6 text-xl">
+<div class="m-6 text-xl abs-br">
   <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
@@ -105,11 +105,11 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 <!-- https://sli.dev/guide/animations.html#click-animation -->
 <img
   v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
+  class="absolute -left-7 -bottom-9 w-80 opacity-50"
   src="https://sli.dev/assets/arrow-bottom-left.svg"
   alt=""
 />
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+<p v-after class="absolute opacity-30 transform bottom-23 left-45 -rotate-10">Here!</p>
 
 ---
 layout: two-cols
@@ -386,7 +386,7 @@ Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), t
 </div>
 ```
 
-<div class="w-60 relative">
+<div class="relative w-60">
   <div class="relative w-40 h-40">
     <img
       v-motion
