@@ -163,37 +163,57 @@ layout: full
       User Pain Point
     </p>
   </div>
-  <div class="grid grid-cols-3 gap-6">
+  <div class="grid grid-cols-3 gap-x-8">
     <div class="">
       <p class="text-xl font-black">Low-profile hospital promotion</p>
       <p class="text-xs">
         The hospital's authoritative departments are fully equipped but take a more low-profile approach in promotion.
       </p>
     </div>
-    <div class="space-y-2">
-      <p class="text-xl font-black">Define</p>
-      <ul class="text-xs">
-        <li>Website Design Specifications</li>
-        <li>Online Course Registration Workflow</li>
-        <li>Online Course Registration Review Process</li>
-        <li>Web/App Editor Compatibility</li>
-      </ul>
+    <div class="">
+      <p class="text-xl font-black">Insufficient training information</p>
+      <p class="text-xs">
+        Training information is insufficient, making it difficult to clearly understand the overall application process.
+      </p>
     </div>
-    <div class="space-y-2">
-      <p class="text-xl font-black">Design</p>
-      <ul class="text-xs">
-        <li>Component Design</li>
-        <li>Website UI Design</li>
-        <li>Responsive Website Compatibility</li>
-      </ul>
+    <div class="">
+      <p class="text-xl font-black">Customized training programs</p>
+      <p class="text-xs">
+        Overseas healthcare personnel have clear learning goals and require customized training programs.
+      </p>
     </div>
-    <div class="space-y-2">
-      <p class="text-xl font-black">Company</p>
-      <ul class="text-xs">
-        <li>Testing & Collect Feedback</li>
-      </ul>
+    <div class="">
+      <p class="text-xl font-black">Issues with document resubmission</p>
+      <p class="text-xs">
+        The process of submitting supplementary documents is time-consuming, labor-intensive, and disorganized.
+      </p>
+    </div>
+    <div class="">
+      <p class="text-xl font-black">Training results and evaluations</p>
+      <p class="text-xs">
+        Overseas personnel find it difficult to access training results and evaluations, making it challenging to showcase training achievements externally.
+      </p>
     </div>
   </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center p-14 h-full"> 
+  <p class="text-7xl font-black">Our Goal</p>
+  <ul class="text-sm list-decimal">
+    <li>Establish a registration system that includes authentication</li>
+    <li>Integrate course resources from national medical institutions</li>
+    <li>Provide multi-language switch for the website</li>
+    <li>Provide course classification and filtering functions</li>
+    <li>Provide individual and group registration functions for courses</li>
+    <li>Allow participants to view the registration review results</li>
+    <li>Students can consult with the course provider online</li>
+  </ul>
 </div>
 
 ---
