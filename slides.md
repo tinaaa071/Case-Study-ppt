@@ -145,7 +145,7 @@ layout: full
 </div>
 
 ---
-transition: fade-out
+transition: slide-left
 class: p-0
 layout: full
 ---
@@ -163,33 +163,33 @@ layout: full
       User Pain Point
     </p>
   </div>
-  <div class="grid grid-cols-3 gap-x-8">
+  <div class="grid grid-cols-3 gap-y-4 gap-x-8">
     <div class="">
-      <p class="text-xl font-black">Low-profile hospital promotion</p>
+      <p class="text-lg font-black">Low-profile hospital promotion</p>
       <p class="text-xs">
         The hospital's authoritative departments are fully equipped but take a more low-profile approach in promotion.
       </p>
     </div>
     <div class="">
-      <p class="text-xl font-black">Insufficient training information</p>
+      <p class="text-lg font-black">Insufficient training information</p>
       <p class="text-xs">
         Training information is insufficient, making it difficult to clearly understand the overall application process.
       </p>
     </div>
     <div class="">
-      <p class="text-xl font-black">Customized training programs</p>
+      <p class="text-lg font-black">Customized training programs</p>
       <p class="text-xs">
         Overseas healthcare personnel have clear learning goals and require customized training programs.
       </p>
     </div>
     <div class="">
-      <p class="text-xl font-black">Issues with document resubmission</p>
+      <p class="text-lg font-black">Issues with document resubmission</p>
       <p class="text-xs">
         The process of submitting supplementary documents is time-consuming, labor-intensive, and disorganized.
       </p>
     </div>
     <div class="">
-      <p class="text-xl font-black">Training results and evaluations</p>
+      <p class="text-lg font-black">Training results and evaluations</p>
       <p class="text-xs">
         Overseas personnel find it difficult to access training results and evaluations, making it challenging to showcase training achievements externally.
       </p>
@@ -205,7 +205,7 @@ layout: full
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
   <p class="text-7xl font-black">Our Goal</p>
-  <ul class="text-sm list-decimal">
+  <ol class="text-sm list-decimal">
     <li>Establish a registration system that includes authentication</li>
     <li>Integrate course resources from national medical institutions</li>
     <li>Provide multi-language switch for the website</li>
@@ -213,7 +213,47 @@ layout: full
     <li>Provide individual and group registration functions for courses</li>
     <li>Allow participants to view the registration review results</li>
     <li>Students can consult with the course provider online</li>
-  </ul>
+  </ol>
+</div>
+
+---
+transition: slide-left
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center p-14 h-full"> 
+  <p class="text-7xl font-black">Solution</p>
+  <ol class="text-sm list-decimal">
+    <li>Display course training evaluation results</li>
+    <li>Provide course information and filtering functions</li>
+    <li>Design a document upload and automatic verification system</li>
+    <li>Establish a multilingual frameworks</li>
+    <li>Create a dual registration mode with dynamic forms</li>
+    <li>Develop a registration status tracking feature</li>
+  </ol>
+</div>
+
+---
+transition: slide-left
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center h-full"> 
+  <div class="p-14 space-y-2">
+    <p class="text-2xl font-black">Some impacts on the project</p>
+    <ol class="text-sm list-decimal">
+      <li>The client was unable to provide clear requirements</li>
+      <li>The project architecture was extensive</li>
+      <li>The development timeline was tight</li>
+    </ol>
+  </div>
+  <img
+    ref="image"
+    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    class="object-cover object-center h-full"
+  />
 </div>
 
 ---
