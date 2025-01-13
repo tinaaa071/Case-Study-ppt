@@ -388,6 +388,104 @@ layout: full
 
 ---
 transition: slide-left
+class: p-0
+layout: full
+---
+
+<div class="flex flex-row justify-between items-center p-14 h-full"> 
+  <p class="text-4xl font-black">Information<br><br>Architecture</p>
+  <img
+    ref="image"
+    src="https://i.imgur.com/E3rF3z9.png"
+    class="object-center h-full object-fit"
+  />
+</div>
+
+---
+transition: slide-left
+class: p-0
+layout: full
+---
+
+<div class="h-full text-center"> 
+  <img
+    ref="image"
+    src="https://i.imgur.com/LE9SIgX.png"
+    class="mt-4 mb-20 w-full"
+  />
+  <p class="text-2xl font-black">User flow for registering for a course</p>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center p-14 h-full"> 
+  <p class="text-7xl font-black">Design<br><br><br>System</p>
+  <ul class="text-sm">
+    <li>Variable settings</li>
+    <li>Multilingual settings</li>
+    <li>Figma design files</li>
+    <li>Storybook management</li>
+  </ul>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Variable<br><br>settings</p>
+    <p class="text-xs text-gray-500">
+      The project is developed using Tailwind. 
+      <br>
+      <br>
+      I set up the variables in the files, allowing engineers to directly view the relevant class settings during development.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <img
+      ref="image"
+      src="https://i.imgur.com/HkDOiYr.png"
+      class="w-full"
+    />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Variable<br><br>settings</p>
+    <p class="text-xs text-gray-500">
+      The project is developed using Tailwind. 
+      <br>
+      <br>
+      I set up the variables in the files, allowing engineers to directly view the relevant class settings during development.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="assets/video1.mov"
+    />
+  </div>
+</div>
+
+---
+transition: slide-left
 ---
 
 # Hello?
