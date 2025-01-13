@@ -49,7 +49,7 @@ transition: fade-out
 
 # What is Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidev is a slides maker and presenter designed for developers, consist of the following features.
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - themes can be shared and re-used as npm packages
