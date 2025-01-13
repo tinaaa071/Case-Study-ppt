@@ -479,7 +479,7 @@ layout: full
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
     <!-- 右邊內容 -->
     <Video
-      src="/public/video1.mp4"
+      src="/video1.mp4"
     />
   </div>
 </div>
