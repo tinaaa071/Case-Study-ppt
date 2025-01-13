@@ -49,24 +49,24 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between p-14 h-full">  <!-- 設定網格容器高度填滿 -->
+<div class="flex flex-col justify-between p-14 h-full"> 
   <div class="space-y-2">
     <p class="text-xl font-black">Background</p>
     <p class="text-sm">
       This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for foreign medical professionals. It also offers more complete training information and application services through the platform.
     </p>
   </div>
-  <div class="grid grid-cols-4">
+  <div class="grid grid-cols-4 gap-6">
     <div class="space-y-2">
       <p class="text-xl font-black">Role</p>
-      <ul class="text-sm">
+      <ul class="text-xs">
         <li>UI/UX Designer</li>
         <li>Product Roadmap</li>
       </ul>
     </div>
     <div class="space-y-2">
       <p class="text-xl font-black">Team</p>
-      <ul class="text-sm">
+      <ul class="text-xs">
         <li>1 Product Designer</li>
         <li>1 Product Manager</li>
         <li>1 Systems Analysis</li>
@@ -76,16 +76,121 @@ layout: full
     </div>
     <div class="space-y-2">
       <p class="text-xl font-black">Timeline</p>
-      <p class="text-sm">
+      <p class="text-xs">
         More than 1 year
         <br>
-        (2023.10 - Now)
+        <span class="text-gray-400">
+          (2023.10 - Now)
+        </span>
       </p>
     </div>
     <div class="space-y-2">
       <p class="text-xl font-black">Company</p>
-      <ul class="text-sm">
-        <li>Joint Commission of Taiwan</li>
+      <p class="text-xs">
+        Joint Commission of Taiwan
+      </p>
+    </div>
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col justify-between p-14 h-full"> 
+  <div class="space-y-2">
+    <p class="text-xl font-black">Design Flow</p>
+    <p class="text-sm">
+      In this project, I focused on designing the overall website architecture to ensure users could browse courses and complete the registration process. My primary responsibility was to plan an online course registration system that is user-friendly and allows users to verify their application results. 
+      <br>
+      <br>
+      The goal of the platform is to foster closer medical exchange and collaboration with other countries, promoting the bidirectional sharing of knowledge and skills.
+    </p>
+  </div>
+  <div class="grid grid-cols-4 gap-6">
+    <div class="space-y-2">
+      <p class="text-xl font-black">Research</p>
+      <ul class="text-xs">
+        <li>Website IA</li>
+        <li>Course Information Display Requirements</li>
+        <li>Course Registration and Review System</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Define</p>
+      <ul class="text-xs">
+        <li>Website Design Specifications</li>
+        <li>Online Course Registration Workflow</li>
+        <li>Online Course Registration Review Process</li>
+        <li>Web/App Editor Compatibility</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Design</p>
+      <ul class="text-xs">
+        <li>Component Design</li>
+        <li>Website UI Design</li>
+        <li>Responsive Website Compatibility</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Company</p>
+      <ul class="text-xs">
+        <li>Testing & Collect Feedback</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col justify-between p-14 h-full"> 
+  <div class="flex items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 512 512" 
+     width="24" 
+     height="24"
+     >
+      <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM174.6 384.1c-4.5 12.5-18.2 18.9-30.7 14.4s-18.9-18.2-14.4-30.7C146.9 319.4 198.9 288 256 288s109.1 31.4 126.6 79.9c4.5 12.5-2 26.2-14.4 30.7s-26.2-2-30.7-14.4C328.2 358.5 297.2 336 256 336s-72.2 22.5-81.4 48.1zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+    </svg>
+    <p class="pl-2 text-xl font-black">
+      User Pain Point
+    </p>
+  </div>
+  <div class="grid grid-cols-3 gap-6">
+    <div class="">
+      <p class="text-xl font-black">Low-profile hospital promotion</p>
+      <p class="text-xs">
+        The hospital's authoritative departments are fully equipped but take a more low-profile approach in promotion.
+      </p>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Define</p>
+      <ul class="text-xs">
+        <li>Website Design Specifications</li>
+        <li>Online Course Registration Workflow</li>
+        <li>Online Course Registration Review Process</li>
+        <li>Web/App Editor Compatibility</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Design</p>
+      <ul class="text-xs">
+        <li>Component Design</li>
+        <li>Website UI Design</li>
+        <li>Responsive Website Compatibility</li>
+      </ul>
+    </div>
+    <div class="space-y-2">
+      <p class="text-xl font-black">Company</p>
+      <ul class="text-xs">
+        <li>Testing & Collect Feedback</li>
       </ul>
     </div>
   </div>
