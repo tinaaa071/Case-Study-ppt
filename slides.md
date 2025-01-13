@@ -198,7 +198,7 @@ layout: full
 </div>
 
 ---
-transition: fade-out
+transition: slide-left
 class: p-0
 layout: full
 ---
@@ -217,7 +217,7 @@ layout: full
 </div>
 
 ---
-transition: fade-out
+transition: slide-left
 ---
 
 # Hello?
