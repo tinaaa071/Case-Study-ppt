@@ -441,7 +441,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Variable<br><br>settings</p>
+    <p class="text-4xl font-black">Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       The project is developed using Tailwind. 
       <br>
@@ -468,7 +468,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Variable<br><br>settings</p>
+    <p class="text-4xl font-black">Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       The project is developed using Tailwind. 
       <br>
@@ -481,7 +481,52 @@ layout: full
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video1.mp4"
     />
-    
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Multilingual<br><br>Settings</p>
+    <p class="text-xs text-gray-500">
+      I set up multilingual variables, allowing for direct switching and viewing in the files during development.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <img
+      ref="image"
+      src="https://i.imgur.com/3huTlpN.png"
+      class="w-full"
+    />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Multilingual<br><br>Settings</p>
+    <p class="text-xs text-gray-500">
+      I set up multilingual variables, allowing for direct switching and viewing in the files during development.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="https://tinaaa071.github.io/Case-Study-ppt/video2.mp4"
+    />
   </div>
 </div>
 
