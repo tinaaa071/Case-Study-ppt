@@ -862,21 +862,21 @@ layout: full
       <li class="font-black">
         Course Feature Expansion
         <br>
-        <p class="text-xs font-medium">
+        <p class="text-xs font-normal">
           We plan to develop an online course system in the future to enhance the platform's usability and meet various needs.
         </p>
       </li>
       <li class="font-black">
         Improvement of the Course Registration Process
         <br>
-        <p class="text-xs font-medium">
+        <p class="text-xs font-normal">
           I am still working on improving the course registration process design, particularly in providing users with a smooth experience for handling large amounts of data input.
         </p>
       </li>
       <li class="font-black">
         Online Consultation System
         <br>
-        <p class="text-xs font-medium">
+        <p class="text-xs font-normal">
           Currently relying on manual responses, we aim to provide some basic intelligent customer support to alleviate issues caused by insufficient staff.
         </p>
       </li>
