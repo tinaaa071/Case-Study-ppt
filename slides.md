@@ -706,7 +706,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Course <br><br>Categories</p>
+    <p class="text-4xl font-black">Course<br><br>Categories</p>
     <p class="text-xs text-gray-500">
       Provide a collapsible filter that allows filtering by different criteria.
       <br>
@@ -732,7 +732,7 @@ layout: full
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
-      <p class="text-4xl font-black">Course <br><br>Page</p>
+      <p class="text-4xl font-black">Course<br><br>Page</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
@@ -760,7 +760,7 @@ layout: full
       <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
         Personal
       </span>
-      <p class="text-4xl font-black">Course <br><br>Enrollment</p>
+      <p class="text-4xl font-black">Course<br><br>Enrollment</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
@@ -788,7 +788,7 @@ layout: full
       <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
         Group
       </span>
-      <p class="text-4xl font-black">Course <br><br>Enrollment</p>
+      <p class="text-4xl font-black">Course<br><br>Enrollment</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
@@ -801,6 +801,86 @@ layout: full
       src="https://tinaaa071.github.io/Case-Study-ppt/video8.mp4"
     />
   </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Apply<br><br>Review<br><br>Progress</p>
+    <p class="text-xs text-gray-500">
+      Students can switch between different statuses to view the approval progress of their registered courses. Clicking on the card will display detailed information.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="https://tinaaa071.github.io/Case-Study-ppt/video9.mp4"
+    />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <div class="flex flex-col">
+      <p class="text-4xl font-black">Online<br><br>Consult</p>
+      <p class="text-xl font-black text-blue-500">Key Design</p>
+    </div>
+    <p class="text-xs text-gray-500">
+      We provide an online consultation system, allowing students to instantly contact the course organizers to address related issues.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="https://tinaaa071.github.io/Case-Study-ppt/video10.mp4"
+    />
+  </div>
+</div>
+
+---
+transition: slide-left
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center p-14 h-full"> 
+  <p class="text-5xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
+  <ol class="text-sm">
+      <li class="font-black">
+        Course Feature Expansion
+        <br>
+        <p class="text-xs font-medium">
+          We plan to develop an online course system in the future to enhance the platform's usability and meet various needs.
+        </p>
+      </li>
+      <li class="font-black">
+        Improvement of the Course Registration Process
+        <br>
+        <p class="text-xs font-medium">
+          I am still working on improving the course registration process design, particularly in providing users with a smooth experience for handling large amounts of data input.
+        </p>
+      </li>
+      <li class="font-black">
+        Online Consultation System
+        <br>
+        <p class="text-xs font-medium">
+          Currently relying on manual responses, we aim to provide some basic intelligent customer support to alleviate issues caused by insufficient staff.
+        </p>
+      </li>
+    </ol>
 </div>
 
 ---
