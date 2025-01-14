@@ -493,7 +493,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Multilingual<br><br>Settings</p>
+    <p class="text-4xl font-black">i18n<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       I set up multilingual variables, allowing for direct switching and viewing in the files during development.
     </p>
@@ -517,7 +517,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Multilingual<br><br>Settings</p>
+    <p class="text-4xl font-black">i18n<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       I set up multilingual variables, allowing for direct switching and viewing in the files during development.
     </p>
