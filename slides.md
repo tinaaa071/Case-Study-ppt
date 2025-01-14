@@ -204,7 +204,7 @@ layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-7xl font-black">Our Goal</p>
+  <p class="text-6xl font-black">Our Goal</p>
   <ol class="text-sm list-decimal">
     <li>Establish a registration system that includes authentication</li>
     <li>Integrate course resources from national medical institutions</li>
@@ -223,7 +223,7 @@ layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-7xl font-black">Solution</p>
+  <p class="text-6xl font-black">Solution</p>
   <ol class="text-sm list-decimal">
     <li>Display course training evaluation results</li>
     <li>Provide course information and filtering functions</li>
@@ -263,7 +263,7 @@ layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-7xl font-black leading-loose">Research<br><br><br>&<br><br><br>Define</p>
+  <p class="text-6xl font-black leading-loose">Research<br><br><br>&<br><br><br>Define</p>
   <div>
     <p>
       After analyzing user needs and the functional architecture, I set 2 design directions for the project:
@@ -423,7 +423,7 @@ layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-7xl font-black">Design<br><br><br>System</p>
+  <p class="text-6xl font-black">Design<br><br><br>System</p>
   <ul class="text-sm">
     <li>Variable settings</li>
     <li>Multilingual settings</li>
@@ -607,7 +607,7 @@ layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-7xl font-black">Feature<br><br><br>Demo</p>
+  <p class="text-6xl font-black">Feature<br><br><br>Demo</p>
   <ul class="text-sm">
     <li>Signup</li>
     <li>Course Categories</li>
@@ -857,8 +857,8 @@ layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-5xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
-  <ol class="text-sm">
+  <p class="text-6xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
+  <ol class="text-base">
       <li class="font-black">
         Course Feature Expansion
         <br>
