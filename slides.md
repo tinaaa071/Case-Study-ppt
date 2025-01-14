@@ -49,6 +49,19 @@ class: p-0
 layout: full
 ---
 
+<div class="flex flex-col gap-20 py-14 h-full text-center">
+  <p class="text-4xl font-black">Work Experiences</p>
+  <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70">
+    <Timeline />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
 <div class="flex flex-col justify-between p-14 h-full"> 
   <div class="space-y-2">
     <p class="text-xl font-black">Background</p>
