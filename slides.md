@@ -163,7 +163,7 @@ layout: full
       User Pain Point
     </p>
   </div>
-  <div class="grid grid-cols-3 gap-y-4 gap-x-8">
+  <div class="grid grid-cols-3 gap-y-3 gap-x-12">
     <div class="">
       <p class="text-lg font-black">Low-profile hospital promotion</p>
       <p class="text-xs">
@@ -571,6 +571,32 @@ layout: full
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video4.mp4"
     />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Figma<br><br>Design<br><br>Files</p>
+    <p class="text-xs text-gray-500">
+      I showcased the dimensions of different pages in the files and defined various scenarios and workflows.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden no-underline rounded-2xl decoration-transparent">
+      <img
+        ref="image"
+        src="https://i.imgur.com/6pMAdyR.png"
+        class="w-full"
+      />
+    </a>
   </div>
 </div>
 
