@@ -858,7 +858,7 @@ layout: full
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
   <p class="text-6xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
-  <ol class="text-base">
+  <ol class="space-y-8 text-base">
       <li class="font-black">
         Course Feature Expansion
         <br>
