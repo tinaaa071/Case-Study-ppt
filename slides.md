@@ -575,6 +575,50 @@ layout: full
 </div>
 
 ---
+transition: slide-left
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Storybook</p>
+    <p class="text-xs text-gray-500">
+      I used Storybook as a platform for visual guidelines and component demonstrations, assisting the development team in referencing concrete design standards during implementation.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden rounded-2xl">
+      <img
+        ref="image"
+        src="https://i.imgur.com/6pMAdyR.png"
+        class="w-full"
+      />
+    </a>
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-2 items-center p-14 h-full"> 
+  <p class="text-7xl font-black">Feature<br><br><br>Demo</p>
+  <ul class="text-sm">
+    <li>Signup</li>
+    <li>Course Categories</li>
+    <li>Course Page</li>
+    <li>Course Enrollment</li>
+    <li>Apply Review Progress</li>
+    <li>Online Consultation</li>
+  </ul>
+</div>
+
+---
 transition: fade-out
 class: p-0
 layout: full
@@ -583,20 +627,73 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Figma<br><br>Design<br><br>Files</p>
+    <p class="text-4xl font-black">Signup</p>
     <p class="text-xs text-gray-500">
-      I showcased the dimensions of different pages in the files and defined various scenarios and workflows.
+      Use dynamic switching to toggle between different forms, catering to different user registrations while maintaining a unified design and reducing additional development efforts.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex col-span-3 justify-center items-center px-10 py-12 h-full bg-gray-200">
     <!-- 右邊內容 -->
-    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden no-underline rounded-2xl decoration-transparent">
-      <img
-        ref="image"
-        src="https://i.imgur.com/6pMAdyR.png"
-        class="w-full"
-      />
-    </a>
+    <img
+      ref="image"
+      src="https://i.imgur.com/p981WCv.png"
+      class="w-3/4 rounded-2xl"
+    />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Signup</p>
+    <p class="text-xs text-gray-500">
+      Dynamically display fields based on different options.
+    </p>
+  </div>
+  <div class="overflow-hidden bg-cover bg-center bg-no-repeat flex col-span-3 justify-center items-center h-full bg-gray-200 bg-[url('https://i.imgur.com/kxCbId4.png')]">
+    <!-- 右邊內容 -->
+    <img
+      v-click
+      ref="image"
+      src="https://i.imgur.com/EdWAeho.png"
+      class=""
+    />
+    <img
+      v-click
+      ref="image"
+      src="https://i.imgur.com/iy4pMl8.png"
+      class="absolute origin-right scale-[0.46]"
+    />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <p class="text-4xl font-black">Signup</p>
+    <p class="text-xs text-gray-500">
+      Integrate API data to enable real-time validation, reducing manual review time.
+    </p>
+  </div>
+  <div class="flex col-span-3 justify-center items-center px-10 py-12 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <img
+      ref="image"
+      src="https://i.imgur.com/KuVaTU4.png"
+      class="w-4/5 rounded-2xl"
+    />
   </div>
 </div>
 
