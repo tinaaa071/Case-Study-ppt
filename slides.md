@@ -748,6 +748,62 @@ layout: full
 </div>
 
 ---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <div class="flex flex-col">
+      <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
+        Personal
+      </span>
+      <p class="text-4xl font-black">Course <br><br>Enrollment</p>
+      <p class="text-xl font-black text-blue-500">Key Design</p>
+    </div>
+    <p class="text-xs text-gray-500">
+      Displays the registration stage with a progress bar, dividing the steps to avoid a lengthy filling process.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="https://tinaaa071.github.io/Case-Study-ppt/video7.mp4"
+    />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <div class="flex flex-col">
+      <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
+        Group
+      </span>
+      <p class="text-4xl font-black">Course <br><br>Enrollment</p>
+      <p class="text-xl font-black text-blue-500">Key Design</p>
+    </div>
+    <p class="text-xs text-gray-500">
+      Dynamically adjust the fields to a group registration mode based on the number of selected courses.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="https://tinaaa071.github.io/Case-Study-ppt/video8.mp4"
+    />
+  </div>
+</div>
+
+---
 transition: slide-left
 ---
 
