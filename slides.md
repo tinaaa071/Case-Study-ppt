@@ -443,7 +443,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black">Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
-      The project is developed using Tailwind. 
+      The project is developed using <span v-mark.circle.orange>Tailwind</span>. 
       <br>
       <br>
       I set up the variables in the files, allowing engineers to directly view the relevant class settings during development.
@@ -629,7 +629,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black">Signup</p>
     <p class="text-xs text-gray-500">
-      Use dynamic switching to toggle between different forms, catering to different user registrations while maintaining a unified design and reducing additional development efforts.
+      Use <span v-mark.underline.orange>dynamic switching</span> to toggle between different forms, catering to different user registrations while maintaining a unified design and reducing additional development efforts.
     </p>
   </div>
   <div class="flex col-span-3 justify-center items-center px-10 py-12 h-full bg-gray-200">
@@ -764,7 +764,7 @@ layout: full
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
-      Displays the registration stage with a progress bar, dividing the steps to avoid a lengthy filling process.
+      Displays the registration stage with a <span v-mark.underline.orange>progress bar</span>, dividing the steps to avoid a lengthy filling process.
     </p>
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
@@ -792,7 +792,7 @@ layout: full
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
-      Dynamically adjust the fields to a group registration mode based on the number of selected courses.
+      Dynamically adjust the fields to a group registration mode based on the <span v-mark.underline.orange>number</span> of selected courses.
     </p>
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
