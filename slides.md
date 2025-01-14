@@ -723,6 +723,31 @@ layout: full
 </div>
 
 ---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="grid grid-cols-4 gap-4 h-full">
+  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+    <!-- 左邊內容 -->
+    <div class="flex flex-col">
+      <p class="text-4xl font-black">Course <br><br>Page</p>
+      <p class="text-xl font-black text-blue-500">Key Design</p>
+    </div>
+    <p class="text-xs text-gray-500">
+      Users can instantly switch between information for easy and quick content search.
+    </p>
+  </div>
+  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+    <!-- 右邊內容 -->
+    <Video
+      src="https://tinaaa071.github.io/Case-Study-ppt/video6.mp4"
+    />
+  </div>
+</div>
+
+---
 transition: slide-left
 ---
 
