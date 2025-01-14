@@ -49,6 +49,25 @@ class: p-0
 layout: full
 ---
 
+<div class="flex flex-row gap-20 items-center p-14 h-full">
+  <div class="relative w-full h-64 xs:w-1/2 md:w-1/3 aspect-square">
+    <div class="absolute -left-4 -top-8 z-10 w-52">
+      <ChatBubble />
+    </div>
+    <img
+    ref="image"
+    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    class="object-cover object-center shadow w-3/4 rounded-[64px] aspect-square"
+  />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
 <div class="flex flex-col gap-20 py-14 h-full text-center">
   <p class="text-4xl font-black">Work Experiences</p>
   <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70">
