@@ -164,18 +164,9 @@ layout: full
 ---
 
 <div class="flex flex-col justify-between p-14 h-full"> 
-  <div class="flex items-center">
-    <svg xmlns="http://www.w3.org/2000/svg" 
-     viewBox="0 0 512 512" 
-     width="24" 
-     height="24"
-     >
-      <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM174.6 384.1c-4.5 12.5-18.2 18.9-30.7 14.4s-18.9-18.2-14.4-30.7C146.9 319.4 198.9 288 256 288s109.1 31.4 126.6 79.9c4.5 12.5-2 26.2-14.4 30.7s-26.2-2-30.7-14.4C328.2 358.5 297.2 336 256 336s-72.2 22.5-81.4 48.1zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
-    </svg>
-    <p class="pl-2 text-xl font-black">
-      User Pain Point
-    </p>
-  </div>
+  <p class="text-xl font-black">
+  ☹️ User Pain Point
+  </p>
   <div class="grid grid-cols-3 gap-y-3 gap-x-12">
     <div class="">
       <p class="text-lg font-black">Low-profile hospital promotion</p>
@@ -255,7 +246,7 @@ layout: full
 
 <div class="grid grid-cols-2 items-center h-full"> 
   <div class="p-14 space-y-2">
-    <p class="text-2xl font-black">Some impacts on the project</p>
+    <p class="text-2xl font-black">💬 Some impacts on the project</p>
     <ol class="text-sm list-decimal">
       <li>The client was unable to provide clear requirements</li>
       <li>The project architecture was extensive</li>
