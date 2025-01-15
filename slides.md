@@ -7,10 +7,9 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Case Study
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Healthcare Academy
+  Speaker: Tina Chen
 
-  Learn more at [Sli.dev](https://sli.dev)
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
