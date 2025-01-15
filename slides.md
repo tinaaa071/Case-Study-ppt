@@ -127,7 +127,7 @@ layout: full
 
 <div class="flex flex-col gap-20 py-14 h-full text-center">
   <p class="text-4xl font-black">Work Experiences</p>
-  <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70">
+  <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70 dark:bg-blue-900">
     <Timeline />
   </div>
 </div>
@@ -187,12 +187,11 @@ layout: full
 ---
 transition: slide-left
 class: p-0
-layout: intro-image
-image: 'https://i.imgur.com/Bcpfbb3.png'
+layout: full
 ---
 
-<div class="flex flex-row px-14 py-24 h-full">
-  <div class="space-y-8 text-black">
+<div class="flex relative flex-row px-14 py-24 h-full">
+  <div class="space-y-8 z-1">
     <div class="flex flex-row gap-4 items-center">
       <div class="w-3 h-3 bg-green-500 rounded-full ring-green-200 ring-offset-2 ring-3 animate-ring-blink"></div>
       <p class="text-sm text-gray-400">
@@ -209,8 +208,10 @@ image: 'https://i.imgur.com/Bcpfbb3.png'
   <img
     ref="image"
     src="https://i.imgur.com/2MygSlS.png"
-    class="origin-right scale-90"
+    class="origin-right scale-90 z-1"
   />
+  <!-- Circle -->
+  <div class="absolute z-0 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -right-1/5 top-1/2 -translate-y-1/2"></div>
 </div>
 
 <style scoped>
@@ -542,13 +543,9 @@ class: p-0
 layout: full
 ---
 
-<div class="p-14 h-full text-center"> 
+<div class="flex flex-col gap-16 items-center p-14 h-full text-center"> 
   <p class="text-2xl font-black">Training Course Categories</p>
-  <img
-    ref="image"
-    src="https://i.imgur.com/Rm3Loa0.png"
-    class="scale-90"
-  />
+  <Course />
 </div>
 
 <!--

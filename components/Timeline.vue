@@ -17,8 +17,8 @@
   
         <!-- 下方的事件內容 -->
         <div>
-          <p class="text-sm font-black text-gray-900">{{ event.work }}</p>
-          <p class="text-xs font-semibold text-blue-500">{{ event.content }}</p>
+          <p class="text-sm font-black">{{ event.work }}</p>
+          <p class="text-xs font-semibold text-blue-500 dark:text-blue-300">{{ event.content }}</p>
         </div>
   
         <!-- 水平線 -->
