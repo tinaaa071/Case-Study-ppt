@@ -199,17 +199,19 @@ layout: full
       </p>
     </div>
     <div>
-      <p class="pb-8 text-6xl font-black">11<br><br><br>11</p>
+      <p class="pb-8 text-6xl font-black">Healthcare<br><br><br>Academy</p>
       <p class="text-base tracking-wider">
         Taiwan International Medical Education
       </p>
     </div>
   </div>
-  <img
+  <div class="z-1">
+    <img
     ref="image"
     src="https://i.imgur.com/2MygSlS.png"
-    class="origin-right scale-90 z-1"
+    class="origin-right scale-90"
   />
+  </div>
   <!-- Circle -->
   <div class="absolute z-0 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -right-1/5 top-1/2 -translate-y-1/2"></div>
 </div>
