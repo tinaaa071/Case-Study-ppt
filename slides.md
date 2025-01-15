@@ -126,6 +126,19 @@ class: p-0
 layout: full
 ---
 
+<div class="flex flex-col gap-20 py-14 h-full text-center">
+  <p class="text-4xl font-black">Work Experiences</p>
+  <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70">
+    <Timeline />
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
 <div class="flex flex-col gap-24 px-24 py-14 h-full text-center">
   <p class="text-4xl font-black">About Me</p>
   <div class="grid grid-cols-4 gap-8 items-center">
@@ -169,19 +182,6 @@ layout: full
         About Me
       </p>
     </div>
-  </div>
-</div>
-
----
-transition: fade-out
-class: p-0
-layout: full
----
-
-<div class="flex flex-col gap-20 py-14 h-full text-center">
-  <p class="text-4xl font-black">Work Experiences</p>
-  <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70">
-    <Timeline />
   </div>
 </div>
 
