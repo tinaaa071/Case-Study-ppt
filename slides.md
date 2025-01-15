@@ -5,7 +5,7 @@ theme: apple-basic
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: Case Study
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -49,16 +49,126 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row gap-20 items-center p-14 h-full">
-  <div class="relative w-full h-64 xs:w-1/2 md:w-1/3 aspect-square">
+<div class="flex flex-row gap-24 justify-center items-center px-32 py-14 h-full">
+  <div class="relative w-1/2">
     <div class="absolute -left-4 -top-8 z-10 w-52">
       <ChatBubble />
     </div>
     <img
     ref="image"
     src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    class="object-cover object-center shadow w-3/4 rounded-[64px] aspect-square"
+    class="object-cover object-center shadow  rounded-[64px] aspect-square"
   />
+  </div>
+  <div class="w-full">
+    <p class="font-black">
+      We plan to develop an online course system in the future to enhance the platform's usability and meet various needs.
+    </p>
+    <ul class="text-xs">
+      <li>1 Product Designer</li>
+      <li>1 Product Manager</li>
+      <li>1 Systems Analysis</li>
+    </ul>
+  </div>
+</div>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="relative w-40 h-40">
+  <img
+    v-motion
+    :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
+    :enter="final"
+    class="absolute inset-0"
+    src="https://sli.dev/logo-square.png"
+    alt=""
+  />
+  <img
+    v-motion
+    :initial="{ y: 500, x: -100, scale: 2 }"
+    :enter="final"
+    class="absolute inset-0"
+    src="https://sli.dev/logo-circle.png"
+    alt=""
+  />
+  <img
+    v-motion
+    :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
+    :enter="final"
+    class="absolute inset-0"
+    src="https://sli.dev/logo-triangle.png"
+    alt=""
+  />
+</div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
+
+---
+transition: fade-out
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col gap-24 px-24 py-14 h-full text-center">
+  <p class="text-4xl font-black">About Me</p>
+  <div class="grid grid-cols-4 gap-8 items-center">
+    <div >
+      <img
+        ref="image"
+        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="object-cover object-center shadow  rounded-[64px] aspect-square"
+      />
+      <p>
+        About Me
+      </p>
+    </div>
+    <div>
+      <img
+        ref="image"
+        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="object-cover object-center shadow  rounded-[64px] aspect-square"
+      />
+      <p>
+        About Me
+      </p>
+    </div>
+    <div>
+      <img
+        ref="image"
+        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="object-cover object-center shadow  rounded-[64px] aspect-square"
+      />
+      <p>
+        About Me
+      </p>
+    </div>
+    <div>
+      <img
+        ref="image"
+        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="object-cover object-center shadow  rounded-[64px] aspect-square"
+      />
+      <p>
+        About Me
+      </p>
+    </div>
   </div>
 </div>
 
@@ -74,6 +184,52 @@ layout: full
     <Timeline />
   </div>
 </div>
+
+---
+transition: slide-left
+class: p-0
+layout: intro-image
+image: 'https://i.imgur.com/Bcpfbb3.png'
+---
+
+<div class="flex flex-row px-14 py-24 h-full">
+  <div class="space-y-8 text-black">
+    <div class="flex flex-row gap-4 items-center">
+      <div class="w-3 h-3 bg-green-500 rounded-full ring-green-200 ring-offset-2 ring-3 animate-ring-blink"></div>
+      <p class="text-sm text-gray-400">
+        In Progress
+      </p>
+    </div>
+    <div>
+      <p class="pb-8 text-6xl font-black">11<br><br><br>11</p>
+      <p class="text-base tracking-wider">
+        Taiwan International Medical Education
+      </p>
+    </div>
+  </div>
+  <img
+    ref="image"
+    src="https://i.imgur.com/2MygSlS.png"
+    class="origin-right scale-90"
+  />
+</div>
+
+<style scoped>
+  /* 自定義 Tailwind CSS 動畫 */
+  @keyframes ring-blink {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.2);
+    }
+  }
+  .animate-ring-blink {
+    animation: ring-blink 1.5s infinite ease-in-out;
+  }
+  </style>
 
 ---
 transition: fade-out
@@ -1414,7 +1570,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 ---
 foo: bar
 dragPos:
-  square: 691,32,167,_,-16
+  square: -5,0,0,0
 ---
 
 # Draggable Elements
