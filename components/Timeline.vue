@@ -11,12 +11,13 @@
         </div>
   
         <!-- 圓點 -->
-        <div
-          class="w-4 h-4 bg-blue-500 rounded-full ring-4 ring-blue-200 ring-offset-2 animate-ring-blink"
-        ></div>
+        <span class="flex relative w-3 h-3">
+          <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
+          <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+        </span>
   
         <!-- 下方的事件內容 -->
-        <div>
+        <div class="w-20 whitespace-nowrap">
           <p class="text-sm font-black">{{ event.work }}</p>
           <p class="text-xs font-semibold text-blue-500 dark:text-blue-300">{{ event.content }}</p>
         </div>
@@ -68,7 +69,7 @@
   });
   </script>
   
-  <style scoped>
+  <!-- <style scoped>
   /* 自定義 Tailwind CSS 動畫 */
   @keyframes ring-blink {
     0%, 100% {
@@ -83,5 +84,5 @@
   .animate-ring-blink {
     animation: ring-blink 1.5s infinite ease-in-out;
   }
-  </style>
+  </style> -->
   

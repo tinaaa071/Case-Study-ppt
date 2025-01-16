@@ -207,8 +207,11 @@ layout: full
 
 <div class="flex relative flex-row px-14 py-24 h-full">
   <div class="space-y-8 z-1">
-    <div class="flex flex-row gap-4 items-center">
-      <div class="w-3 h-3 bg-green-500 rounded-full ring-green-200 ring-offset-2 ring-3 animate-ring-blink"></div>
+    <div class="flex flex-row gap-3 items-center">
+      <span class="flex relative w-3 h-3">
+        <span class="inline-flex absolute w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+        <span class="inline-flex relative w-3 h-3 bg-green-500 rounded-full"></span>
+      </span>
       <p class="text-sm text-gray-400">
         In Progress
       </p>
@@ -230,23 +233,6 @@ layout: full
   <!-- Circle -->
   <div class="absolute z-0 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -right-1/5 top-1/2 -translate-y-1/2"></div>
 </div>
-
-<style scoped>
-  /* 自定義 Tailwind CSS 動畫 */
-  @keyframes ring-blink {
-    0%, 100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-    50% {
-      opacity: 0.8;
-      transform: scale(1.2);
-    }
-  }
-  .animate-ring-blink {
-    animation: ring-blink 1.5s infinite ease-in-out;
-  }
-  </style>
 
 <!--
 我們目前正在籌建醫療保健學院，專注於台灣國際醫學教育。
