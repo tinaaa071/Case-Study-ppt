@@ -532,7 +532,7 @@ layout: full
 
 <div class="grid grid-cols-2 items-center h-full"> 
   <div class="p-14 space-y-2">
-    <p class="text-2xl font-black">💬 Some impacts on the project</p>
+    <p class="text-2xl font-black">💬 Some challenges on the project</p>
     <ol class="text-sm list-decimal">
       <li>The client was unable to provide clear requirements</li>
       <li>The project architecture was extensive</li>
@@ -707,8 +707,8 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row justify-between items-center p-14 h-full"> 
-  <p class="text-4xl font-black">Information<br><br>Architecture</p>
+<div class="flex flex-row justify-between items-center h-full"> 
+  <p class="px-14 text-4xl font-black">Information<br><br>Architecture</p>
   <img
     ref="image"
     src="https://i.imgur.com/E3rF3z9.png"
