@@ -179,45 +179,65 @@ layout: full
     <div >
       <img
         ref="image"
-        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://i.imgur.com/gHSQpym.png"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
       <p>
-        About Me
+        Travel
       </p>
     </div>
     <div>
       <img
         ref="image"
-        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://i.imgur.com/FmfJSWq.jpeg"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
       <p>
-        About Me
+        Game
       </p>
     </div>
     <div>
-      <img
-        ref="image"
-        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        class="object-cover object-center shadow  rounded-[64px] aspect-square"
-      />
+      <a href="https://cafe2-ecru.vercel.app/" target="_blank" class="">
+        <img
+          ref="image"
+          src="https://i.imgur.com/v9ocHR9.jpeg"
+          class="object-cover object-center shadow  rounded-[64px] aspect-square"
+        />
+      </a>  
       <p>
-        About Me
+        Cafe
       </p>
     </div>
     <div>
-      <img
-        ref="image"
-        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        class="object-cover object-center shadow  rounded-[64px] aspect-square"
-      />
+      <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class="">
+        <img
+          ref="image"
+          src="https://cdn-images-1.medium.com/max/1600/1*VUK2az0HJHzilzN0Rpgv0A.png"
+          class="object-cover object-center shadow  rounded-[64px] aspect-square"
+        />
+      </a>  
       <p>
-        About Me
+        Plugin
       </p>
     </div>
   </div>
 </div>
+
+<style>
+.slidev-layout a {
+  border-style: none;
+}
+</style>
+
+<!--
+在我的個人生活中，我熱衷於旅行、看影集和打電動，這些活動幫助我放鬆並激發創造力。
+
+假日裡，我會去探索新咖啡廳，這也讓我開發了一個「咖啡廳尋店」的專案。
+
+此外，基於我對設計工具的熱愛，我開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，這也讓我有機會進一步拓展在設計領域的影響力。
+
+這些愛好不僅豐富了我的生活，也促使我在工作中不斷創新，並以更有創意的方式解決問題。
+-->
 
 ---
 transition: slide-up
