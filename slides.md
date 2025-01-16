@@ -205,7 +205,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex relative flex-row px-14 py-24 h-full">
+<div class="flex relative flex-row items-center px-14 py-24 h-full">
   <div class="space-y-8 z-1">
     <div class="flex flex-row gap-3 items-center">
       <span class="flex relative w-3 h-3">
@@ -280,7 +280,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
   </div>
 </div>
 
@@ -765,7 +765,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
   </div>
 </div>
 
@@ -1028,7 +1028,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
   </div>
 </div>
 
@@ -1418,13 +1418,13 @@ layout: full
     v-motion
     :initial="{ x: 200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5">
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -right-1/5">
   </div>
   <div 
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
   </div>
 </div>
 
