@@ -87,8 +87,10 @@ const final = {
 </script>
 
 <!--
-大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，同時具備工商管理背景。
+大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，同時具備企業管理碩士背景。
+
 我是一位對設計充滿熱情且富有好奇心的設計師，樂於持續學習並快速吸收新知。
+
 我相信這樣的特質，讓我在設計的每個階段都能保持敏銳的觀察與創新的思維。
 -->
 
@@ -156,11 +158,11 @@ layout: full
 <!--
 接下來，我想與大家分享我的工作經歷。
 
-在 2021 年，我於 CIER 擔任研究員，這段經歷讓我培養了資料分析與市場洞察的能力。同年，我也在 TCA 擔任專案經理，負責協調跨部門溝通與專案進度管理，進一步提升了我的專案管理技巧。
+我曾在 CIER 擔任研究員，這段經歷讓我培養了資料分析與市場洞察的能力。同年，我也在 TCA 擔任專案經理，負責協調跨部門溝通與專案進度管理，進一步提升了我的專案管理技巧。
 
-進入 2022 年，我轉向設計領域，在 JING WEI Co. 擔任 UI/UX 設計師，參與了多項數位產品設計專案，並逐漸建立了扎實的設計流程與使用者研究能力。
+後續職涯中，我轉職成為 UI/UX 設計師，在 JING WEI Co. 參與了多項設計專案，並逐漸建立了扎實的設計流程與使用者研究能力。
 
-目前在 2023 年，我於 UARK 繼續以 UI/UX 設計師的角色持續精進，在這個職位中，我更專注於設計系統的建立與跨團隊協作。
+目前，我於 UARK 繼續以 UI/UX 設計師的角色持續精進，在這個職位中，我更專注於跨團隊協作與大型專案的執行，並且幫助公司提高了接案成功率。
 
 這些多元的經歷，不僅豐富了我的專業能力，也讓我能夠以更全面的視角理解使用者需求與產品開發流程。
 -->
@@ -315,15 +317,15 @@ const final = {
 </script>
 
 <!--
-今天，我將帶領大家循序漸進地了解這項專案的完整設計歷程。
+我將帶領大家循序漸進地了解這項專案的完整設計歷程。
 
-首先，我們會從專案的背景開始，讓大家了解這個專案的起源與需求動機。
+1. 首先，我們會從專案的背景開始，讓大家了解這個專案的起源與需求動機。
 
-接著，我會分享在研究與定義階段的重點發現與所設定的專案目標，幫助大家理解我們如何釐清問題並建立設計方向。
+2. 接著，我會分享在研究與定義階段的重點發現與所設定的專案目標，幫助大家理解我們如何釐清問題並建立設計方向。
 
-之後，我將介紹我們所發展的設計系統，並說明其設計邏輯與對專案整體的一致性與可擴展性的價值。
+3. 之後，我將介紹我們所發展的設計系統，並說明其設計邏輯與對專案整體的一致性與可擴展性的價值。
 
-最後，我們將透過一段功能演示來展示這項專案的成果，並總結這次設計過程中的進展與能力展現。
+4. 最後，我們將透過一段功能演示來展示這項專案的成果，並總結這次設計過程中的進展與能力展現。
 -->
 
 ---
@@ -377,12 +379,15 @@ layout: full
 </div>
 
 <!--
-這項專案為「醫策會」委託，旨在為外國醫療專業人員提供台灣醫療保健培訓課程的全面概覽與資源。
-我們的目標是透過清楚的資訊架構與友善的介面設計，讓使用者能夠輕鬆獲取所需的培訓資訊，並簡化申請與參與流程，提升整體使用體驗。
+這項專案由「醫策會」委託，旨在為外國醫療專業人員提供台灣醫療保健培訓課程的資源。
 
-在這個專案中，我擔任 UI/UX 設計師的角色，主要專注於產品的路線圖規劃與介面設計。我與一個跨領域的團隊密切合作，其中包含產品設計師、專案經理、系統分析師與開發人員，共同確保設計理念能夠順利落地實現。
+專案內容涵蓋前台與後台的設計規劃，今天我將專注於分享前台的設計部分。
 
-這個專案自 2023 年 10 月啟動，至今已歷經一年多的持續優化與完善。
+我們的目標是透過清晰的資訊架構與友善的介面設計，使用戶能夠輕鬆獲取所需的培訓資訊，並簡化申請及參與流程，從而提升整體使用體驗。
+
+在這個專案中，我擔任 UI/UX 設計師，負責功能規劃與介面設計的工作。我與跨領域的團隊密切合作，包括產品設計師、專案經理、系統分析師與開發人員，確保設計理念能夠順利落地並實現。
+
+此專案自 2023 年 10 月啟動至今，已歷經一年多的持續優化與完善，並將持續迭代改進。
 -->
 
 ---
@@ -437,7 +442,9 @@ layout: full
 </div>
 
 <!--
-在這個專案中，我的主要工作是專注於創建一個用戶友好的網站架構，讓使用者能夠輕鬆瀏覽課程並進行報名。我負責設計一個線上課程報名系統，該系統不僅使使用者能夠簡便地查看申請結果，還能確保整體流程的順暢與高效。這個平台的目標是加強國際醫療交流與合作，並促進全球醫療知識與技能的共享。
+在這個專案中，我的主要工作是專注於創建一個用戶友好的網站架構，讓使用者能夠輕鬆瀏覽課程並進行報名。
+
+這個平台的目標是加強國際醫療交流與合作，並促進全球醫療知識與技能的共享。
 
 我們將探討此專案涉及的研究、定義、設計和測試階段。
 -->
@@ -452,33 +459,33 @@ layout: full
   <p class="text-xl font-black">
   ☹️ User Pain Point
   </p>
-  <div class="grid grid-cols-3 gap-y-3 gap-x-12">
+  <div class="grid grid-cols-3 gap-y-2 gap-x-12">
     <div class="">
-      <p class="text-lg font-black">Hospital publicity is weak</p>
+      <p class="text-lg font-black">1. Hospital publicity is weak</p>
       <p class="text-xs">
         The hospital's authoritative departments are fully equipped but take a more low-profile approach in promotion.
       </p>
     </div>
     <div class="">
-      <p class="text-lg font-black">Insufficient training information</p>
+      <p class="text-lg font-black">2. Insufficient training information</p>
       <p class="text-xs">
         Training information is insufficient, making it difficult to clearly understand the overall application process.
       </p>
     </div>
     <div class="">
-      <p class="text-lg font-black">Customized training programs</p>
+      <p class="text-lg font-black">3. Customized training programs</p>
       <p class="text-xs">
         Overseas healthcare personnel have clear learning goals and require customized training programs.
       </p>
     </div>
     <div class="">
-      <p class="text-lg font-black">Issues with document resubmission</p>
+      <p class="text-lg font-black">4. Issues with document resubmission</p>
       <p class="text-xs">
         The process of submitting supplementary documents is time-consuming, labor-intensive, and disorganized.
       </p>
     </div>
     <div class="">
-      <p class="text-lg font-black">Training results and evaluations</p>
+      <p class="text-lg font-black">5. Training results and evaluations</p>
       <p class="text-xs">
         Overseas personnel find it difficult to access training results and evaluations, making it challenging to showcase training achievements externally.
       </p>
@@ -495,9 +502,9 @@ layout: full
 
 3. 此外，海外醫療人員需要更具針對性和客製化的培訓計劃，幫助他們有效地達成學習目標，並能夠清晰呈現培訓成效。
 
-4. 最後，我們遇到了文件重新提交的問題。使用者在報名過程中常常需要重複提交各種資料，這個過程既耗時又勞力密集，且往往不夠有序，增加了使用者的困擾。
+4. 以及，我們遇到了文件重新提交的問題。使用者在報名過程中常常需要重複提交各種資料，這個過程既耗時又勞力密集，且往往不夠有序，增加了使用者的困擾。
 
-5. 因此，我們發現海外醫療人員面臨一個挑戰——他們很難方便地獲取培訓結果與評估，這使得他們在向外界展示訓練成果時遇到困難。
+5. 我們發現海外醫療人員面臨很難獲取培訓結果與評估，這使得他們在向外界展示訓練成果時遇到困難。
 
 這些痛點突顯了我們在設計過程中必須著重解決的關鍵問題，以提升整體的用戶體驗。
 -->
@@ -1193,7 +1200,7 @@ layout: full
 
 值得注意的是，使用者可以根據自己的專業選擇不同的選項，系統會根據這些選擇動態調整顯示的欄位。
 
-此外，我也在設計檔案中同步附上了各種選項所產生的結果，供工程團隊參考樣式變化，確保設計與開發的無縫對接。
+此外，我也在設計檔案中同步附上了各種選項所產生的結果，提供工程團隊參考樣式變化，確保設計與開發的無縫對接。
 -->
 
 ---
@@ -1222,6 +1229,8 @@ layout: full
 
 <!--
 在註冊頁面，我們確保使用者準確填寫所有必填欄位，以避免錯誤。
+
+由於註冊的人員多為專業領域的從業人員，對於身份審核上較嚴格，會有比較多的欄位需要填寫及上傳相關執照。
 
 透過API資料整合，系統能進行即時驗證，從而簡化了註冊流程。
 
