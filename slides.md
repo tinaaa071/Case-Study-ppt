@@ -231,8 +231,28 @@ layout: full
   />
   </div>
   <!-- Circle -->
-  <div class="absolute z-0 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -right-1/5 top-1/2 -translate-y-1/2"></div>
+  <div 
+    v-motion
+    :initial="{ x: 200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5">
+  </div>
 </div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
 
 <!--
 我們目前正在籌建醫療保健學院，專注於台灣國際醫學教育。
@@ -240,6 +260,44 @@ layout: full
 該平台將提供為醫療保健專業人員設計的各種課程。
 隨著我們推出這項重要資源的進展，請繼續關注更新。
 -->
+
+---
+transition: slide-up
+class: p-0
+layout: full
+---
+
+<div class="flex flex-row gap-64 justify-start items-center px-32 py-14 h-full"> 
+  <p class="text-6xl font-black">Agenda</p>
+  <ol class="text-sm list-decimal">
+    <li>Background</li>
+    <li>Research & Define</li>
+    <li>Design System</li>
+    <li>Feature Demo</li>
+  </ol>
+  <!-- Circle -->
+  <div 
+    v-motion
+    :initial="{ x: -200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+  </div>
+</div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
 
 ---
 transition: slide-up
@@ -666,7 +724,7 @@ layout: full
 -->
 
 ---
-transition: slide-left
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -694,7 +752,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center p-14 h-full"> 
+<div class="flex flex-row gap-64 justify-start items-center px-32 py-14 h-full"> 
   <p class="text-6xl font-black">Design<br><br><br>System</p>
   <ul class="text-sm">
     <li>Variable settings</li>
@@ -702,7 +760,29 @@ layout: full
     <li>Figma design files</li>
     <li>Storybook management</li>
   </ul>
+  <!-- Circle -->
+  <div 
+    v-motion
+    :initial="{ x: -200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+  </div>
 </div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
 
 ---
 transition: slide-up
@@ -889,7 +969,7 @@ layout: full
 -->
 
 ---
-transition: slide-left
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -904,15 +984,21 @@ layout: full
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
     <!-- 右邊內容 -->
-    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden rounded-2xl">
+    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden rounded-2xl transition-all duration-300 ease-in-out group hover:shadow-lg">
       <img
         ref="image"
         src="https://i.imgur.com/6pMAdyR.png"
-        class="w-full"
+        class="w-full transition-all duration-300 ease-in-out group-hover:scale-110"
       />
     </a>
   </div>
 </div>
+
+<style>
+.slidev-layout a {
+  border-style: none;
+}
+</style>
 
 <!--
 Storybook 是視覺指南和組件演示的重要平台。
@@ -927,7 +1013,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center p-14 h-full"> 
+<div class="flex flex-row gap-64 justify-start items-center px-32 py-14 h-full"> 
   <p class="text-6xl font-black">Feature<br><br><br>Demo</p>
   <ul class="text-sm">
     <li>Signup</li>
@@ -937,7 +1023,29 @@ layout: full
     <li>Apply Review Progress</li>
     <li>Online Consultation</li>
   </ul>
+  <!-- Circle -->
+  <div 
+    v-motion
+    :initial="{ x: -200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+  </div>
 </div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
 
 <!--
 今天，我們將展示我們平台的一些關鍵功能。
@@ -1246,13 +1354,13 @@ layout: full
 -->
 
 ---
-transition: slide-left
+transition: fade-out
 class: p-0
 layout: full
 ---
 
 <div class="grid grid-cols-2 items-center p-14 h-full"> 
-  <p class="text-6xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
+  <p class="text-5xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
   <ol class="space-y-8 text-base">
       <li class="font-black">
         Course Feature Expansion
@@ -1284,6 +1392,67 @@ layout: full
 課程註冊流程的改進正在進行中，重點是為管理大數據輸入的用戶提供更流暢的體驗。
 此外，我們的目標是實施線上諮詢系統，提供基本的智慧客戶支持，解決人員不足的問題。
 -->
+
+---
+class: p-0
+layout: full
+---
+
+<div class="flex relative flex-col justify-center items-center p-14 h-full"> 
+  <p class="text-3xl font-black leading-loose">Thank You</p>
+  <div class="text-sm tracking-wide text-gray-400">
+    <a href="https://tina-profolio.vercel.app/" target="_blank" class="">
+      Portfolio
+    </a>
+    <span>|</span>
+    <a href="https://medium.com/@tina.uiux" target="_blank" class="">
+      Medium
+    </a>
+    <span>|</span>
+    <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class="">
+      Figma Plugin
+    </a>
+  </div>
+  <!-- Circle -->
+  <div 
+    v-motion
+    :initial="{ x: 200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5">
+  </div>
+  <div 
+    v-motion
+    :initial="{ x: -200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -left-1/5">
+  </div>
+</div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
+
+<style>
+.slidev-layout a {
+  border-style: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.slidev-layout a:hover {
+  color: #60a5fa;
+}
+</style>
 
 ---
 transition: slide-left
