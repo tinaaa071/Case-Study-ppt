@@ -16,7 +16,7 @@ class: text-center
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: slide-up
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
@@ -43,7 +43,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -71,8 +71,23 @@ layout: full
   </div>
 </div>
 
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
+
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -120,20 +135,20 @@ const final = {
 </script>
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
 
 <div class="flex flex-col gap-20 py-14 h-full text-center">
   <p class="text-4xl font-black">Work Experiences</p>
-  <div v-click class="flex items-center px-6 py-4 w-full bg-blue-50/70 dark:bg-blue-900">
+  <div class="flex items-center px-6 py-4 w-full bg-blue-50/70 dark:bg-blue-900">
     <Timeline />
   </div>
 </div>
 
 ---
-transition: fade-out
+transition: slide-left
 class: p-0
 layout: full
 ---
@@ -185,7 +200,7 @@ layout: full
 </div>
 
 ---
-transition: slide-left
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -241,7 +256,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -300,7 +315,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -358,7 +373,7 @@ layout: full
 -->
 
 ---
-transition: slide-left
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -410,7 +425,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -439,7 +454,7 @@ layout: full
 -->
 
 ---
-transition: slide-left
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -495,7 +510,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -540,7 +555,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -559,7 +574,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-left
 class: p-0
 layout: full
 ---
@@ -643,7 +658,7 @@ layout: full
 -->
 
 ---
-transition: slide-left
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -688,7 +703,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -704,7 +719,7 @@ layout: full
 </div>
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -738,7 +753,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -770,7 +785,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -801,7 +816,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -830,7 +845,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -859,7 +874,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -921,7 +936,7 @@ Storybook 是視覺指南和組件演示的重要平台。
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -948,7 +963,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -979,7 +994,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -1018,7 +1033,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -1050,7 +1065,7 @@ API 資料的整合可以進行即時驗證，從而簡化了流程。
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -1082,7 +1097,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -1114,7 +1129,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -1149,7 +1164,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
@@ -1184,7 +1199,7 @@ layout: full
 -->
 
 ---
-transition: fade-out
+transition: slide-up
 class: p-0
 layout: full
 ---
