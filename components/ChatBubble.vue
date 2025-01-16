@@ -17,7 +17,7 @@
     export default {
     computed: {
         spacedText() {
-        const text = 'Hello! Nice to meet you 👋🏻'; // Get the localized message
+        const text = `Hello!\u00A0\u00A0I'm Tina 👋🏻`;
         const repeatedText = Array(10).fill(text).join('\u00A0\u00A0\u00A0\u00A0'); // Using non-breaking spaces
         return repeatedText;
         }
