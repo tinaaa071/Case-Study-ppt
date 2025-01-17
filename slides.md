@@ -60,31 +60,16 @@ layout: full
   />
   </div>
   <div class="w-full">
-    <p class="font-black">
+    <p class="text-lg font-black">
       I am a UI/UX designer with 3 years of experience and a background in Business Administration.
     </p>
-    <ul class="text-xs">
+    <ul class="text-sm">
       <li>Passion-Driven</li>
       <li>Curious-Minded</li>
       <li>Quick Learner</li>
     </ul>
   </div>
 </div>
-
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
 
 <!--
 大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，同時具備企業管理碩士背景。
