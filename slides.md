@@ -123,7 +123,7 @@ layout: full
       />
       <div>
         <p class="text-sm italic">
-          “She possesses efficient execution skills and strong planning abilities.”
+          “She is highly efficient and well-organized, with excellent planning skills.”
         </p>
         <p class="text-xs font-normal text-gray-400">
           Freda · TCA
@@ -138,7 +138,7 @@ layout: full
       />
       <div>
         <p class="text-sm italic">
-          “She makes the team feel assured and reliable.”
+          “Her work capabilities make the team feel secure and dependable.”
         </p>
         <p class="text-xs font-normal text-gray-400">
           Paul · JING WEI Co.
@@ -153,7 +153,7 @@ layout: full
       />
       <div>
         <p class="text-sm italic">
-          “She is capable of independently taking on tasks and completing them with high quality.”
+          “She is capable of taking on tasks independently and completing them with high quality.”
         </p>
         <p class="text-xs font-normal text-gray-400">
           Andy · UARK
