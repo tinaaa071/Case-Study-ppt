@@ -125,7 +125,7 @@ layout: full
         <p class="text-sm italic">
           “She possesses efficient execution skills and strong planning abilities.”
         </p>
-        <p class="text-xs font-medium text-gray-400">
+        <p class="text-xs font-normal text-gray-400">
           Freda · TCA
         </p>
       </div>
@@ -140,7 +140,7 @@ layout: full
         <p class="text-sm italic">
           “She makes the team feel assured and reliable.”
         </p>
-        <p class="text-xs font-medium text-gray-400">
+        <p class="text-xs font-normal text-gray-400">
           Paul · JING WEI Co.
         </p>
       </div>
@@ -155,7 +155,7 @@ layout: full
         <p class="text-sm italic">
           “She is capable of independently taking on tasks and completing them with high quality.”
         </p>
-        <p class="text-xs font-medium text-gray-400">
+        <p class="text-xs font-normal text-gray-400">
           Andy · UARK
         </p>
       </div>
