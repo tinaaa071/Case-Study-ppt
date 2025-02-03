@@ -72,60 +72,14 @@ layout: full
 </div>
 
 <!--
-大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，同時具備企業管理碩士背景。
+大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，並具備企業管理碩士學位。
 
-我是一位對設計充滿熱情且富有好奇心的設計師，樂於持續學習並快速吸收新知。
+在這段經歷中，我培養了多項核心特質，讓我能夠勝任這份工作並持續為團隊創造價值：
 
-我相信這樣的特質，讓我在設計的每個階段都能保持敏銳的觀察與創新的思維。
+1. 熱情驅動 – 對設計的熱愛讓我持續精進，投入每個專案都全力以赴。
+2. 充滿好奇心 – 我樂於探索新技術與趨勢，並主動將創新思維應用於設計中。
+3. 快速學習能力 – 我具備自學能力，能迅速掌握新工具與技能，以應對多變的專案需求。
 -->
-
----
-transition: slide-up
-class: p-0
-layout: full
----
-
-<div class="relative w-40 h-40">
-  <img
-    v-motion
-    :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-    :enter="final"
-    class="absolute inset-0"
-    src="https://sli.dev/logo-square.png"
-    alt=""
-  />
-  <img
-    v-motion
-    :initial="{ y: 500, x: -100, scale: 2 }"
-    :enter="final"
-    class="absolute inset-0"
-    src="https://sli.dev/logo-circle.png"
-    alt=""
-  />
-  <img
-    v-motion
-    :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-    :enter="final"
-    class="absolute inset-0"
-    src="https://sli.dev/logo-triangle.png"
-    alt=""
-  />
-</div>
-
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
 
 ---
 transition: slide-up
@@ -143,14 +97,71 @@ layout: full
 <!--
 接下來，我想與大家分享我的工作經歷。
 
-我曾在 CIER 擔任研究員，這段經歷讓我培養了資料分析與市場洞察的能力。同年，我也在 TCA 擔任專案經理，負責協調跨部門溝通與專案進度管理，進一步提升了我的專案管理技巧。
+我曾在「中經院」擔任研究員，這段經歷讓我培養了資料分析與市場洞察的能力。同年，我也在 TCA 擔任專案經理，負責行動支付的專案管理，與 Line Pay、街口支付等業者合作，進一步提升了我跨部門溝通的能力。
 
-後續職涯中，我轉職成為 UI/UX 設計師，在 JING WEI Co. 參與了多項設計專案，並逐漸建立了扎實的設計流程與使用者研究能力。
+後續職涯中，我轉職成為 UI/UX 設計師，在「經緯電通」參與了多項設計專案，並逐漸建立了扎實的設計流程與使用者研究能力。
 
-目前，我於 UARK 繼續以 UI/UX 設計師的角色持續精進，在這個職位中，我更專注於跨團隊協作與大型專案的執行，並且幫助公司提高了接案成功率。
+目前，我於「諾亞克科技」繼續以 UI/UX 設計師的角色持續精進，在這個職位中，我更專注於跨團隊協作與大型專案的執行，並且幫助公司提高了接案成功率，部門營運也轉虧為盈。
 
 這些多元的經歷，不僅豐富了我的專業能力，也讓我能夠以更全面的視角理解使用者需求與產品開發流程。
 -->
+
+---
+transition: slide-up
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col gap-24 px-24 py-14 h-full text-center">
+  <p class="text-4xl font-black">Work Evaluation</p>
+  <div class="grid grid-cols-3 gap-8 items-start">
+    <div class="flex flex-col items-center">
+      <img
+        ref="image"
+        src="https://i.imgur.com/ou5dOxS.png"
+        class="object-cover object-center w-1/2 bg-blue-200 rounded-full aspect-square"
+      />
+      <div>
+        <p class="text-sm italic">
+          “She possesses efficient execution skills and strong planning abilities.”
+        </p>
+        <p class="text-xs font-medium text-gray-400">
+          Freda · TCA
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <img
+        ref="image"
+        src="https://i.imgur.com/rhHzi3H.png"
+        class="object-cover object-center w-1/2 bg-blue-200 rounded-full aspect-square"
+      />
+      <div>
+        <p class="text-sm italic">
+          “She makes the team feel assured and reliable.”
+        </p>
+        <p class="text-xs font-medium text-gray-400">
+          Paul · JING WEI Co.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center">
+      <img
+        ref="image"
+        src="https://i.imgur.com/tVS42jr.png"
+        class="object-cover object-center w-1/2 bg-blue-200 rounded-full aspect-square"
+      />
+      <div>
+        <p class="text-sm italic">
+          “She is capable of independently taking on tasks and completing them with high quality.”
+        </p>
+        <p class="text-xs font-medium text-gray-400">
+          Andy · UARK
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 transition: slide-left
@@ -218,8 +229,9 @@ layout: full
 在我的個人生活中，我熱衷於旅行、看影集和打電動，這些活動幫助我放鬆並激發創造力。
 
 假日裡，我會去探索新咖啡廳，這也讓我開發了一個「咖啡廳尋店」的專案。
+這個專案也是根據我自身的需求創造的，主要目標是為了幫助用戶更快速找到適合的咖啡廳。
 
-此外，基於我對設計工具的熱愛，我開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，這也讓我有機會進一步拓展在設計領域的影響力。
+此外，我實驗性質的開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，我還在凌晨的時候和他們開會討論，這是一個很特別且有趣的經驗。
 
 這些愛好不僅豐富了我的生活，也促使我在工作中不斷創新，並以更有創意的方式解決問題。
 -->
