@@ -1199,7 +1199,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Signup</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
     <p class="text-xs text-gray-500">
       Use <span v-mark.underline.orange>dynamic switching</span> to toggle between different forms, catering to different user registrations while maintaining a unified design and reducing additional development efforts.
     </p>
@@ -1231,7 +1231,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Signup</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
     <p class="text-xs text-gray-500">
       Dynamically display fields based on different options.
     </p>
@@ -1270,7 +1270,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Signup</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
     <p class="text-xs text-gray-500">
       Integrate API data to enable real-time validation, reducing manual review time.
     </p>
@@ -1290,7 +1290,7 @@ layout: full
 
 使用者在填寫過程中會看到<span style="color:red;">***即時的錯誤訊息提示***</span>，這有助於他們快速修正問題。
 
-透過 API 資料整合，系統能進行<span style="color:red;">***即時驗證***</span>，從而簡化了註冊流程，也大大減少了人工審核的需要，顯著提高了整體效率。
+透過<span style="color:red;">***API 資料整合***</span>，系統能進行<span style="color:red;">***即時驗證***</span>，從而簡化了註冊流程，也大大減少了人工審核的需要，顯著提高了整體效率。
 -->
 
 ---
@@ -1302,7 +1302,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Course<br><br>Categories</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>Course<br><br>Categories</p>
     <p class="text-xs text-gray-500">
       Provide a collapsible filter that allows filtering by different criteria.
       <br>
@@ -1319,13 +1319,9 @@ layout: full
 </div>
 
 <!--
-針對課程分類頁面中的功能，這些功能旨在增強使用者的導航體驗。
-
-頁面包含一個可折疊的過濾器，使用者可以根據各種標準對課程進行篩選和排序。
+針對課程分類頁面中的功能，包含一個<span style="color:red;">***可折疊的篩選器***</span>，使用者可以根據各種選項對課程進行篩選和排序。
 
 課程資訊以卡片形式呈現，基本資訊一目了然，讓使用者能夠快速找到所需的課程。
-
-這種設計旨在透過輕鬆存取並即時查看課程詳細資料，提升用戶體驗，使整個導航過程更加直觀便捷。
 -->
 
 ---
@@ -1338,7 +1334,7 @@ layout: full
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
-      <p class="text-4xl font-black">Course<br><br>Page</p>
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Course<br><br>Page</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
@@ -1356,9 +1352,9 @@ layout: full
 <!--
 在課程詳細頁面，由於內容較為豐富，我們將資訊分為不同區塊來呈現。
 
-並且，頁面設計加入了切換按鈕，讓使用者能快速跳轉到相關區塊，避免一一瀏覽冗長的內容。
+並且加入了<span style="color:red;">***切換按鈕***</span>，讓使用者能快速跳轉到相關區塊，避免一一瀏覽冗長的內容。
 
-這種設計不僅強調了頁面的清晰度和可訪問性，也提供了流暢的用戶體驗，使使用者能夠輕鬆掌握課程的所有細節。
+右邊的固定式卡片包含了報名及諮詢按鈕，在瀏覽的同時可以隨時進行操做。
 -->
 
 ---
@@ -1371,6 +1367,7 @@ layout: full
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
+      <span class="mb-2 text-4xl font-extrabold text-blue-300">04</span>
       <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
         Personal
       </span>
@@ -1390,9 +1387,9 @@ layout: full
 </div>
 
 <!--
-在課程報名的部分，我設計了「進度條」來顯示報名的各個階段，這樣可以有效簡化使用者體驗。進度條將步驟劃分得更加清晰，幫助使用者輕鬆導航，避免感到困惑。
+在課程報名的部分，我設計了<span style="color:red;">***進度條***</span>來顯示報名的各個階段，進度條將步驟劃分得更加清晰，幫助使用者輕鬆導航。
 
-我們的目標是簡化填寫流程，提升用戶在註冊過程中的滿意度，並確保每個步驟都簡單易操作。
+另外根據<span style="color:red;">***選擇的人數***</span>會決定使用的是個人報名還是團體報名的模板，這個頁面是以個人報名為例，根據選擇的課程會需要填寫多項資格證明文件。
 -->
 
 ---
@@ -1405,6 +1402,7 @@ layout: full
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
+      <span class="mb-2 text-4xl font-extrabold text-blue-300">04</span>
       <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
         Group
       </span>
@@ -1424,12 +1422,11 @@ layout: full
 </div>
 
 <!--
-在課程報名的團體報名部分，根據「報名人數」，系統會動態調整填寫欄位。
-當使用者選擇報名人數大於 1 時，系統會自動切換為團體報名的表單。
+在課程報名的團體報名部分，選擇人數大於 1 時，系統會動態調整填寫欄位，切換為團體報名的表單。
 
-這種靈活的設計大大簡化了群組註冊的流程，提升了使用者體驗，並且避免了開發兩套系統的複雜性。
+這種靈活的設計簡化了報名的流程，提升了使用者體驗，並且避免了開發兩套系統的複雜性。
 
-我們的目標是讓所有用戶的註冊過程直觀且高效，確保團體報名不會增加額外的操作負擔。
+另外團體報名在新增成員時使用<span style="color:red;">***抽屜式設計***</span>，會於右側跳出成員的填寫資料，對於需同時檢視和填寫資料上提升效率。
 -->
 
 ---
@@ -1441,7 +1438,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Apply<br><br>Review<br><br>Progress</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">05</span><br><br>Apply<br><br>Review<br><br>Progress</p>
     <p class="text-xs text-gray-500">
       Students can switch between different statuses to view the approval progress of their registered courses. Clicking on the card will display detailed information.
     </p>
@@ -1455,12 +1452,13 @@ layout: full
 </div>
 
 <!--
-該介面讓學生能夠申請課程、查看註冊狀態並追蹤審核進度。
+在完成報名後，學員可於會員中心檢視報名的審核進度。
 
-學生可以輕鬆切換不同的狀態，查看每個課程的審核進度。
-點擊課程卡片後，學生將能查看該課程的詳細資訊。
+學生可以輕鬆切換不同的狀態，或是進行不同的操作。
 
-並且在團體課程的報名中，可以查看到所有成員的審核狀態以及詳細資料。
+點擊課程卡片後，可以查看該課程的詳細資訊。
+
+並且在團體報名的課程中，主要報名者可以查看到所有成員的審核狀態以及詳細資料。
 -->
 
 ---
@@ -1473,7 +1471,7 @@ layout: full
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
-      <p class="text-4xl font-black">Online<br><br>Consult</p>
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">06</span><br><br>Online<br><br>Consult</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
@@ -1489,10 +1487,11 @@ layout: full
 </div>
 
 <!--
-對於線上諮詢功能，該功能讓學生能夠輕鬆地與課程組織者聯繫，獲取即時幫助。
+對於線上諮詢功能，該功能讓學生能夠輕鬆地與開課單位聯繫，獲取即時幫助。
+
 在列表中可以查看所有對話過的開課單位，並且在對話視窗中也支援上傳檔案。
 
-這項功能大大增強了整體的用戶體驗、簡化溝通流程，確保學生能隨時輕鬆獲得他們所需的資源。
+這項功能增強了整體的用戶體驗、簡化溝通流程，確保學生能隨時輕鬆獲得他們所需的資源及協助。
 -->
 
 ---
@@ -1531,9 +1530,17 @@ layout: full
 <!--
 未來我們也將持續優化提升平台的功能。
 
-我們計劃開發一個線上課程系統，以更好地滿足用戶需求。
+***
 
-目前，課程註冊流程的改進正在進行中，重點是為管理大數據輸入的用戶提供更加流暢的體驗。
+我們計劃擴展線上課程系統
+
+提升平台的應用性，以更好地滿足用戶需求。
+
+***
+
+目前，課程報名流程的改進也正在進行中，為大量資料輸入的用戶提供更加流暢的體驗。
+
+***
 
 此外，我們還計劃實施常見問答系統，提供基本的智慧客戶支持，以解決人力不足的問題，進一步提升整體服務質量。
 -->
@@ -1604,7 +1611,7 @@ const final = {
 
 希望這次簡報對您有所啟發，也讓您對我們的專案有更深入的了解。
 
-如果您對更多內容感興趣，歡迎隨時查看我的作品集。
+如果您對其他內容感興趣，歡迎隨時查看我的作品集。
 -->
 
 ---
