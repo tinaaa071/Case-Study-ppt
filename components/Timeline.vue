@@ -17,7 +17,7 @@
         </span>
   
         <!-- 下方的事件內容 -->
-        <div class="w-20 whitespace-nowrap">
+        <div class="flex flex-col items-center w-20 whitespace-nowrap">
           <p class="text-sm font-black">{{ event.work }}</p>
           <p class="text-xs font-semibold text-blue-500 dark:text-blue-300">{{ event.content }}</p>
         </div>
