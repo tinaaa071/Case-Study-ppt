@@ -77,8 +77,8 @@ layout: full
 在這段經歷中，我培養了一些<span style="color:red;">***人格特質***</span>，讓我能夠勝任這份工作並為團隊創造價值：
 
 1. 熱情驅動 – 對設計的熱愛讓我持續精進，投入每個專案都全力以赴。
-2. 充滿好奇心 – 我樂於探索<span style="color:red;">***新技術與趨勢***</span>，並主動將<span style="color:red;">***創新思維***</span>應用於設計中。
-3. 快速學習能力 – 我具備自學能力，能迅速索<span style="color:red;">***掌握新工具與技能***</span>，以應對多變的專案需求。
+2. 充滿好奇心 – 我樂於探索<span style="color:red;">***新技術與趨勢***</span>，並會將<span style="color:red;">***創新思維***</span>應用於設計中。
+3. 快速學習能力 – 能迅速<span style="color:red;">***掌握新工具與技能***</span>，應對多變的專案需求。
 -->
 
 ---
@@ -99,9 +99,9 @@ layout: full
 
 我曾在「中經院」擔任研究員，這段經歷讓我培養了<span style="color:red;">***資料分析與市場洞察的能力***</span>。同年，我也在 TCA 擔任專案經理，負責行動支付的專案管理，與 Line Pay、街口支付等業者合作，進一步提升了我<span style="color:red;">***跨部門溝通的能力***</span>。
 
-後續職涯中，我轉職成為 UI/UX 設計師，目前我於「諾亞克科技」任職，在這個職位中，我更專注於<span style="color:red;">***跨團隊協作與大型專案的執行***</span>。
+後續職涯中，我轉職成為 UI/UX 設計師，目前於「諾亞克科技」任職，在這個職位中，我更專注於<span style="color:red;">***跨團隊協作與大型專案的執行***</span>。
 
-這些多元的經歷，不僅豐富了我的專業能力，也讓我能夠以更全面的角度理解<span style="color:red;">***使用者需求***</span>與<span style="color:red;">***產品開發流程***</span>。
+這些多元的經歷，豐富了我的專業能力，也讓我能夠以更全面的角度理解<span style="color:red;">***使用者需求***</span>與<span style="color:red;">***產品開發流程***</span>。
 -->
 
 ---
@@ -231,14 +231,14 @@ layout: full
 </style>
 
 <!--
-在我的個人生活中，我熱衷於旅行、看影集和打電動，這些活動幫助我放鬆並激發創造力。
+在我的個人生活中，我熱衷於旅行、看影集和打電動。
 
 假日裡，我會去探索不同的咖啡廳，這也讓我開發了一個「咖啡廳尋店」的專案。
 這個專案也是根據我<span style="color:red;">***自身的需求***</span>創造的，主要目標是為了幫助用戶<span style="color:red;">***更快速找到適合的咖啡廳***</span>。
 
-此外，我實驗性質的開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，我還在凌晨的時候和他們開會討論，這是一個很特別且有趣的經驗。
+此外，我實驗性質的開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，這是一個很特別且有趣的經驗。
 
-這些愛好不僅<span style="color:red;">***豐富了我的生活***</span>，也促使我在工作中<span style="color:red;">***不斷創新***</span>，並以更<span style="color:red;">***有創意的方式***</span>解決問題。
+這些愛好不僅<span style="color:red;">***豐富了我的生活***</span>，也促使我在工作中<span style="color:red;">***不斷創新***</span>，以<span style="color:red;">***不同角度***</span>解決問題。
 -->
 
 ---
@@ -341,9 +341,9 @@ const final = {
 <!--
 這是今天的議程，我將帶領大家了解這項專案的設計歷程。
 
-1. 從「專案背景」開始，了解這個專案的起源與需求動機。
+1. 從「專案背景」開始，了解這個專案的<span style="color:red;">***需求與動機***</span>。
 
-2. 接著，在「研究與定義階段」的<span style="color:red;">***重點發現與專案目標***</span>。
+2. 接著，在「研究定義階段」的<span style="color:red;">***重點發現與專案目標***</span>。
 
 3. 之後，我將介紹我們定義的「設計系統」。
 
@@ -401,7 +401,7 @@ layout: full
 </div>
 
 <!--
-這項專案由「醫策會」委託，主要目的是<span style="color:red;">***為了提供台灣醫療資源給海外醫療專業人員***</span>。
+這項專案由「醫策會」委託，主要目的是<span style="color:red;">***為了提供台灣醫療資源給海外醫療專業人員，促進彼此間的學習交流***</span>。
 
 專案內容涵蓋前台與後台的設計規劃，今天我將專注於分享前台的設計部分。
 
@@ -464,9 +464,9 @@ layout: full
 </div>
 
 <!--
-在這個專案中，我們專注於創建一個<span style="color:red;">***用戶友好的網站，讓使用者能夠輕鬆瀏覽課程並進行報名。***</span>
+在這個專案中，我們研究了用戶需求，專注於創建一個<span style="color:red;">***用戶友好的網站，讓使用者能夠輕鬆瀏覽課程並進行報名。***</span>
 
-下面是我們的設計流程，包含了用戶研究到功能設計，以及後續的設計迭代。
+我們的設計流程，包含了<span style="color:red;">***用戶研究到功能設計***</span>，以及後續的設計迭代。
 -->
 
 ---
@@ -516,19 +516,19 @@ layout: full
 <!--
 在研究過程中，我們發現了幾個關鍵的使用者痛點。
 
-1. 許多醫院在宣傳上存在薄弱的問題。
+1. 許多醫院在宣傳上薄弱。
 
-儘管各部門的設施與資源都非常完備，但在宣傳與推廣方面卻往往較為低調，造成參與者對課程的了解不足。
+儘管各部門的設施與資源都非常完備，但在宣傳與推廣方面卻往往較為低調，造成<span style="color:red;">***參與者對課程的了解不足***</span>。
 
 ***
 
 2.平台上提供的培訓資訊也十分不足。
 
-使用者難以理解整個申請流程，進而影響他們的參與意願。
+使用者難以理解相關課程內容及申請流程，進而影響他們的參與意願。
 
 ***
 
-3. 課程培訓成果與評價。
+3. 缺乏課程培訓成果與評價。
 
 我們發現海外醫療人員很難獲取相關課程的回饋，這使得他們在尋找適合課程時遇到困難。
 
@@ -543,10 +543,6 @@ layout: full
 5. 海外醫療人員需要客製化的培訓計劃。
 
 醫療人員的進修常常會需要特定的課程規劃，以幫助他們有效地達成學習目標。
-
-***
-
-這些痛點突顯了我們在設計過程中必須著重解決的關鍵問題，以提升整體的用戶體驗。
 -->
 
 ---
@@ -632,7 +628,7 @@ layout: full
 <!--
 專案中的一些挑戰：
 1. 客戶未能提供明確的需求，這使得我們在設計過程中需要更多的溝通與確認。
-2. 專案架構較為龐大，涉及的功能與整體設計需求較為複雜。
+2. 專案架構較為龐大，包含了前後台的設計，涉及的功能與設計需求較為複雜。
 3. 開發時間緊迫，我們需要在有限的時間內高效完成設計與開發工作。
 -->
 
@@ -675,7 +671,7 @@ layout: full
 </div>
 
 <!--
-在深入分析使用者需求和功能架構後，我確定了兩個關鍵的設計方向。
+在深入分析<span style="color:red;">***使用者需求和功能架構***</span>後，我設定了兩個關鍵的設計方向。
 
 1. 第一個方向是<span style="color:red;">***以目標受眾為導向***</span>
 
@@ -685,7 +681,7 @@ b. 並在色彩選擇上使用醫療相關的色調，以增強專業性和信�
 
 ***
 
-2. 第二個方向則<span style="color:red;">***強調使用者體驗***</span>，著重在功能流程的設計
+2. 第二個方向則<span style="color:red;">***強調使用者體驗***</span>，著重在<span style="color:red;">***功能流程***</span>的設計
 
 a. 提供自訂搜尋和過濾選項
 
@@ -718,7 +714,7 @@ Y 軸的分類為：「醫療專業」和「醫務應用」。
 
 ***
 
-像是若分類是「臨床培訓＆醫療專業」的課程（右上角），對於課程報名的資格會比較嚴格，需要上傳更多專業的醫事人員執照。
+若分類是「臨床培訓＆醫療專業」的課程（右上角），對於課程報名的資格會比較嚴格，需要上傳更多專業的醫事人員執照。
 
 以及若分類為「臨床培訓」課程的話，會對於團體報名的功能有限制。
 -->
@@ -801,7 +797,7 @@ layout: full
 </div>
 
 <!--
-在功能設計時，因為我們專案的時程較緊迫，我選擇對市場上幾個成熟的平台進行了深入研究。
+在<span style="color:red;">***功能設計***</span>時，因為我們專案的時程較緊迫，我選擇對市場上幾個成熟的平台進行了深入研究。
 
 我們的功能需求涵蓋個人及團體報名，以及不同角色的資格審核。
 
@@ -847,7 +843,7 @@ layout: full
 <!--
 在搜集了相關資訊後，我設計了專案的資訊架構，讓我們可以更瞭解<span style="color:red;">***彼此頁面及功能之間的關聯性***</span>。
 
-並且我也將相關的元件使用顏色做區分，在檢視上可以更加便利。
+並且我也將<span style="color:red;">***相關的元件***</span>使用顏色做區分，在檢視上可以更加便利。
 -->
 
 ---
@@ -868,9 +864,9 @@ layout: full
 <!--
 接下來是使用者流程圖的說明，我以<span style="color:red;">***課程報名功能***</span>為範例。
 
-在這個過程中，我們設計了多個決策點，根據使用者的回應，提供他們選擇合適的選項。
+在這個過程中，我們設計了多個決策點，<span style="color:red;">***根據使用者的回應，提供他們選擇合適的選項***</span>。
 
-我對於<span style="color:red;">***課程報名的設計採用動態設計***</span>，意思是報名分為「個人及團體報名」，這將是兩套不同的版型，而如何區分採用哪一套的版型，則是取決於課程報名的<span style="color:red;">***人數***</span>，若是報名人數大於 1，則會自動轉換為團體報名的模板。
+並且針對報名功能採用<span style="color:red;">***動態設計***</span>，分為「個人及團體報名」，這將是兩套不同的版型，如何區分採用哪一套的版型，則是取決於課程報名的<span style="color:red;">***人數***</span>，若是報名人數大於 1，則會自動轉換為團體報名的模板。
 -->
 
 ---
@@ -912,7 +908,7 @@ const final = {
 </script>
 
 <!--
-在設計系統的設計上我定義了以下幾個項目，使我們的團隊可以保持一致的設計。
+在設計系統上我定義了以下幾個項目，使我們的團隊可以保持一致的設計。
 1. 針對變數進行設置
 2. 多語言設定
 3. Figma 設計文件管理
@@ -928,7 +924,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Variable<br><br>Settings</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       The project is developed using <span v-mark.circle.orange>Tailwind</span>. 
       <br>
@@ -947,9 +943,9 @@ layout: full
 </div>
 
 <!--
-在變數設定的部分，我們在專案中使用 Tailwind 開發，所以我也將相關的變數直接納入設計中。
+在變數設定的部分，我們專案使用 Tailwind 開發，所以我也將相關的變數直接納入設計中。
 
-為了提高設計與開發的一致性，我們對各種變數進行了設定，包括間距、圓角等。
+為了提高<span style="color:red;">***設計與開發的一致性***</span>，我們對各種變數進行了設定，包括間距、圓角等。
 -->
 
 ---
@@ -961,7 +957,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Variable<br><br>Settings</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       The project is developed using Tailwind. 
       <br>
@@ -978,11 +974,11 @@ layout: full
 </div>
 
 <!--
-在設計界面中，我們也可以直接查看已設定的變數，這些變數顯示在元件上，便於開發人員快速參考。
+有了剛剛的設定，已設定的變數會直接顯示在元件上，便於開發人員快速參考。
 
-開發過程中，側邊欄也會即時顯示已定義的變數名稱，如間距、圓角、顏色等。
+側邊欄也會即時顯示<span style="color:red;">***變數名稱***</span>，如間距、圓角、顏色等。
 
-這樣的變數設定不僅讓設計與開發之間的協作更加流暢，也大大提高了開發的效率。
+這樣不僅讓<span style="color:red;">***設計與開發之間的協作更加流暢***</span>，也大大提高了開發的效率。
 -->
 
 ---
@@ -994,7 +990,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">i18n<br><br>Settings</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>i18n<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       I set up multilingual variables, allowing for direct switching and viewing in the files during development.
     </p>
@@ -1010,7 +1006,7 @@ layout: full
 </div>
 
 <!--
-另外，我也設置了多語言變數，使得切換和查看不同語言的內容變得更加便捷。
+另外，我也設置了多語系變數，使得<span style="color:red;">***切換和查看不同語言的內容***</span>變得更加便捷。
 
 表格中展示了中英文的變數。
 -->
@@ -1024,7 +1020,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">i18n<br><br>Settings</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>i18n<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       I set up multilingual variables, allowing for direct switching and viewing in the files during development.
     </p>
@@ -1040,7 +1036,7 @@ layout: full
 <!--
 從影片中可以看到，在設計面板上，我們可以<span style="color:red;">***直接設定語系的切換***</span>，這樣畫面就能即時更新為不同語言版本。
 
-讓開發人員可以方便地參考各種語系的樣式。
+讓開發人員可以方便地<span style="color:red;">***參考各種語系的樣式***</span>。
 -->
 
 ---
@@ -1052,7 +1048,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Figma<br><br>Design<br><br>Files</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Figma<br><br>Design<br><br>Files</p>
     <p class="text-xs text-gray-500">
       I defined the design system and components in the file, including their usage scenarios and states.
     </p>
@@ -1066,7 +1062,7 @@ layout: full
 </div>
 
 <!--
-在 Figma 設計檔案中，我已經定義了完整的設計系統以及各種元件，並標註了每個元件的使用情境、狀態與細節，這些元件依功能分類，方便查找。
+在 Figma 設計檔案中，我已經定義了<span style="color:red;">***完整的設計系統以及各種元件***</span>，並標註了每個元件的使用情境、狀態與細節，這些元件依功能分類，方便查找。
 
 設計系統能在<span style="color:red;">***大型文件更新***</span>時提升工作效率。
 -->
@@ -1080,7 +1076,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Figma<br><br>Design<br><br>Files</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Figma<br><br>Design<br><br>Files</p>
     <p class="text-xs text-gray-500">
       I showcased the dimensions of different pages in the files and defined various scenarios and workflows.
     </p>
@@ -1094,9 +1090,9 @@ layout: full
 </div>
 
 <!--
-在畫面中可以看到我將<span style="color:red;">***不同使用情境的頁面***</span>進行了分類，並依照<span style="color:red;">***流程***</span>進行排序。
+我將<span style="color:red;">***不同使用情境的頁面***</span>進行了分類，並依照<span style="color:red;">***流程***</span>進行排序。
 
-此外，我也展示了 RWD 畫面設計，呈現各個頁面在不同裝置下的呈現，也方便開發團隊根據需要調整設計。
+此外，我也展示了 RWD 畫面設計，呈現各個頁面在不同裝置下的呈現。
 -->
 
 ---
@@ -1108,7 +1104,7 @@ layout: full
 <div class="grid grid-cols-4 gap-4 h-full">
   <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black">Storybook</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">04</span><br><br>Storybook</p>
     <p class="text-xs text-gray-500">
       I used Storybook as a platform for visual guidelines and component demonstrations, assisting the development team in referencing concrete design standards during implementation.
     </p>
@@ -1136,7 +1132,7 @@ layout: full
 
 Storybook 加強了設計人員與開發人員之間的協作，確保設計與開發的一致性。
 
-像是在畫面中，我們可以直接複製樣式，或是直接在畫面上輸入資料查看更多細節的設定，以及參考元件使用的程式碼，讓我和工程團隊溝通更流暢。
+像是在畫面中，我們可以直接複製樣式，或是直接在畫面上輸入資料查看更多細節的設定，以及<span style="color:red;">***參考元件使用的程式碼***</span>，讓我和工程團隊溝通更流暢。
 -->
 
 ---
@@ -1215,9 +1211,9 @@ layout: full
 </div>
 
 <!--
-註冊的頁面中，我們通過<span style="color:red;">***動態切換***</span>來適應不同的使用者類型，分為「一般使用者」及「開課單位」。
+註冊的頁面中，我們通過<span style="color:red;">***動態切換***</span>來適應<span style="color:red;">***不同的使用者類型***</span>，分為「一般使用者」及「開課單位」。
 
-這種方法不僅保持了<span style="color:red;">***設計的一致性***</span>，還最大限度地<span style="color:red;">***減少了開發工作量***</span>。
+這種方法不僅保持了<span style="color:red;">***設計的一致性***</span>，還最大限度地<span style="color:red;">***減少了開發成本***</span>。
 
 此外，用戶可以選擇使用 Google 或 Facebook 帳戶進行註冊，讓註冊過程更加便捷。
 -->
@@ -1254,11 +1250,9 @@ layout: full
 </div>
 
 <!--
-註冊表單包括了姓名、密碼等其他基本資訊。
+另外，因為對象是針對<span style="color:red;">***專業醫療人員***</span>，使用者需要根據自己的專業選擇不同的選項，系統會根據這些選擇<span style="color:red;">***動態調整顯示的欄位***</span>。
 
-另外，因為對象是針對<span style="color:red;">***專業醫療人員***</span>，使用者需要根據自己的專業選擇不同的選項，系統會根據這些選擇動態調整顯示的欄位。
-
-此外，我也在設計檔案中同步附上了<span style="color:red;">***各種選項所產生的結果***</span>，提供工程團隊<span style="color:red;">***參考樣式變化***</span>，確保設計與開發的無縫對接。
+我也在設計檔案中同步附上了<span style="color:red;">***各種選項所產生的結果***</span>，提供工程團隊<span style="color:red;">***參考樣式變化***</span>，確保設計與開發的無縫對接。
 -->
 
 ---
@@ -1286,11 +1280,11 @@ layout: full
 </div>
 
 <!--
-由於註冊的人員多為專業領域的人員，對於身份審核上較嚴格，會有比較多的欄位需要填寫及上傳相關執照。
+由於註冊的人員多為<span style="color:red;">***專業領域的人員***</span>，對於<span style="color:red;">***身份審核上較嚴格***</span>，會有較多欄位需要填寫及上傳相關執照。
 
 使用者在填寫過程中會看到<span style="color:red;">***即時的錯誤訊息提示***</span>，這有助於他們快速修正問題。
 
-透過<span style="color:red;">***API 資料整合***</span>，系統能進行<span style="color:red;">***即時驗證***</span>，從而簡化了註冊流程，也大大減少了人工審核的需要，顯著提高了整體效率。
+透過<span style="color:red;">***API 資料整合***</span>，系統能進行<span style="color:red;">***即時驗證***</span>，簡化了註冊流程，也減少了人工審核的需要。
 -->
 
 ---
@@ -1319,9 +1313,9 @@ layout: full
 </div>
 
 <!--
-針對課程分類頁面中的功能，包含一個<span style="color:red;">***可折疊的篩選器***</span>，使用者可以根據各種選項對課程進行篩選和排序。
+針對課程分類頁面，包含一個<span style="color:red;">***可折疊的篩選器***</span>，使用者可以根據各種選項對課程進行篩選和排序。
 
-課程資訊以卡片形式呈現，基本資訊一目了然，讓使用者能夠快速找到所需的課程。
+課程以卡片形式呈現，基本資訊一目了然，讓使用者能夠快速找到所需的課程。
 -->
 
 ---
@@ -1350,9 +1344,9 @@ layout: full
 </div>
 
 <!--
-在課程詳細頁面，由於內容較為豐富，我們將資訊分為不同區塊來呈現。
+在課程詳細頁面，由於內容較為豐富，我們將資訊分為<span style="color:red;">***不同區塊***</span>來呈現。
 
-並且加入了<span style="color:red;">***切換按鈕***</span>，讓使用者能快速跳轉到相關區塊，避免一一瀏覽冗長的內容。
+並且加入了<span style="color:red;">***切換按鈕***</span>，讓使用者能<span style="color:red;">***快速跳轉***</span>到相關區塊，避免一一瀏覽冗長的內容。
 
 右邊的固定式卡片包含了報名及諮詢按鈕，在瀏覽的同時可以隨時進行操做。
 -->
@@ -1387,7 +1381,7 @@ layout: full
 </div>
 
 <!--
-在課程報名的部分，我設計了<span style="color:red;">***進度條***</span>來顯示報名的各個階段，進度條將步驟劃分得更加清晰，幫助使用者輕鬆導航。
+在課程報名的部分，我設計了<span style="color:red;">***進度條***</span>來顯示報名的<span style="color:red;">***各個階段***</span>，幫助使用者輕鬆導航。
 
 另外根據<span style="color:red;">***選擇的人數***</span>會決定使用的是個人報名還是團體報名的模板，這個頁面是以個人報名為例，根據選擇的課程會需要填寫多項資格證明文件。
 -->
@@ -1422,11 +1416,11 @@ layout: full
 </div>
 
 <!--
-在課程報名的團體報名部分，選擇人數大於 1 時，系統會動態調整填寫欄位，切換為團體報名的表單。
+在團體報名部分，選擇人數大於 1 時，系統會動態調整填寫欄位，切換為團體報名的表單。
 
 這種靈活的設計簡化了報名的流程，提升了使用者體驗，並且避免了開發兩套系統的複雜性。
 
-另外團體報名在新增成員時使用<span style="color:red;">***抽屜式設計***</span>，會於右側跳出成員的填寫資料，對於需同時檢視和填寫資料上提升效率。
+另外團體報名在新增成員時使用<span style="color:red;">***抽屜式設計***</span>，會於右側跳出成員的填寫資料，對於需<span style="color:red;">***同時檢視和填寫資料***</span>上提升效率。
 -->
 
 ---
@@ -1454,11 +1448,11 @@ layout: full
 <!--
 在完成報名後，學員可於會員中心檢視報名的審核進度。
 
-學生可以輕鬆<span style="color:red;">***切換不同的狀態***</span>，或是進行不同的操作。
+學生可以<span style="color:red;">***依照狀態點擊切換按鈕***</span>，檢視各種狀態的課程。
 
 點擊課程卡片後，可以查看該課程的詳細資訊。
 
-並且在團體報名的課程中，主要報名者可以查看到所有成員的審核狀態以及詳細資料。
+並且在<span style="color:red;">***團體報名***</span>的課程中，主要報名者可以查看到所有成員的審核狀態以及詳細資料。
 -->
 
 ---
@@ -1489,9 +1483,9 @@ layout: full
 <!--
 對於線上諮詢功能，該功能讓學生能夠輕鬆地與開課單位聯繫，獲取即時幫助。
 
-在列表中可以查看所有對話過的開課單位，並且在對話視窗中也支援上傳檔案。
+在列表中可以查看所有對話過的開課單位，並且也支援上傳檔案。
 
-這項功能增強了整體的用戶體驗、簡化溝通流程，確保學生能隨時輕鬆獲得他們所需的資源及協助。
+這項功能<span style="color:red;">***確保學生能隨時輕鬆獲得他們所需的資源及協助***</span>。
 -->
 
 ---
@@ -1609,7 +1603,6 @@ const final = {
 <!--
 感謝大家今天的參與！
 
-希望這次簡報對您有所啟發，也讓您對我們的專案有更深入的了解。
 
 如果您對其他內容感興趣，歡迎隨時查看我的作品集。
 -->
