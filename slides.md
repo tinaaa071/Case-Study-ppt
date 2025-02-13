@@ -234,11 +234,9 @@ layout: full
 在我的個人生活中，我熱衷於旅行、看影集和打電動。
 
 假日裡，我會去探索不同的咖啡廳，這也讓我開發了一個「咖啡廳尋店」的專案。
-這個專案也是根據我<span style="color:red;">***自身的需求***</span>創造的，主要目標是為了幫助用戶<span style="color:red;">***更快速找到適合的咖啡廳***</span>。
+主要目標是為了幫助用戶<span style="color:red;">***更快速找到適合的咖啡廳***</span>。
 
-此外，我實驗性質的開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，這是一個很特別且有趣的經驗。
-
-這些愛好不僅<span style="color:red;">***豐富了我的生活***</span>，也促使我在工作中<span style="color:red;">***不斷創新***</span>，以<span style="color:red;">***不同角度***</span>解決問題。
+此外，我獨自開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請，這是一個很特別且有趣的經驗。
 -->
 
 ---
@@ -403,7 +401,9 @@ layout: full
 <!--
 這項專案由「醫策會」委託，主要目的是<span style="color:red;">***為了提供台灣醫療資源給海外醫療專業人員，促進彼此間的學習交流***</span>。
 
-專案內容涵蓋前台與後台的設計規劃，今天我將專注於分享前台的設計部分。
+專案涵蓋前台與後台的設計規劃，今天我將專注於分享前台的設計部分。
+
+***
 
 在這個專案中，我擔任 UI/UX 設計師，負責<span style="color:red;">***功能規劃與介面設計***</span>的工作。
 
@@ -422,7 +422,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-xl font-black">Design Flow</p>
     <p class="text-sm">
-      In this project, I focused on designing the overall website architecture to ensure users could browse courses and complete the registration process. My primary responsibility was to plan an online course registration system that is user-friendly and allows users to verify their application results. 
+      In this project, I focused on designing the overall website architecture to ensure users could browse courses and complete the application process. My primary responsibility was to plan an online course application system that is user-friendly and allows users to verify their application results. 
       <br>
       <br>
       The goal of the platform is to foster closer medical exchange and collaboration with other countries, promoting the bidirectional sharing of knowledge and skills.
@@ -442,8 +442,8 @@ layout: full
       <ul class="text-xs">
         <li>Website Design Specifications</li>
         <li>Registration system for different roles</li>
-        <li>Online Course Registration Workflow</li>
-        <li>Online Course Registration Review Process</li>
+        <li>Online Course Application Workflow</li>
+        <li>Online Course Application Review Process</li>
       </ul>
     </div>
     <div class="space-y-2">
@@ -514,35 +514,35 @@ layout: full
 </div>
 
 <!--
-在研究過程中，我們發現了幾個關鍵的使用者痛點。
+在研究過程中，我們發現了幾個使用者痛點。
 
-1. 許多醫院在宣傳上薄弱。
+**1. 許多醫院在宣傳上薄弱。**
 
-儘管各部門的設施與資源都非常完備，但在宣傳與推廣方面卻往往較為低調，造成<span style="color:red;">***參與者對課程的了解不足***</span>。
-
-***
-
-2.平台上提供的培訓資訊也十分不足。
-
-使用者難以理解相關課程內容及申請流程，進而影響他們的參與意願。
+儘管台灣的醫院在醫療資源都非常完備，但在宣傳與推廣方面卻較為低調，造成<span style="color:red;">***參與者對課程的了解不足***</span>。
 
 ***
 
-3. 缺乏課程培訓成果與評價。
+**2.培訓資訊不足。**
 
-我們發現海外醫療人員很難獲取相關課程的回饋，這使得他們在尋找適合課程時遇到困難。
-
-***
-
-4. 文件重新提交的問題。
-
-使用者在報名過程中常常需要重複提交各種資料，這個過程既耗時又費力，尤其是專業醫療人員的資格審核也相對嚴格，過程不順利會影響他們的報名意願。
+使用者難以理解相關<span style="color:red;">***課程內容及申請流程***</span>，進而影響他們的參與意願。
 
 ***
 
-5. 海外醫療人員需要客製化的培訓計劃。
+**3. 缺乏課程培訓成果與評價。**
 
-醫療人員的進修常常會需要特定的課程規劃，以幫助他們有效地達成學習目標。
+海外醫療人員很難獲取相關課程的<span style="color:red;">***回饋***</span>，這使得他們在<span style="color:red;">***尋找適合課程***</span>時遇到困難。
+
+***
+
+**4. 文件重新提交的問題。**
+
+使用者在報名過程中常常需要提交各種資料，這個過程既耗時又費力，尤其是專業醫療人員的資格審核也相對嚴格，過程不順利會影響他們的報名意願。
+
+***
+
+**5. 海外醫療人員需要客製化的培訓計劃。**
+
+醫療人員的進修常常會需要<span style="color:red;">***特定的課程規劃***</span>，以幫助他們有效地達成學習目標。
 -->
 
 ---
@@ -558,8 +558,8 @@ layout: full
     <li><strong>Integrate course resources</strong> from national medical institutions</li>
     <li>Provide <strong>multi-language</strong> switch for the website</li>
     <li>Provide course <strong>classification and filtering functions</strong></li>
-    <li>Provide <strong>individual and group registration functions</strong> for courses</li>
-    <li>Allow participants to view the <strong>registration review results</strong></li>
+    <li>Provide <strong>individual and group application functions</strong> for courses</li>
+    <li>Allow participants to view the <strong>application review results</strong></li>
     <li>Students can <strong>consult</strong> with the course provider online</li>
   </ol>
 </div>
@@ -588,18 +588,18 @@ layout: full
     <li>Provide course information and <strong>filtering functions</strong></li>
     <li>Display course training <strong>evaluation results</strong></li>
     <li>Establish a <strong>multilingual</strong> frameworks</li>
-    <li>Create a <strong>dual registration mode</strong> with dynamic forms</li>
-    <li>Develop a registration <strong>status tracking</strong> feature</li>
+    <li>Create a <strong>dual application mode</strong> with dynamic forms</li>
+    <li>Develop a application <strong>status tracking</strong> feature</li>
   </ol>
 </div>
 
 <!--
-有了用戶痛點和目標後，我們提出了解決方案：
-1. 在身份驗證功能上，設計<span style="color:red;">***自動驗證系統***</span>，簡化申請流程並提升效率。
+有了用戶**痛點**和**目標**後，我們提出了解決方案：
+1. 在身份驗證功能上，設計<span style="color:red;">***自動驗證系統***</span>，提升效率。
 2. 提供課程資訊與<span style="color:red;">***篩選功能***</span>，幫助使用者輕鬆找到符合需求的課程。
 3. 顯示課程培訓<span style="color:red;">***回饋結果***</span>，讓使用者能夠清楚了解課程評價。
-4. 建立<span style="color:red;">***多語言框架***</span>，確保平台能夠服務來自不同國家的使用者。
-5. 創建<span style="color:red;">***動態表單的雙重報名模式***</span>，適應個人與團體報名需求。
+4. 建立<span style="color:red;">***多語言框架***</span>，使平台能夠服務來自不同國家的使用者。
+5. 創建<span style="color:red;">***雙重報名模式***</span>，適應個人與團體報名需求。
 6. 開發<span style="color:red;">***報名狀態追蹤***</span>功能，讓使用者能隨時查看其報名進度與審核結果。
 -->
 
@@ -661,7 +661,7 @@ layout: full
         <span>
           <ul class="text-gray-500">
             <li>Provide custom search and filter options.</li>
-            <li>A registration process that is easy to complete.</li>
+            <li>A application process that is easy to complete.</li>
             <li>Convenient visibility of the review status.</li>
           </ul>
         </span>
@@ -729,7 +729,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-xl font-black">Competitive Analysis</p>
     <p class="text-sm">
-      I researched products on the market with similar course registration features but did not find a suitable example.
+      I researched products on the market with similar course application features but did not find a suitable example.
     </p>
   </div>
   <div class="grid grid-cols-3 gap-y-6 gap-x-32">
@@ -858,7 +858,7 @@ layout: full
     src="https://i.imgur.com/dM9Kfbm.png"
     class="mt-4 mb-20 w-full bg-white"
   />
-  <p class="text-2xl font-black">User flow for registering for a course</p>
+  <p class="text-2xl font-black">User flow for applying for a course</p>
 </div>
 
 <!--
@@ -1147,7 +1147,7 @@ layout: full
     <li>Signup</li>
     <li>Course Categories</li>
     <li>Course Page</li>
-    <li>Course Enrollment</li>
+    <li>Course Application</li>
     <li>Apply Review Progress</li>
     <li>Online Consultation</li>
   </ul>
@@ -1365,11 +1365,11 @@ layout: full
       <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
         Personal
       </span>
-      <p class="text-4xl font-black">Course<br><br>Enrollment</p>
+      <p class="text-4xl font-black">Course<br><br>Application</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
-      Displays the registration stage with a <span v-mark.underline.orange>progress bar</span>, dividing the steps to avoid a lengthy filling process.
+      Displays the application stage with a <span v-mark.underline.orange>progress bar</span>, dividing the steps to avoid a lengthy filling process.
     </p>
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
@@ -1400,11 +1400,11 @@ layout: full
       <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
         Group
       </span>
-      <p class="text-4xl font-black">Course<br><br>Enrollment</p>
+      <p class="text-4xl font-black">Course<br><br>Application</p>
       <p class="text-xl font-black text-blue-500">Key Design</p>
     </div>
     <p class="text-xs text-gray-500">
-      Dynamically adjust the fields to a group registration mode based on the <span v-mark.underline.orange>number</span> of selected courses.
+      Dynamically adjust the fields to a group application mode based on the <span v-mark.underline.orange>number</span> of selected courses.
     </p>
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
@@ -1434,7 +1434,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">05</span><br><br>Apply<br><br>Review<br><br>Progress</p>
     <p class="text-xs text-gray-500">
-      Students can switch between different statuses to view the approval progress of their registered courses. Clicking on the card will display detailed information.
+      Students can switch between different statuses to view the approval progress of their applied courses. Clicking on the card will display detailed information.
     </p>
   </div>
   <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
@@ -1505,10 +1505,10 @@ layout: full
         </p>
       </li>
       <li class="font-black">
-        Improvement of the Course Registration Process
+        Improvement of the Course Application Process
         <br>
         <p class="text-xs font-normal">
-          I am still working on improving the course registration process design, particularly in providing users with a smooth experience for handling large amounts of data input.
+          I am still working on improving the course application process design, particularly in providing users with a smooth experience for handling large amounts of data input.
         </p>
       </li>
       <li class="font-black">
