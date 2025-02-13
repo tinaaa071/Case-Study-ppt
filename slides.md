@@ -1498,22 +1498,37 @@ layout: full
   <p class="text-5xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
   <ol class="space-y-8 text-base">
       <li class="font-black">
-        Course Feature Expansion
-        <br>
+        <span class="flex gap-3 items-center">
+          <span class="flex relative w-3 h-3">
+            <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
+            <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+          </span>
+          Course Feature Expansion
+        </span>
         <p class="text-xs font-normal">
           We plan to develop an online course system in the future to enhance the platform's usability and meet various needs.
         </p>
       </li>
       <li class="font-black">
-        Improvement of the Course Application Process
-        <br>
+        <span class="flex gap-3 items-center">
+          <span class="flex relative w-3 h-3">
+            <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
+            <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+          </span>
+          Improvement of the Course Application Process
+        </span>
         <p class="text-xs font-normal">
           I am still working on improving the course application process design, particularly in providing users with a smooth experience for handling large amounts of data input.
         </p>
       </li>
       <li class="font-black">
-        Online Consultation System
-        <br>
+        <span class="flex gap-3 items-center">
+          <span class="flex relative w-3 h-3">
+            <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
+            <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+          </span>
+          Online Consultation System
+        </span>
         <p class="text-xs font-normal">
           Currently relying on manual responses, we aim to provide some basic intelligent customer support to alleviate issues caused by insufficient staff.
         </p>
