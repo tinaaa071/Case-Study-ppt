@@ -202,7 +202,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/v9ocHR9.jpeg"
-          class="object-cover object-center shadow  rounded-[64px] aspect-square"
+          class="object-cover object-center shadow rounded-[64px] aspect-square"
         />
       </a>  
       <p>
@@ -214,7 +214,7 @@ layout: full
         <img
           ref="image"
           src="https://cdn-images-1.medium.com/max/1600/1*VUK2az0HJHzilzN0Rpgv0A.png"
-          class="object-cover object-center shadow  rounded-[64px] aspect-square"
+          class="object-cover object-center shadow rounded-[64px] aspect-square"
         />
       </a>  
       <p>
@@ -536,7 +536,7 @@ layout: full
 
 **4. 文件重新提交的問題。**
 
-使用者在報名過程中常常需要提交各種資料，這個過程既耗時又費力，尤其是專業醫療人員的資格審核也相對嚴格，過程不順利會影響他們的報名意願。
+使用者在報名過程中常常需要<span style="color:red;">***提交各種資料***</span>，這個過程既耗時又費力，尤其是專業醫療人員的資格審核也相對嚴格，過程不順利會影響他們的報名意願。
 
 ***
 
@@ -567,7 +567,7 @@ layout: full
 <!--
 我們的目標：
 1. 建立一個包含<span style="color:red;">***身份驗證***</span>的註冊系統。
-2. <span style="color:red;">***整合***</span>全國醫療機構的課程資源，提升學習體驗。
+2. <span style="color:red;">***整合***</span>全國醫療機構的課程資源。
 3. 提供網站的<span style="color:red;">***多語言切換***</span>功能，確保不同語言使用者的可訪問性。
 4. 提供課程<span style="color:red;">***分類與過濾***</span>功能，幫助使用者輕鬆找到相關課程。
 5. 提供<span style="color:red;">***個人和團體報名***</span>功能，滿足不同學習者的需求。
@@ -590,6 +590,7 @@ layout: full
     <li>Establish a <strong>multilingual</strong> frameworks</li>
     <li>Create a <strong>dual application mode</strong> with dynamic forms</li>
     <li>Develop a application <strong>status tracking</strong> feature</li>
+    <li>Build an <strong>online consultation system</strong> to provide real-time assistance</li>
   </ol>
 </div>
 
@@ -601,6 +602,7 @@ layout: full
 4. 建立<span style="color:red;">***多語言框架***</span>，使平台能夠服務來自不同國家的使用者。
 5. 創建<span style="color:red;">***雙重報名模式***</span>，適應個人與團體報名需求。
 6. 開發<span style="color:red;">***報名狀態追蹤***</span>功能，讓使用者能隨時查看其報名進度與審核結果。
+7. 建立<span style="color:red;">***線上諮詢系統***</span>，提供即時的協助。
 -->
 
 ---
@@ -611,11 +613,26 @@ layout: full
 
 <div class="grid grid-cols-2 items-center h-full"> 
   <div class="p-14 space-y-2">
-    <p class="text-2xl font-black">💬 Some challenges on the project</p>
+    <p class="text-2xl font-black">💬 Challenges in the Project</p>
     <ol class="text-sm list-decimal">
-      <li>The client was unable to provide <strong>clear requirements</strong></li>
-      <li>The project <strong>architecture was extensive</strong></li>
-      <li>The development <strong>timeline was tight</strong></li>
+      <li>
+        <ToggleText 
+        :initialText="'The client was unable to provide <strong>clear requirements</strong>'" 
+        :toggledText="'Refer to the features of <strong>mature products</strong> in the market and plan based on existing functionalities'" 
+        />
+      </li>
+      <li>
+        <ToggleText 
+        :initialText="'The project <strong>architecture was extensive</strong>'" 
+        :toggledText="'Break down into modules and <strong>prioritize</strong> key components'" 
+        />
+      </li>
+      <li>
+        <ToggleText 
+        :initialText="'The development <strong>timeline was tight</strong>'" 
+        :toggledText="'Streamline workflows, and focus on <strong>essential features</strong>'" 
+        />
+      </li>
     </ol>
   </div>
   <img
@@ -625,11 +642,29 @@ layout: full
   />
 </div>
 
+<script setup>
+import { ref } from 'vue';
+
+const message = ref('點擊我來更換文字');
+</script>
+
 <!--
 專案中的一些挑戰：
 1. 客戶未能提供<span style="color:red;">***明確的需求***</span>，這使得我們在設計過程中需要更多的溝通與確認。
+
+👉🏻 解決：參考市面上成熟之產品功能，並針對既有功能規劃
+
+***
+
 2. 專案<span style="color:red;">***架構較為龐大***</span>，包含了前後台的設計，涉及的功能與設計需求較為複雜。
+
+👉🏻 解決：分解模組並確定關鍵功能的優先順序。
+
+***
+
 3. 開發<span style="color:red;">***時間緊迫***</span>，我們需要在有限的時間內高效完成設計與開發工作。
+
+👉🏻 解決：簡化工作流程，並專注於基本功能。
 -->
 
 ---
@@ -683,7 +718,7 @@ b. 並在色彩選擇上使用**醫療相關的色調**，以增強專業性和�
 
 2. 第二個方向則<span style="color:red;">***強調使用者體驗***</span>，著重在<span style="color:red;">***功能流程***</span>的設計
 
-a. 提供自訂搜尋和過濾選項
+a. 針對課程提供自訂搜尋和過濾選項
 
 b. 簡便的註冊和報名流程
 
@@ -704,7 +739,7 @@ layout: full
 <!--
 為了幫助各位更加了解這個專案的設計邏輯，我簡單介紹我們的課程分類。
 
-課程分類會影響的功能有：課程篩選、課程報名、報名審核，也是我們專案的幾個核心功能。
+課程分類會影響的功能有：<span style="color:red;">***課程篩選、課程報名、報名審核***</span>，也是我們專案的幾個核心功能。
 
 ***
 
@@ -714,9 +749,7 @@ Y 軸的分類為：「醫療專業」和「醫務應用」。
 
 ***
 
-若分類是「臨床培訓＆醫療專業」的課程（右上角），對於課程報名的資格會比較嚴格，需要上傳更多專業的醫事人員執照。
-
-以及若分類為「臨床培訓」課程的話，會對於團體報名的功能有限制。
+若分類是「臨床培訓＆醫療專業」的課程（右上角），對於課程報名的資格會比較嚴格，需要上傳更多專業的醫事人員執照，並且會對於團體報名的功能有限制。
 -->
 
 ---
@@ -799,11 +832,11 @@ layout: full
 <!--
 在<span style="color:red;">***功能設計***</span>時，因為我們專案的時程較緊迫，我選擇對市場上幾個成熟的平台進行了深入研究。
 
-我們的功能需求涵蓋個人及團體報名，以及不同角色的資格審核。
+我們的功能需求涵蓋<span style="color:red;">***個人及團體報名，以及不同角色的資格審核***</span>。
 
 ***
 
-我研究了類似功能的平台包括 Hahow、Udemy、Coursera和 Klook 等。
+我研究了類似功能的平台包括 Hahow、Udemy、Coursera 和 Klook 等。
 
 1. Hahow
 提供了豐富的課程選擇，但它的報名系統主要偏重個人報名，且缺乏團體報名的功能，並且他們是針對線上課程運作的平台。
@@ -841,7 +874,7 @@ layout: full
 </div>
 
 <!--
-在搜集了相關資訊後，我設計了專案的資訊架構，讓我們可以更瞭解<span style="color:red;">***彼此頁面及功能之間的關聯性***</span>。
+在搜集了相關資訊後，我規劃了資訊架構，讓我們可以更瞭解<span style="color:red;">***彼此頁面及功能之間的關聯性***</span>。
 
 並且我也將<span style="color:red;">***相關的元件***</span>使用顏色做區分，在檢視上可以更加便利。
 -->
@@ -866,7 +899,9 @@ layout: full
 
 在這個過程中，我們設計了多個決策點，<span style="color:red;">***根據使用者的回應，提供他們選擇合適的選項***</span>。
 
-並且針對報名功能採用<span style="color:red;">***動態設計***</span>，分為「個人及團體報名」，這將是兩套不同的版型，如何區分採用哪一套的版型，則是取決於課程報名的<span style="color:red;">***人數***</span>，若是報名人數大於 1，則會自動轉換為團體報名的模板。
+並且針對報名功能採用<span style="color:red;">***動態設計***</span>，分為「個人及團體報名」。
+
+動態設計是指，這將是兩套不同的版型，如何區分採用哪一套的版型，則是取決於課程報名的<span style="color:red;">***人數***</span>，若是報名人數大於 1，則會自動轉換為團體報名的模板。
 -->
 
 ---
