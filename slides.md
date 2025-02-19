@@ -524,7 +524,7 @@ layout: full
 
 **2.培訓資訊不足。**
 
-使用者難以理解相關<span style="color:red;">***課程內容及申請流程***</span>，進而影響他們的參與意願。
+資訊混雜，使用者難以理解相關<span style="color:red;">***課程內容及申請流程***</span>，進而影響他們的參與意願。
 
 ***
 
@@ -749,7 +749,7 @@ Y 軸的分類為：「醫療專業」和「醫務應用」。
 
 ***
 
-若分類是「臨床培訓＆醫療專業」的課程（右上角），對於課程報名的資格會比較嚴格，需要上傳更多專業的醫事人員執照，並且會對於團體報名的功能有限制。
+若分類是「臨床培訓＆醫療專業」的課程（右上角），對於<span style="color:red;">***課程報名的資格***</span>會比較嚴格，需要上傳更多專業的醫事人員執照，並且會對於團體報名的功能有限制。
 -->
 
 ---
@@ -888,7 +888,7 @@ layout: full
 <div class="h-full text-center"> 
   <img
     ref="image"
-    src="https://i.imgur.com/dM9Kfbm.png"
+    src="https://i.imgur.com/RiAO6LO.png"
     class="mt-4 mb-20 w-full bg-white"
   />
   <p class="text-2xl font-black">User flow for applying for a course</p>
@@ -943,7 +943,7 @@ const final = {
 </script>
 
 <!--
-在設計系統上我定義了以下幾個項目，使我們的團隊可以保持一致的設計。
+在設計系統上我定義了以下幾個項目，使我們的團隊可以<span style="color:red;">***保持一致的設計***</span>。
 1. 針對變數進行設置
 2. 多語言設定
 3. Figma 設計文件管理
