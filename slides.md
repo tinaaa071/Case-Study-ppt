@@ -980,7 +980,7 @@ layout: full
 <!--
 在變數設定的部分，我們專案使用 Tailwind 開發，所以我也將相關的變數直接納入設計中。
 
-為了提高<span style="color:red;">***設計與開發的一致性***</span>，我們對各種變數進行了設定，包括間距、圓角等。
+我們對各種變數進行了設定，包括間距、圓角等。
 -->
 
 ---
@@ -1013,7 +1013,7 @@ layout: full
 
 側邊欄也會即時顯示<span style="color:red;">***變數名稱***</span>，如間距、圓角、顏色等。
 
-這樣不僅讓<span style="color:red;">***設計與開發之間的協作更加流暢***</span>，也大大提高了開發的效率。
+這樣不僅提高<span style="color:red;">***設計與開發的一致性***</span>，也大大提高了開發的效率。
 -->
 
 ---
@@ -1097,7 +1097,7 @@ layout: full
 </div>
 
 <!--
-我製作了 Figma Library 檔案，定義了<span style="color:red;">***完整的設計系統以及各種元件***</span>，並標註了每個元件的使用情境、狀態與細節，這些元件依功能分類，方便查找。
+我製作了 Figma Library 檔案，定義了<span style="color:red;">***完整的「設計系統」以及各種「元件」***</span>，並標註了每個元件的使用情境、狀態與細節，這些元件依功能分類，方便查找。
 
 設計系統能在<span style="color:red;">***大型文件更新***</span>時提升工作效率。
 -->
@@ -1248,7 +1248,7 @@ layout: full
 <!--
 註冊的頁面中，我們通過<span style="color:red;">***動態切換***</span>來適應<span style="color:red;">***不同的使用者類型***</span>，分為「一般使用者」及「開課單位」。
 
-這種方法不僅保持了<span style="color:red;">***設計的一致性***</span>，還最大限度地<span style="color:red;">***減少了開發成本***</span>。
+這種方法不僅保持了<span style="color:red;">***設計的一致性***</span>，還<span style="color:red;">***減少了開發成本***</span>。
 
 此外，用戶可以選擇使用 Google 或 Facebook 帳戶進行註冊，讓註冊過程更加便捷。
 -->
@@ -1287,7 +1287,7 @@ layout: full
 <!--
 另外，因為對象是針對<span style="color:red;">***專業醫療人員***</span>，使用者需要根據自己的<span style="color:red;">***專業***</span>選擇不同的選項，系統會根據這些選擇<span style="color:red;">***動態調整顯示的欄位***</span>。
 
-我也在設計檔案中同步附上了<span style="color:red;">***各種選項所產生的結果***</span>，提供工程團隊<span style="color:red;">***參考樣式變化***</span>，確保設計與開發的無縫對接。
+我也在設計檔案中同步附上了<span style="color:red;">***各種選項所產生的結果***</span>，提供工程團隊<span style="color:red;">***參考樣式變化***</span>。
 -->
 
 ---
@@ -1317,9 +1317,7 @@ layout: full
 <!--
 由於註冊的人員多為<span style="color:red;">***專業領域的人員***</span>，對於<span style="color:red;">***身份審核上較嚴格***</span>，會有較多欄位需要填寫及上傳相關執照。
 
-使用者在填寫過程中會看到<span style="color:red;">***即時的錯誤訊息提示***</span>，這有助於他們快速修正問題。
-
-透過<span style="color:red;">***API 資料整合***</span>，系統能進行<span style="color:red;">***即時驗證***</span>，簡化了註冊流程，也減少了人工審核的需要。
+透過<span style="color:red;">***API 資料整合***</span>，系統能進行<span style="color:red;">***即時驗證***</span>，顯示<span style="color:red;">***錯誤訊息提示***</span>，這有助於他們快速修正問題，也減少了<span style="color:red;">***人工審核***</span>的需要。
 -->
 
 ---
@@ -1451,9 +1449,9 @@ layout: full
 </div>
 
 <!--
-在團體報名部分，選擇人數大於 1 時，系統會動態調整填寫欄位，切換為團體報名的表單。
+在團體報名部分，選擇人數大於 1 時，系統會動態調整填寫欄位，切換為「團體報名」的表單。
 
-這種靈活的設計簡化了報名的流程，提升了使用者體驗，並且避免了開發兩套系統的複雜性，符合<span style="color:red;">***彈性設計原則***</span>。
+這種設計避免了開發兩套系統的複雜性，符合<span style="color:red;">***彈性設計原則***</span>。
 
 另外團體報名在新增成員時使用<span style="color:red;">***抽屜式設計***</span>，會於右側跳出成員的填寫資料，對於需<span style="color:red;">***同時檢視和填寫資料***</span>上提升效率。
 -->
@@ -1516,11 +1514,9 @@ layout: full
 </div>
 
 <!--
-對於線上諮詢功能，該功能讓學生能夠輕鬆地與開課單位聯繫，獲取即時幫助。
+對於線上諮詢功能，列表中可以查看所有對話過的開課單位，並且也支援上傳檔案。
 
-在列表中可以查看所有對話過的開課單位，並且也支援上傳檔案。
-
-這項功能<span style="color:red;">***確保學生能隨時輕鬆獲得他們所需的資源及協助***</span>。
+這項功能確保學生能即時<span style="color:red;">***獲得他們所需的資源及協助***</span>。
 -->
 
 ---
@@ -1582,11 +1578,15 @@ layout: full
 
 ***
 
-2. 目前，課程報名流程的改進也正在進行中，為<span style="color:red;">***大量資料輸入***</span>的用戶提供更加流暢的體驗。
+2. 目前，我們持續改進課程報名流程
+
+為<span style="color:red;">***大量資料輸入***</span>的用戶提供更加流暢的體驗，預計提供批次資料上傳。
 
 ***
 
-3. 此外，我們還計劃實施<span style="color:red;">***常見問答系統***</span>，提供基本的智慧客服支持，以解決人力不足的問題，進一步提升整體服務質量。
+3. 此外，我們還計劃實施<span style="color:red;">***常見問答系統***</span>
+
+提供基本的智慧客服支持，以解決人力不足的問題，進一步提升整體服務質量。
 -->
 
 ---
@@ -1656,595 +1656,3 @@ const final = {
 
 如果您對其他內容感興趣，歡迎隨時查看我的作品集。
 -->
-
----
-transition: slide-left
----
-
-# Hello?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features.
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -left-7 -bottom-9 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute opacity-30 transform bottom-23 left-45 -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="relative w-60">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: -5,0,0,0
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
-
----
-layout: center
-class: text-center
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
-
-<PoweredBySlidev mt-10 />
