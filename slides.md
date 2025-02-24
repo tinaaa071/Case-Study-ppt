@@ -30,7 +30,7 @@ mdc: true
     <img
     ref="image"
     src="https://i.imgur.com/XiOOKB4.jpeg"
-    class="object-cover object-top shadow  rounded-[64px] aspect-square"
+    class="object-cover object-top shadow-lg  rounded-[64px] aspect-square"
   />
   </div>
   <div class="w-full">
