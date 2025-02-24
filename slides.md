@@ -11,41 +11,15 @@ info: |
   Speaker: Tina Chen
 
 # apply unocss classes to the current slide
-class: text-center
+class: p-0
 # https://sli.dev/features/drawing
+layout: full
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-up
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
----
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="py-1 mt-12" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="m-6 text-xl abs-br">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: slide-up
-class: p-0
-layout: full
 ---
 
 <div class="flex flex-row gap-24 justify-center items-center px-32 py-14 h-full">
@@ -55,8 +29,8 @@ layout: full
     </div>
     <img
     ref="image"
-    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    class="object-cover object-center shadow  rounded-[64px] aspect-square"
+    src="https://i.imgur.com/XiOOKB4.jpeg"
+    class="object-cover object-top shadow  rounded-[64px] aspect-square"
   />
   </div>
   <div class="w-full">
