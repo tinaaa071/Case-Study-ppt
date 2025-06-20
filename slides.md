@@ -22,9 +22,9 @@ transition: slide-up
 mdc: true
 ---
 
-<div class="flex flex-row gap-24 justify-center items-center px-32 py-14 h-full">
+<div class="flex flex-row items-center justify-center h-full gap-24 px-32 py-14">
   <div class="relative w-1/2">
-    <div class="absolute -left-4 -top-8 z-10 w-52">
+    <div class="absolute z-10 -left-4 -top-8 w-52">
       <ChatBubble />
     </div>
     <img
@@ -61,9 +61,9 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col gap-20 py-14 h-full text-center">
+<div class="flex flex-col h-full gap-20 text-center py-14">
   <p class="text-4xl font-black">Work Experiences</p>
-  <div class="flex items-center px-6 py-4 w-full bg-blue-50/70 dark:bg-blue-900">
+  <div class="flex items-center w-full px-6 py-4 bg-blue-50/70 dark:bg-blue-900">
     <Timeline />
   </div>
 </div>
@@ -84,9 +84,9 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col gap-24 px-24 py-14 h-full text-center">
+<div class="flex flex-col h-full gap-24 px-24 text-center py-14">
   <p class="text-4xl font-black">Work Evaluation</p>
-  <div class="grid grid-cols-3 gap-8 items-start">
+  <div class="grid items-start grid-cols-3 gap-8">
     <div class="flex flex-col items-center">
       <img
         ref="image"
@@ -148,9 +148,9 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col gap-24 px-24 py-14 h-full text-center">
+<div class="flex flex-col h-full gap-24 px-24 text-center py-14">
   <p class="text-4xl font-black">About Me</p>
-  <div class="grid grid-cols-4 gap-8 items-center">
+  <div class="grid items-center grid-cols-4 gap-8">
     <div >
       <img
         ref="image"
@@ -219,12 +219,12 @@ class: p-0
 layout: full
 ---
 
-<div class="flex relative flex-row items-center px-14 py-24 h-full">
+<div class="relative flex flex-row items-center h-full py-24 px-14">
   <div class="space-y-8 z-1">
-    <div class="flex flex-row gap-3 items-center">
-      <span class="flex relative w-3 h-3">
-        <span class="inline-flex absolute w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
-        <span class="inline-flex relative w-3 h-3 bg-green-500 rounded-full"></span>
+    <div class="flex flex-row items-center gap-3">
+      <span class="relative flex w-3 h-3">
+        <span class="absolute inline-flex w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
+        <span class="relative inline-flex w-3 h-3 bg-green-500 rounded-full"></span>
       </span>
       <p class="text-sm text-gray-400">
         In Progress
@@ -278,7 +278,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row gap-64 justify-start items-center px-32 py-14 h-full"> 
+<div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
   <p class="text-6xl font-black">Agenda</p>
   <ol class="text-sm list-decimal">
     <li>Background</li>
@@ -328,7 +328,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between p-14 h-full"> 
+<div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
     <p class="text-xl font-black">Background</p>
     <p class="text-sm">
@@ -392,7 +392,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between p-14 h-full"> 
+<div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
     <p class="text-xl font-black">Design Flow</p>
     <p class="text-sm">
@@ -449,7 +449,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between p-14 h-full"> 
+<div class="flex flex-col justify-between h-full p-14"> 
   <p class="text-xl font-black">
   ☹️ User Pain Point
   </p>
@@ -525,7 +525,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center p-14 h-full"> 
+<div class="grid items-center h-full grid-cols-2 p-14"> 
   <p class="text-6xl font-black">Our Goal</p>
   <ol class="text-sm list-decimal">
     <li>Establish a <strong>registration system</strong> that includes authentication</li>
@@ -555,7 +555,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center p-14 h-full"> 
+<div class="grid items-center h-full grid-cols-2 p-14"> 
   <p class="text-6xl font-black">Solution</p>
   <ol class="text-sm list-decimal">
     <li>Design a document upload and <strong>automatic verification</strong> system</li>
@@ -585,8 +585,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center h-full"> 
-  <div class="p-14 space-y-2">
+<div class="grid items-center h-full grid-cols-2"> 
+  <div class="space-y-2 p-14">
     <p class="text-2xl font-black">💬 Challenges in the Project</p>
     <ol class="text-sm list-decimal">
       <li>
@@ -647,7 +647,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center p-14 h-full"> 
+<div class="grid items-center h-full grid-cols-2 p-14"> 
   <p class="text-6xl font-black leading-loose">Research<br><br><br>&<br><br><br>Define</p>
   <div>
     <p>
@@ -705,7 +705,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col gap-16 items-center p-14 h-full text-center"> 
+<div class="flex flex-col items-center h-full gap-16 text-center p-14"> 
   <p class="text-2xl font-black">Training Course Categories</p>
   <Course />
 </div>
@@ -732,7 +732,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between p-14 h-full"> 
+<div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
     <p class="text-xl font-black">Competitive Analysis</p>
     <p class="text-sm">
@@ -741,7 +741,7 @@ layout: full
   </div>
   <div class="grid grid-cols-3 gap-y-6 gap-x-32">
     <div class="space-y-3 text-center">
-      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+      <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
           ref="image"
           src="https://i.imgur.com/7VlO2nB.png"
@@ -751,7 +751,7 @@ layout: full
       <p class="text-sm font-black">Hahow</p>
     </div>
     <div class="space-y-3 text-center">
-      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+      <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
           ref="image"
           src="https://i.imgur.com/IZHmUjI.png"
@@ -761,7 +761,7 @@ layout: full
       <p class="text-sm font-black">Udemy</p>
     </div>
     <div class="space-y-3 text-center">
-      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+      <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
           ref="image"
           src="https://i.imgur.com/BM5WXVl.png"
@@ -771,7 +771,7 @@ layout: full
       <p class="text-sm font-black">Coursera</p>
     </div>
     <div class="space-y-3 text-center">
-      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+      <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
           ref="image"
           src="https://i.imgur.com/G2pCFYH.png"
@@ -781,7 +781,7 @@ layout: full
       <p class="text-sm font-black">Future Learn</p>
     </div>
     <div class="space-y-3 text-center">
-      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+      <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
           ref="image"
           src="https://i.imgur.com/mHWGOe8.png"
@@ -791,7 +791,7 @@ layout: full
       <p class="text-sm font-black">Techable</p>
     </div>
     <div class="space-y-3 text-center">
-      <div class="overflow-hidden rounded-2xl border border-gray-100 aspect-video">
+      <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
           ref="image"
           src="https://i.imgur.com/IL9zMOt.png"
@@ -838,8 +838,8 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row justify-between items-center h-full"> 
-  <p class="px-14 text-4xl font-black">Information<br><br>Architecture</p>
+<div class="flex flex-row items-center justify-between h-full"> 
+  <p class="text-4xl font-black px-14">Information<br><br>Architecture</p>
   <img
     ref="image"
     src="https://i.imgur.com/E3rF3z9.png"
@@ -863,7 +863,7 @@ layout: full
   <img
     ref="image"
     src="https://i.imgur.com/RiAO6LO.png"
-    class="mt-4 mb-20 w-full bg-white"
+    class="w-full mt-4 mb-20 bg-white"
   />
   <p class="text-2xl font-black">User flow for applying for a course</p>
 </div>
@@ -884,7 +884,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row gap-64 justify-start items-center px-32 py-14 h-full"> 
+<div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
   <p class="text-6xl font-black">Design<br><br><br>System</p>
   <ul class="text-sm">
     <li>Variable settings</li>
@@ -930,8 +930,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
@@ -941,7 +941,7 @@ layout: full
       I set up the variables in the files, allowing engineers to directly view the relevant class settings during development.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -963,8 +963,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Variable<br><br>Settings</p>
     <p class="text-xs text-gray-500">
@@ -974,7 +974,7 @@ layout: full
       I set up the variables in the files, allowing engineers to directly view the relevant class settings during development.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video1.mp4"
@@ -996,15 +996,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>i18n<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       I set up multilingual variables, allowing for direct switching and viewing in the files during development.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1026,15 +1026,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>i18n<br><br>Settings</p>
     <p class="text-xs text-gray-500">
       I set up multilingual variables, allowing for direct switching and viewing in the files during development.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video2.mp4"
@@ -1054,15 +1054,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Figma<br><br>Design<br><br>Files</p>
     <p class="text-xs text-gray-500">
       I defined the design system and components in the file, including their usage scenarios and states.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video3.mp4"
@@ -1082,15 +1082,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Figma<br><br>Design<br><br>Files</p>
     <p class="text-xs text-gray-500">
       I showcased the dimensions of different pages in the files and defined various scenarios and workflows.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video4.mp4"
@@ -1110,17 +1110,17 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">04</span><br><br>Storybook</p>
     <p class="text-xs text-gray-500">
       I used Storybook as a platform for visual guidelines and component demonstrations, assisting the development team in referencing concrete design standards during implementation.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
-    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden rounded-2xl transition-all duration-300 ease-in-out group hover:shadow-lg">
+    <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden transition-all duration-300 ease-in-out rounded-2xl group hover:shadow-lg">
       <img
         ref="image"
         src="https://i.imgur.com/6pMAdyR.png"
@@ -1150,7 +1150,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row gap-64 justify-start items-center px-32 py-14 h-full"> 
+<div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
   <p class="text-6xl font-black">Feature<br><br><br>Demo</p>
   <ul class="text-sm">
     <li>Signup</li>
@@ -1201,15 +1201,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
     <p class="text-xs text-gray-500">
       Use <span v-mark.underline.orange>dynamic switching</span> to toggle between different forms, catering to different user registrations while maintaining a unified design and reducing additional development efforts.
     </p>
   </div>
-  <div class="flex col-span-3 justify-center items-center px-10 py-12 h-full bg-gray-200">
+  <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-gray-200">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1233,8 +1233,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
     <p class="text-xs text-gray-500">
@@ -1270,15 +1270,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
     <p class="text-xs text-gray-500">
       Integrate API data to enable real-time validation, reducing manual review time.
     </p>
   </div>
-  <div class="flex col-span-3 justify-center items-center px-10 py-12 h-full bg-gray-200">
+  <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-gray-200">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1300,8 +1300,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>Course<br><br>Categories</p>
     <p class="text-xs text-gray-500">
@@ -1311,7 +1311,7 @@ layout: full
       Courses are designed in card format, with key information displayed, allowing users to easily view required items in real time.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video5.mp4"
@@ -1331,8 +1331,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
       <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Course<br><br>Page</p>
@@ -1342,7 +1342,7 @@ layout: full
       Users can instantly switch between information for easy and quick content search.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video6.mp4"
@@ -1364,8 +1364,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
       <span class="mb-2 text-4xl font-extrabold text-blue-300">04</span>
@@ -1379,7 +1379,7 @@ layout: full
       Displays the application stage with a <span v-mark.underline.orange>progress bar</span>, dividing the steps to avoid a lengthy filling process.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video7.mp4"
@@ -1399,8 +1399,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
       <span class="mb-2 text-4xl font-extrabold text-blue-300">04</span>
@@ -1414,7 +1414,7 @@ layout: full
       Dynamically adjust the fields to a group application mode based on the <span v-mark.underline.orange>number</span> of selected courses.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video8.mp4"
@@ -1436,15 +1436,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">05</span><br><br>Apply<br><br>Review<br><br>Progress</p>
     <p class="text-xs text-gray-500">
       Students can switch between different statuses to view the approval progress of their applied courses. Clicking on the card will display detailed information.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video9.mp4"
@@ -1468,8 +1468,8 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-4 gap-4 h-full">
-  <div class="flex flex-col col-span-1 justify-between px-10 py-6 h-full">
+<div class="grid h-full grid-cols-4 gap-4">
+  <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col">
       <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">06</span><br><br>Online<br><br>Consult</p>
@@ -1479,7 +1479,7 @@ layout: full
       We provide an online consultation system, allowing students to instantly contact the course organizers to address related issues.
     </p>
   </div>
-  <div class="flex col-span-3 items-center px-10 h-full bg-gray-200">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video10.mp4"
@@ -1499,14 +1499,14 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center p-14 h-full"> 
+<div class="grid items-center h-full grid-cols-2 p-14"> 
   <p class="text-5xl font-black leading-loose">Continuous<br><br><br>Optimization</p>
   <ol class="space-y-8 text-base">
       <li class="font-black">
-        <span class="flex gap-3 items-center">
-          <span class="flex relative w-3 h-3">
-            <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
-            <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+        <span class="flex items-center gap-3">
+          <span class="relative flex w-3 h-3">
+            <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 animate-ping"></span>
+            <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
           </span>
           Course Feature Expansion
         </span>
@@ -1515,10 +1515,10 @@ layout: full
         </p>
       </li>
       <li class="font-black">
-        <span class="flex gap-3 items-center">
-          <span class="flex relative w-3 h-3">
-            <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
-            <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+        <span class="flex items-center gap-3">
+          <span class="relative flex w-3 h-3">
+            <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 animate-ping"></span>
+            <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
           </span>
           Improvement of the Course Application Process
         </span>
@@ -1527,10 +1527,10 @@ layout: full
         </p>
       </li>
       <li class="font-black">
-        <span class="flex gap-3 items-center">
-          <span class="flex relative w-3 h-3">
-            <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
-            <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+        <span class="flex items-center gap-3">
+          <span class="relative flex w-3 h-3">
+            <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 animate-ping"></span>
+            <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500"></span>
           </span>
           Online Consultation System
         </span>
@@ -1568,10 +1568,10 @@ class: p-0
 layout: full
 ---
 
-<div class="flex relative flex-col justify-center items-center p-14 h-full"> 
+<div class="relative flex flex-col items-center justify-center h-full p-14"> 
   <p class="text-3xl font-black leading-loose">Thank You</p>
   <div class="text-sm tracking-wide text-gray-400">
-    <a href="https://tina-profolio.vercel.app/" target="_blank" class="">
+    <a href="https://tinachen-portfolio.vercel.app/" target="_blank" class="">
       Portfolio
     </a>
     <span>|</span>
