@@ -1494,6 +1494,244 @@ layout: full
 -->
 
 ---
+transition: slide-up
+class: p-0
+layout: full
+---
+
+<div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
+  <p class="text-6xl font-black">Data <br><br><br>Analyst</p>
+  <ul class="text-sm">
+    <li>Google Analytics</li>
+    <li>Funnel Analysis</li>
+  </ul>
+  <!-- Circle -->
+  <div 
+    v-motion
+    :initial="{ x: -200 }"
+    :enter="final"
+    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
+  </div>
+</div>
+
+<script setup lang="ts">
+const final = {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  scale: 1,
+  transition: {
+    type: 'spring',
+    damping: 10,
+    stiffness: 20,
+    mass: 2
+  }
+}
+</script>
+
+---
+transition: slide-up
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col h-full py-8 px-14"> 
+  <div class="space-y-2">
+    <p class="text-xl font-black">Funnel Analysis (Member Registration)</p>
+    <p class="text-sm">
+      Out of 124 users who visited the registration page, 94 successfully completed the sign-up process, resulting in a 76% conversion rate. The most significant drop-off occurred at the “Fill in Form Fields” stage, where 10 users exited the process. This indicates potential friction due to form complexity or user hesitation. Further improvements to form design and field clarity could help optimize the completion rate.
+    </p>
+  </div>
+  <div class="mx-auto mt-6 overflow-hidden border border-gray-300 w-2xl rounded-xl">
+    <table class="w-full text-xs">
+      <thead class="text-center bg-gray-100">
+        <tr>
+          <th class="px-4 py-2 text-center">步驟</th>
+          <th class="px-4 py-2 text-center">事件名稱</th>
+          <th class="px-4 py-2 text-center">使用者數</th>
+          <th class="px-4 py-2 text-center">完成數</th>
+          <th class="px-4 py-2 text-center">流失數</th>
+          <th class="px-4 py-2 text-center">留存率</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="text-center">
+          <td class="px-4 py-2">開啟註冊頁</td>
+          <td class="px-4 py-2"><code>view_signup_page</code></td>
+          <td class="px-4 py-2">124</td>
+          <td class="px-4 py-2">124</td>
+          <td class="px-4 py-2">-</td>
+          <td class="px-4 py-2">100%</td>
+        </tr>
+        <tr class="text-center bg-gray-50">
+          <td class="px-4 py-2">輸入 Email</td>
+          <td class="px-4 py-2"><code>input_email</code></td>
+          <td class="px-4 py-2">124</td>
+          <td class="px-4 py-2">115</td>
+          <td class="px-4 py-2">9</td>
+          <td class="px-4 py-2">92.7%</td>
+        </tr>
+        <tr class="text-center">
+          <td class="px-4 py-2">發送驗證碼</td>
+          <td class="px-4 py-2"><code>send_verification_code</code></td>
+          <td class="px-4 py-2">115</td>
+          <td class="px-4 py-2">110</td>
+          <td class="px-4 py-2">5</td>
+          <td class="px-4 py-2">88.7%</td>
+        </tr>
+        <tr class="text-center bg-gray-50">
+          <td class="px-4 py-2">填寫表單欄位</td>
+          <td class="px-4 py-2"><code>complete_form_fields</code></td>
+          <td class="px-4 py-2">110</td>
+          <td class="px-4 py-2">100</td>
+          <td class="px-4 py-2">10</td>
+          <td class="px-4 py-2">80.6%</td>
+        </tr>
+        <tr class="text-center">
+          <td class="px-4 py-2">勾選同意條款</td>
+          <td class="px-4 py-2"><code>agree_terms</code></td>
+          <td class="px-4 py-2">100</td>
+          <td class="px-4 py-2">98</td>
+          <td class="px-4 py-2">2</td>
+          <td class="px-4 py-2">79.0%</td>
+        </tr>
+        <tr class="text-center bg-gray-50">
+          <td class="px-4 py-2">點擊註冊按鈕</td>
+          <td class="px-4 py-2"><code>click_signup</code></td>
+          <td class="px-4 py-2">98</td>
+          <td class="px-4 py-2">96</td>
+          <td class="px-4 py-2">2</td>
+          <td class="px-4 py-2">77.4%</td>
+        </tr>
+        <tr class="text-center">
+          <td class="px-4 py-2">註冊成功</td>
+          <td class="px-4 py-2"><code>signup_success</code></td>
+          <td class="px-4 py-2">96</td>
+          <td class="px-4 py-2">94</td>
+          <td class="px-4 py-2">2</td>
+          <td class="px-4 py-2">76.0%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+---
+transition: slide-up
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col h-full py-8 px-14"> 
+  <div class="space-y-2">
+    <p class="text-xl font-black">Funnel Analysis (Course Registration)</p>
+    <p class="text-sm">
+      This funnel analysis compares user behavior between the "Before Optimization" and "After Optimization" course registration processes.
+      <br>
+      By splitting the registration into multiple steps and adding a save-draft feature, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 44.4% to 65.4%.
+    </p>
+  </div>
+   <ToggleTable />
+</div>
+
+<style>
+  .slidev-layout th {
+    text-align: center;
+  }
+</style>
+
+---
+transition: slide-up
+class: p-0
+layout: full
+---
+
+<div class="flex flex-col h-full py-8 px-14"> 
+  <div class="space-y-2">
+    <p class="text-xl font-black">Funnel Analysis (Course Registration)</p>
+    <p class="text-sm">
+      This funnel analysis compares user behavior between the "Before Optimization" and "After Optimization" course registration processes.
+      <br>
+      By splitting the registration into multiple steps and adding a save-draft feature, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 44.4% to 65.4%.
+    </p>
+  </div>
+  <div class="w-full mx-auto mt-12 overflow-hidden border border-gray-300 rounded-xl">
+    <table class="w-full text-xs">
+      <thead class="text-center bg-gray-100">
+        <tr>
+          <th class="px-4 py-2 text-center">項目</th>
+          <th class="px-4 py-2 text-center">事件名稱</th>
+          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>使用者數</th>
+          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>完成數</th>
+          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>流失數</th>
+          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>留存率</th>
+          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>使用者數</th>
+          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>完成數</th>
+          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>流失數</th>
+          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>留存率</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="text-center">
+          <td class="px-4 py-2">填寫個人資料表</td>
+          <td class="px-4 py-2"><code>fill_personal_info</code></td>
+          <td class="px-4 py-2 bg-blue-50">20</td>
+          <td class="px-4 py-2 bg-blue-50">15</td>
+          <td class="px-4 py-2 bg-blue-50">5</td>
+          <td class="px-4 py-2 bg-blue-50">75.0%</td>
+          <td class="px-4 py-2 bg-green-50">38</td>
+          <td class="px-4 py-2 bg-green-50">35</td>
+          <td class="px-4 py-2 bg-green-50">3</td>
+          <td class="px-4 py-2 bg-green-50">92.1%</td>
+        </tr>
+        <tr class="text-center">
+          <td class="px-4 py-2">填寫上傳文件表</td>
+          <td class="px-4 py-2"><code>fill_upload_documents</code></td>
+          <td class="px-4 py-2 bg-blue-50">18</td>
+          <td class="px-4 py-2 bg-blue-50">17</td>
+          <td class="px-4 py-2 bg-blue-50">1</td>
+          <td class="px-4 py-2 bg-blue-50">94.4%</td>
+          <td class="px-4 py-2 bg-green-50">35</td>
+          <td class="px-4 py-2 bg-green-50">31</td>
+          <td class="px-4 py-2 bg-green-50">4</td>
+          <td class="px-4 py-2 bg-green-50">88.6%</td>
+        </tr>
+        <tr class="text-center">
+          <td class="px-4 py-2">送出報名表單</td>
+          <td class="px-4 py-2"><code>submit_registration</code></td>
+          <td class="px-4 py-2 bg-blue-50">17</td>
+          <td class="px-4 py-2 bg-blue-50">15</td>
+          <td class="px-4 py-2 bg-blue-50">2</td>
+          <td class="px-4 py-2 bg-blue-50">88.2%</td>
+          <td class="px-4 py-2 bg-green-50">31</td>
+          <td class="px-4 py-2 bg-green-50">29</td>
+          <td class="px-4 py-2 bg-green-50">2</td>
+          <td class="px-4 py-2 bg-green-50">93.5%</td>
+        </tr>
+        <tr class="text-center">
+          <td class="px-4 py-2">報名成功頁</td>
+          <td class="px-4 py-2"><code>registration_success</code></td>
+          <td class="px-4 py-2 bg-blue-50">15</td>
+          <td class="px-4 py-2 bg-blue-50">15</td>
+          <td class="px-4 py-2 bg-blue-50">0</td>
+          <td class="px-4 py-2 bg-blue-50">100.0%</td>
+          <td class="px-4 py-2 bg-green-50">29</td>
+          <td class="px-4 py-2 bg-green-50">27</td>
+          <td class="px-4 py-2 bg-green-50">2</td>
+          <td class="px-4 py-2 bg-green-50">93.1%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .slidev-layout th {
+    text-align: center;
+  }
+</style>
+
+---
 transition: fade-out
 class: p-0
 layout: full
