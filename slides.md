@@ -285,6 +285,7 @@ layout: full
     <li>Research & Define</li>
     <li>Design System</li>
     <li>Feature Demo</li>
+    <li>Data Analyst</li>
   </ol>
   <!-- Circle -->
   <div 
