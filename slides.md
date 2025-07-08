@@ -1676,64 +1676,64 @@ layout: full
         <tr>
           <th class="px-4 py-2 text-center">項目</th>
           <th class="px-4 py-2 text-center">事件名稱</th>
-          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>使用者數</th>
-          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>完成數</th>
-          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>流失數</th>
-          <th class="px-4 py-2 text-center bg-blue-100">暫存<br>留存率</th>
-          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>使用者數</th>
-          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>完成數</th>
-          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>流失數</th>
-          <th class="px-4 py-2 text-center bg-green-100">未暫存<br>留存率</th>
+          <th class="px-4 py-2 text-center bg-green-100">暫存<br>使用者數</th>
+          <th class="px-4 py-2 text-center bg-green-100">暫存<br>完成數</th>
+          <th class="px-4 py-2 text-center bg-green-100">暫存<br>流失數</th>
+          <th class="px-4 py-2 text-center bg-green-100">暫存<br>留存率</th>
+          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>使用者數</th>
+          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>完成數</th>
+          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>流失數</th>
+          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>留存率</th>
         </tr>
       </thead>
       <tbody>
         <tr class="text-center">
           <td class="px-4 py-2">填寫個人資料表</td>
           <td class="px-4 py-2"><code>fill_personal_info</code></td>
-          <td class="px-4 py-2 bg-blue-50">20</td>
-          <td class="px-4 py-2 bg-blue-50">15</td>
-          <td class="px-4 py-2 bg-blue-50">5</td>
-          <td class="px-4 py-2 bg-blue-50">75.0%</td>
-          <td class="px-4 py-2 bg-green-50">38</td>
-          <td class="px-4 py-2 bg-green-50">35</td>
-          <td class="px-4 py-2 bg-green-50">3</td>
-          <td class="px-4 py-2 bg-green-50">92.1%</td>
+          <td class="px-4 py-2 bg-green-50">20</td>
+          <td class="px-4 py-2 bg-green-50">15</td>
+          <td class="px-4 py-2 bg-green-50">5</td>
+          <td class="px-4 py-2 bg-green-50">75.0%</td>
+          <td class="px-4 py-2 bg-red-50">38</td>
+          <td class="px-4 py-2 bg-red-50">35</td>
+          <td class="px-4 py-2 bg-red-50">3</td>
+          <td class="px-4 py-2 bg-red-50">92.1%</td>
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">填寫上傳文件表</td>
           <td class="px-4 py-2"><code>fill_upload_documents</code></td>
-          <td class="px-4 py-2 bg-blue-50">18</td>
-          <td class="px-4 py-2 bg-blue-50">17</td>
-          <td class="px-4 py-2 bg-blue-50">1</td>
-          <td class="px-4 py-2 bg-blue-50">94.4%</td>
-          <td class="px-4 py-2 bg-green-50">35</td>
-          <td class="px-4 py-2 bg-green-50">31</td>
-          <td class="px-4 py-2 bg-green-50">4</td>
-          <td class="px-4 py-2 bg-green-50">88.6%</td>
+          <td class="px-4 py-2 bg-green-50">18</td>
+          <td class="px-4 py-2 bg-green-50">17</td>
+          <td class="px-4 py-2 bg-green-50">1</td>
+          <td class="px-4 py-2 bg-green-50">94.4%</td>
+          <td class="px-4 py-2 bg-red-50">35</td>
+          <td class="px-4 py-2 bg-red-50">31</td>
+          <td class="px-4 py-2 bg-red-50">4</td>
+          <td class="px-4 py-2 bg-red-50">88.6%</td>
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">送出報名表單</td>
           <td class="px-4 py-2"><code>submit_registration</code></td>
-          <td class="px-4 py-2 bg-blue-50">17</td>
-          <td class="px-4 py-2 bg-blue-50">15</td>
-          <td class="px-4 py-2 bg-blue-50">2</td>
-          <td class="px-4 py-2 bg-blue-50">88.2%</td>
-          <td class="px-4 py-2 bg-green-50">31</td>
-          <td class="px-4 py-2 bg-green-50">29</td>
+          <td class="px-4 py-2 bg-green-50">17</td>
+          <td class="px-4 py-2 bg-green-50">15</td>
           <td class="px-4 py-2 bg-green-50">2</td>
-          <td class="px-4 py-2 bg-green-50">93.5%</td>
+          <td class="px-4 py-2 bg-green-50">88.2%</td>
+          <td class="px-4 py-2 bg-red-50">31</td>
+          <td class="px-4 py-2 bg-red-50">29</td>
+          <td class="px-4 py-2 bg-red-50">2</td>
+          <td class="px-4 py-2 bg-red-50">93.5%</td>
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">報名成功頁</td>
           <td class="px-4 py-2"><code>registration_success</code></td>
-          <td class="px-4 py-2 bg-blue-50">15</td>
-          <td class="px-4 py-2 bg-blue-50">15</td>
-          <td class="px-4 py-2 bg-blue-50">0</td>
-          <td class="px-4 py-2 bg-blue-50">100.0%</td>
-          <td class="px-4 py-2 bg-green-50">29</td>
-          <td class="px-4 py-2 bg-green-50">27</td>
-          <td class="px-4 py-2 bg-green-50">2</td>
-          <td class="px-4 py-2 bg-green-50">93.1%</td>
+          <td class="px-4 py-2 bg-green-50">15</td>
+          <td class="px-4 py-2 bg-green-50">15</td>
+          <td class="px-4 py-2 bg-green-50">0</td>
+          <td class="px-4 py-2 bg-green-50">100.0%</td>
+          <td class="px-4 py-2 bg-red-50">29</td>
+          <td class="px-4 py-2 bg-red-50">27</td>
+          <td class="px-4 py-2 bg-red-50">2</td>
+          <td class="px-4 py-2 bg-red-50">93.1%</td>
         </tr>
       </tbody>
     </table>
