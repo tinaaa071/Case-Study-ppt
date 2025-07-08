@@ -1665,9 +1665,9 @@ layout: full
   <div class="space-y-2">
     <p class="text-xl font-black">Funnel Analysis (Course Registration)</p>
     <p class="text-sm">
-      This funnel analysis compares user behavior between the "Before Optimization" and "After Optimization" course registration processes.
+      Segmented analysis shows that users who utilized the save-draft feature had higher retention rates at each key step, indicating that the feature significantly improved users’ willingness and experience in completing the registration.
       <br>
-      By splitting the registration into multiple steps and adding a save-draft feature, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 44.4% to 65.4%.
+      Overall, splitting the process into steps and providing a save-draft function are key optimization strategies for increasing registration conversion rates.
     </p>
   </div>
   <div class="w-full mx-auto mt-12 overflow-hidden border border-gray-300 rounded-xl">
