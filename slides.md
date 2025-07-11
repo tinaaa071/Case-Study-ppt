@@ -172,11 +172,11 @@ layout: full
       </p>
     </div>
     <div>
-      <a href="https://cafe2-ecru.vercel.app/" target="_blank" class="">
+      <a href="https://cafe2-ecru.vercel.app/" target="_blank" class="shadow rounded-[64px] overflow-hidden">
         <img
           ref="image"
           src="https://i.imgur.com/v9ocHR9.jpeg"
-          class="object-cover object-center shadow rounded-[64px] aspect-square"
+          class="object-cover object-center transition-all duration-200 aspect-square hover:scale-11"
         />
       </a>  
       <p>
@@ -184,11 +184,11 @@ layout: full
       </p>
     </div>
     <div>
-      <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class="">
+      <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class="shadow rounded-[64px] overflow-hidden">
         <img
           ref="image"
           src="https://cdn-images-1.medium.com/max/1600/1*VUK2az0HJHzilzN0Rpgv0A.png"
-          class="object-cover object-center shadow rounded-[64px] aspect-square"
+          class="object-cover object-center transition-all duration-200 aspect-square hover:scale-11"
         />
       </a>  
       <p>
@@ -409,7 +409,7 @@ layout: full
       <ul class="text-xs">
         <li>Website IA</li>
         <li>Course Information Display Requirements</li>
-        <li>Course Registration and Review System</li>
+        <li>Course Application and Review System</li>
       </ul>
     </div>
     <div class="space-y-2">
@@ -426,13 +426,16 @@ layout: full
       <ul class="text-xs">
         <li>Component Design</li>
         <li>Website UI Design</li>
+        <li>Design System</li>
         <li>Responsive Website Compatibility</li>
       </ul>
     </div>
     <div class="space-y-2">
       <p class="text-xl font-black">Test & Iteration</p>
       <ul class="text-xs">
-        <li>Testing & Collect Feedback</li>
+        <li>Usability Testing</li>
+        <li>Collect Feedback</li>
+        <li>Data Analyst</li>
       </ul>
     </div>
   </div>
@@ -746,7 +749,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/7VlO2nB.png"
-          class="transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black">Hahow</p>
@@ -756,7 +759,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/IZHmUjI.png"
-          class="transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black">Udemy</p>
@@ -766,7 +769,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/BM5WXVl.png"
-          class="transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black">Coursera</p>
@@ -776,7 +779,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/G2pCFYH.png"
-          class="transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black">Future Learn</p>
@@ -786,7 +789,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/mHWGOe8.png"
-          class="transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black">Techable</p>
@@ -796,7 +799,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/IL9zMOt.png"
-          class="transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black">Klook</p>
@@ -1544,7 +1547,7 @@ layout: full
     </p>
   </div>
   <div class="mx-auto mt-6 overflow-hidden border border-gray-300 w-2xl rounded-xl">
-    <table class="w-full text-xs">
+    <table class="w-full text-xs text-gray-900 bg-white">
       <thead class="text-center bg-gray-100">
         <tr>
           <th class="px-4 py-2 text-center">步驟</th>
@@ -1580,12 +1583,12 @@ layout: full
           <td class="px-4 py-2">5</td>
           <td class="px-4 py-2">88.7%</td>
         </tr>
-        <tr class="text-center bg-gray-50">
+        <tr class="text-center bg-red-100">
           <td class="px-4 py-2">填寫表單欄位</td>
           <td class="px-4 py-2"><code>complete_form_fields</code></td>
           <td class="px-4 py-2">110</td>
           <td class="px-4 py-2">100</td>
-          <td class="px-4 py-2">10</td>
+          <td class="px-4 py-2 text-red-500">10</td>
           <td class="px-4 py-2">80.6%</td>
         </tr>
         <tr class="text-center">
@@ -1633,11 +1636,11 @@ layout: full
 
 <div class="flex flex-col h-full py-8 px-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Funnel Analysis (Course Registration)</p>
+    <p class="text-xl font-black">Funnel Analysis (Course Application)</p>
     <p class="text-sm">
-      This funnel analysis compares user behavior between the "Before Optimization" and "After Optimization" course registration processes.
+      This funnel analysis compares user behavior between the "Before Optimization" and "After Optimization" course application processes.
       <br>
-      By splitting the registration into multiple steps and adding a save-draft feature, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 44.4% to 65.4%.
+      By splitting the registration into multiple steps and adding a save-draft feature, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 48.6% to 75%.
     </p>
   </div>
    <ToggleTable />
@@ -1663,81 +1666,99 @@ layout: full
 
 <div class="flex flex-col h-full py-8 px-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Funnel Analysis (Course Registration)</p>
+    <p class="text-xl font-black">Funnel Analysis (Course Application)</p>
     <p class="text-sm">
-      Segmented analysis shows that users who utilized the save-draft feature had higher retention rates at each key step, indicating that the feature significantly improved users’ willingness and experience in completing the registration.
-      <br>
-      Overall, splitting the process into steps and providing a save-draft function are key optimization strategies for increasing registration conversion rates.
+      Segmented analysis shows that the final completion rate for users who utilized the save progress feature was 90.2%, which is higher than that of users who did not use the feature. This indicates that the save progress function significantly enhances users’ willingness and experience in completing the registration process.
     </p>
   </div>
-  <div class="w-full mx-auto mt-12 overflow-hidden border border-gray-300 rounded-xl">
-    <table class="w-full text-xs">
-      <thead class="text-center bg-gray-100">
-        <tr>
-          <th class="px-4 py-2 text-center">項目</th>
-          <th class="px-4 py-2 text-center">事件名稱</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>使用者數</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>完成數</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>流失數</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>留存率</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>使用者數</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>完成數</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>流失數</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>留存率</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="text-center">
-          <td class="px-4 py-2">填寫個人資料表</td>
-          <td class="px-4 py-2"><code>fill_personal_info</code></td>
-          <td class="px-4 py-2 bg-green-50">20</td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">5</td>
-          <td class="px-4 py-2 bg-green-50">75.0%</td>
-          <td class="px-4 py-2 bg-red-50">38</td>
-          <td class="px-4 py-2 bg-red-50">35</td>
-          <td class="px-4 py-2 bg-red-50">3</td>
-          <td class="px-4 py-2 bg-red-50">92.1%</td>
-        </tr>
-        <tr class="text-center">
-          <td class="px-4 py-2">填寫上傳文件表</td>
-          <td class="px-4 py-2"><code>fill_upload_documents</code></td>
-          <td class="px-4 py-2 bg-green-50">18</td>
-          <td class="px-4 py-2 bg-green-50">17</td>
-          <td class="px-4 py-2 bg-green-50">1</td>
-          <td class="px-4 py-2 bg-green-50">94.4%</td>
-          <td class="px-4 py-2 bg-red-50">35</td>
-          <td class="px-4 py-2 bg-red-50">31</td>
-          <td class="px-4 py-2 bg-red-50">4</td>
-          <td class="px-4 py-2 bg-red-50">88.6%</td>
-        </tr>
-        <tr class="text-center">
-          <td class="px-4 py-2">送出報名表單</td>
-          <td class="px-4 py-2"><code>submit_registration</code></td>
-          <td class="px-4 py-2 bg-green-50">17</td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">2</td>
-          <td class="px-4 py-2 bg-green-50">88.2%</td>
-          <td class="px-4 py-2 bg-red-50">31</td>
-          <td class="px-4 py-2 bg-red-50">29</td>
-          <td class="px-4 py-2 bg-red-50">2</td>
-          <td class="px-4 py-2 bg-red-50">93.5%</td>
-        </tr>
-        <tr class="text-center">
-          <td class="px-4 py-2">報名成功頁</td>
-          <td class="px-4 py-2"><code>registration_success</code></td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">0</td>
-          <td class="px-4 py-2 bg-green-50">100.0%</td>
-          <td class="px-4 py-2 bg-red-50">29</td>
-          <td class="px-4 py-2 bg-red-50">27</td>
-          <td class="px-4 py-2 bg-red-50">2</td>
-          <td class="px-4 py-2 bg-red-50">93.1%</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="mt-4">
+    <div class="flex gap-6">
+      <div class="text-sm">
+        <span class="inline-flex w-3 h-3 mr-1 bg-green-200 rounded-full"></span>
+        有暫存
+      </div>
+      <div class="text-sm">
+        <span class="inline-flex w-3 h-3 mr-1 bg-red-200 rounded-full"></span>
+        無暫存
+      </div>
+    </div>
+    <div class="w-full mx-auto mt-4 overflow-hidden border border-gray-300 rounded-xl">
+      <table class="w-full text-xs text-gray-900 bg-white">
+        <thead class="text-center bg-gray-100">
+          <tr>
+            <th class="px-4 py-2 text-center">項目</th>
+            <th class="px-4 py-2 text-center bg-green-200">使用者數</th>
+            <th class="px-4 py-2 text-center bg-green-200">完成數</th>
+            <th class="px-4 py-2 text-center bg-green-200">該步驟流失數</th>
+            <th class="px-4 py-2 text-center bg-green-200">回訪數</th>
+            <th class="px-4 py-2 text-center bg-green-200">流失率(%)</th>
+            <th class="px-4 py-2 text-center bg-red-200">使用者數</th>
+            <th class="px-4 py-2 text-center bg-red-200">完成數</th>
+            <th class="px-4 py-2 text-center bg-red-200">該步驟流失數</th>
+            <th class="px-4 py-2 text-center bg-red-200">回訪數</th>
+            <th class="px-4 py-2 text-center bg-red-200">流失率(%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center">
+            <td class="px-4 py-2">開始填答</td>
+            <td class="px-4 py-2 bg-green-50">72</td>
+            <td class="px-4 py-2 bg-green-50">72</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-red-50">72</td>
+            <td class="px-4 py-2 bg-red-50">72</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+          </tr>
+          <tr class="text-center">
+            <td class="px-4 py-2">填寫個人資料表</td>
+            <td class="px-4 py-2 bg-green-50">55</td>
+            <td class="px-4 py-2 bg-green-50">38</td>
+            <td class="px-4 py-2 bg-green-50">17</td>
+            <td class="px-4 py-2 bg-green-50">10</td>
+            <td class="px-4 py-2 bg-green-50">23.6%</td>
+            <td class="px-4 py-2 bg-red-50">65</td>
+            <td class="px-4 py-2 bg-red-50">58</td>
+            <td class="px-4 py-2 bg-red-50">7</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">9.7%</td>
+          </tr>
+          <tr class="text-center">
+            <td class="px-4 py-2">填寫上傳文件表</td>
+            <td class="px-4 py-2 bg-green-50">48</td>
+            <td class="px-4 py-2 bg-green-50">41</td>
+            <td class="px-4 py-2 bg-green-50">7</td>
+            <td class="px-4 py-2 bg-green-50">17</td>
+            <td class="px-4 py-2 bg-green-50">12.7%</td>
+            <td class="px-4 py-2 bg-red-50">55</td>
+            <td class="px-4 py-2 bg-red-50">45</td>
+            <td class="px-4 py-2 bg-red-50">10</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">15.4%</td>
+          </tr>
+          <tr class="text-center">
+            <td class="px-4 py-2">最終完成報名</td>
+            <td class="px-4 py-2 bg-green-50">65</td>
+            <td class="px-4 py-2 bg-green-50"><span v-mark.circle.orange>65<br>(90.2%)</span></td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-red-50">45</td>
+            <td class="px-4 py-2 bg-red-50">45<br>(62.5%)</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
+  <p class="text-sm">
+      Overall, splitting the process into steps and providing a save-draft function are key optimization strategies for increasing registration conversion rates.
+    </p>
 </div>
 
 <style>
