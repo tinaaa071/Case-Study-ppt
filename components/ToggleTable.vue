@@ -38,7 +38,7 @@
       </tr>
       <tr class="text-center ">
       <td class="px-4 py-2">確認報名課程</td>
-      <td class="px-4 py-2"><code>click_register_button</code></td>
+      <td class="px-4 py-2"><code>confirm_registration</code></td>
       <td class="px-4 py-2">69</td>
       <td class="px-4 py-2">69</td>
       <td class="px-4 py-2">0</td>
