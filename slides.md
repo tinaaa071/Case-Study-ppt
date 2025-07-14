@@ -161,37 +161,37 @@ layout: full
         Travel
       </p>
     </div>
-    <div>
+    <div class="flex flex-col items-center">
       <img
         ref="image"
-        src="https://i.imgur.com/FmfJSWq.jpeg"
+        src="https://img.notionusercontent.com/s3/prod-files-secure%2F6e9d863e-7448-4199-b334-811afe339f3b%2F33e08b92-d96a-44a2-898f-4bc4a6bd3d91%2Fimage.png/size/w=2000?exp=1752198725&sig=Jg2XF6HdScXVWV-qFBe1TRWI35HyPK9OV83wu_zFcYU&id=22c74826-7cda-80ef-82d1-c303d7833c5b&table=block&userId=9c6f028c-5864-479b-ad08-69b0e1456b3a"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
-      <p>
-        Game
+      <p class="text-[#B1B1BE]">
+        Learning
       </p>
     </div>
-    <div>
-      <a href="https://cafe2-ecru.vercel.app/" target="_blank" class="shadow rounded-[64px] overflow-hidden">
+    <div class="flex flex-col items-center">
+      <a href="https://cafe2-ecru.vercel.app/" target="_blank" class=" shadow rounded-[64px] overflow-hidden">
         <img
           ref="image"
           src="https://i.imgur.com/v9ocHR9.jpeg"
-          class="object-cover object-center transition-all duration-200 aspect-square hover:scale-11"
+          class="object-cover object-center transition-all duration-200 aspect-square hover:scale-110"
         />
       </a>  
-      <p>
+      <p class="text-[#B1B1BE]">
         Cafe
       </p>
     </div>
-    <div>
-      <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class="shadow rounded-[64px] overflow-hidden">
+    <div class="flex flex-col items-center">
+      <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class=" shadow rounded-[64px] overflow-hidden">
         <img
           ref="image"
           src="https://cdn-images-1.medium.com/max/1600/1*VUK2az0HJHzilzN0Rpgv0A.png"
-          class="object-cover object-center transition-all duration-200 aspect-square hover:scale-11"
+          class="object-cover object-center transition-all duration-200 aspect-square hover:scale-110"
         />
       </a>  
-      <p>
+      <p class="text-[#B1B1BE]">
         Plugin
       </p>
     </div>
