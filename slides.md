@@ -167,7 +167,7 @@ layout: full
         src="https://img.notionusercontent.com/s3/prod-files-secure%2F6e9d863e-7448-4199-b334-811afe339f3b%2F33e08b92-d96a-44a2-898f-4bc4a6bd3d91%2Fimage.png/size/w=2000?exp=1752198725&sig=Jg2XF6HdScXVWV-qFBe1TRWI35HyPK9OV83wu_zFcYU&id=22c74826-7cda-80ef-82d1-c303d7833c5b&table=block&userId=9c6f028c-5864-479b-ad08-69b0e1456b3a"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
-      <p class="text-[#B1B1BE]">
+      <p>
         Learning
       </p>
     </div>
@@ -179,7 +179,7 @@ layout: full
           class="object-cover object-center transition-all duration-200 aspect-square hover:scale-110"
         />
       </a>  
-      <p class="text-[#B1B1BE]">
+      <p>
         Cafe
       </p>
     </div>
@@ -191,7 +191,7 @@ layout: full
           class="object-cover object-center transition-all duration-200 aspect-square hover:scale-110"
         />
       </a>  
-      <p class="text-[#B1B1BE]">
+      <p>
         Plugin
       </p>
     </div>
@@ -280,12 +280,12 @@ layout: full
 
 <div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
   <p class="text-6xl font-black">Agenda</p>
-  <ol class="text-sm list-decimal">
-    <li>Background</li>
-    <li>Research & Define</li>
-    <li>Design System</li>
-    <li>Feature Demo</li>
-    <li>Data Analyst</li>
+  <ol class="list-decimal text-md">
+    <li><a href="6" class="transition-colors duration-200">Background</a></li>
+    <li><a href="12" class="transition-colors duration-200">Research & Define</a></li>
+    <li><a href="17" class="transition-colors duration-200">Design System</a></li>
+    <li><a href="25" class="transition-colors duration-200">Feature Demo</a></li>
+    <li><a href="35" class="transition-colors duration-200">Data Analyst</a></li>
   </ol>
   <!-- Circle -->
   <div 
@@ -295,6 +295,15 @@ layout: full
     class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
   </div>
 </div>
+
+<style>
+a, a:hover {
+  border-style: none;
+}
+a:hover {
+  color: #93c5fd;
+}
+</style>
 
 <script setup lang="ts">
 const final = {
