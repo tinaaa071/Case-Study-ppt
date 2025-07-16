@@ -340,21 +340,21 @@ layout: full
 
 <div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Background</p>
+    <p class="text-xl font-black text-blue-400">Background</p>
     <p class="text-sm">
-      This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for foreign medical professionals. It also offers more complete training information and application services through the platform.
+      This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for <span class="text-blue-300 underline underline-offset-4 ">foreign medical professionals</span>. It also offers more complete training information and application services through the platform.
     </p>
   </div>
-  <div class="grid grid-cols-4 gap-6">
+  <div class="grid grid-cols-4 gap-6 px-6 pb-3 bg-blue-50 rounded-2xl">
     <div class="space-y-2">
-      <p class="text-xl font-black">Role</p>
+      <p class="text-xl font-black text-blue-400">Role</p>
       <ul class="text-xs">
         <li>UI/UX Designer</li>
         <li>Product Roadmap</li>
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Team</p>
+      <p class="text-xl font-black text-blue-400">Team</p>
       <ul class="text-xs">
         <li>1 Product Designer</li>
         <li>1 Product Manager</li>
@@ -364,7 +364,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Timeline</p>
+      <p class="text-xl font-black text-blue-400">Timeline</p>
       <p class="text-xs">
         More than 1 year
         <br>
@@ -374,7 +374,7 @@ layout: full
       </p>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Company</p>
+      <p class="text-xl font-black text-blue-400">Company</p>
       <p class="text-xs">
         Joint Commission of Taiwan
       </p>
@@ -404,17 +404,17 @@ layout: full
 
 <div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Design Flow</p>
+    <p class="text-xl font-black text-blue-400">Design Flow</p>
     <p class="text-sm">
-      In this project, I focused on designing the overall website architecture to ensure users could browse courses and complete the application process. My primary responsibility was to plan an online course application system that is user-friendly and allows users to verify their application results. 
+      In this project, I focused on designing the overall <span class="text-blue-300 underline underline-offset-4 ">website architecture</span> to ensure users could <span class="text-blue-300 underline underline-offset-4 ">browse courses and complete the application process</span>. My primary responsibility was to plan an online course application system that is user-friendly and allows users to verify their application results. 
       <br>
       <br>
       The goal of the platform is to foster closer medical exchange and collaboration with other countries, promoting the bidirectional sharing of knowledge and skills.
     </p>
   </div>
-  <div class="grid grid-cols-4 gap-6">
+  <div class="grid grid-cols-4 gap-6 px-6 pb-3 bg-blue-50 rounded-2xl">
     <div class="space-y-2">
-      <p class="text-xl font-black">Research</p>
+      <p class="text-xl font-black text-blue-400">Research</p>
       <ul class="text-xs">
         <li>Website IA</li>
         <li>Course Information Display Requirements</li>
@@ -422,7 +422,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Define</p>
+      <p class="text-xl font-black text-blue-400">Define</p>
       <ul class="text-xs">
         <li>Website Design Specifications</li>
         <li>Registration system for different roles</li>
@@ -431,7 +431,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Design</p>
+      <p class="text-xl font-black text-blue-400">Design</p>
       <ul class="text-xs">
         <li>Component Design</li>
         <li>Website UI Design</li>
@@ -440,7 +440,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Test & Iteration</p>
+      <p class="text-xl font-black text-blue-400">Test & Iteration</p>
       <ul class="text-xs">
         <li>Usability Testing</li>
         <li>Collect Feedback</li>
@@ -466,35 +466,35 @@ layout: full
   <p class="text-xl font-black">
   ☹️ User Pain Point
   </p>
-  <div class="grid grid-cols-3 gap-y-2 gap-x-12">
-    <div class="">
-      <p class="text-lg font-black">1. Hospital publicity is weak</p>
+  <div class="grid grid-cols-3 gap-6">
+    <div class="px-4 py-1 bg-blue-100 rounded-2xl">
+      <p class="px-2 py-1 text-sm font-black text-blue-400 bg-white rounded-md">1. Hospital publicity is weak</p>
       <p class="text-xs">
-        The hospital's authoritative departments are fully equipped but take a more low-profile approach in promotion.
+        The hospital's authoritative departments are fully equipped but <span class="text-blue-400 underline underline-offset-4 ">take a more low-profile approach in promotion</span>.
       </p>
     </div>
-    <div class="">
-      <p class="text-lg font-black">2. Insufficient training information</p>
+    <div class="px-4 py-1 bg-blue-100 rounded-2xl">
+      <p class="px-2 py-1 text-sm font-black text-blue-400 bg-white rounded-md">2. Insufficient training information</p>
       <p class="text-xs">
-        Training information is insufficient, making it difficult to clearly understand the overall application process.
+        Training information is insufficient, making it <span class="text-blue-400 underline underline-offset-4 ">difficult to clearly understand the overall application process</span>.
       </p>
     </div>
-    <div class="">
-      <p class="text-lg font-black">3. Training results and evaluations</p>
+    <div class="px-4 py-1 bg-blue-100 rounded-2xl">
+      <p class="px-2 py-1 text-sm font-black text-blue-400 bg-white rounded-md">3. Training results and evaluations</p>
       <p class="text-xs">
-        Overseas personnel find it difficult to access training results and evaluations, making it challenging to showcase training achievements externally.
+        Overseas personnel find it <span class="text-blue-400 underline underline-offset-4 ">difficult to access training results and evaluations</span>, making it challenging to showcase training achievements externally.
       </p>
     </div>
-    <div class="">
-      <p class="text-lg font-black">4. Issues with document resubmission</p>
+    <div class="px-4 py-1 bg-blue-100 rounded-2xl">
+      <p class="px-2 py-1 text-sm font-black text-blue-400 bg-white rounded-md">4. Issues with document resubmission</p>
       <p class="text-xs">
-        The process of submitting supplementary documents is time-consuming, labor-intensive, and disorganized.
+        The process of submitting supplementary documents is <span class="text-blue-400 underline underline-offset-4 ">time-consuming, labor-intensive, and disorganized</span>.
       </p>
     </div>
-    <div class="">
-      <p class="text-lg font-black">5. Customized training programs</p>
+    <div class="px-4 py-1 bg-blue-100 rounded-2xl">
+      <p class="px-2 py-1 text-sm font-black text-blue-400 bg-white rounded-md">5. Customized training programs</p>
       <p class="text-xs">
-        Overseas healthcare personnel have clear learning goals and require customized training programs.
+        Overseas healthcare personnel have <span class="text-blue-400 underline underline-offset-4 ">clear learning goals and require customized training programs</span>.
       </p>
     </div>
   </div>
@@ -540,15 +540,43 @@ layout: full
 
 <div class="grid items-center h-full grid-cols-2 p-14"> 
   <p class="text-6xl font-black">Our Goal</p>
-  <ol class="text-sm list-decimal">
-    <li>Establish a <strong>registration system</strong> that includes authentication</li>
-    <li><strong>Integrate course resources</strong> from national medical institutions</li>
-    <li>Provide <strong>multi-language</strong> switch for the website</li>
-    <li>Provide course <strong>classification and filtering functions</strong></li>
-    <li>Provide <strong>individual and group application functions</strong> for courses</li>
-    <li>Allow participants to view the <strong>application review results</strong></li>
-    <li>Students can <strong>consult</strong> with the course provider online</li>
-  </ol>
+  <div class="grid grid-cols-1 gap-1.5 tracking-wide">
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        1. Establish a<span class="text-blue-400 underline underline-offset-4 "> registration system</span>that includes authentication
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        2. <span class="text-blue-400 underline underline-offset-4 ">Integrate course resources</span> from national medical institutions
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        3. Provide<span class="text-blue-400 underline underline-offset-4 "> multi-language</span> switch for the website
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        4. Provide course<span class="text-blue-400 underline underline-offset-4 "> classification and filtering functions</span>
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        5. Provide<span class="text-blue-400 underline underline-offset-4 "> individual and group application functions</span> for courses
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        6. Allow participants to view the<span class="text-blue-400 underline underline-offset-4 "> application review results</span>
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        7. Students can<span class="text-blue-400 underline underline-offset-4 "> consult</span> with the course provider online
+      </p>
+    </div>
+  </div>
 </div>
 
 <!--
@@ -570,15 +598,43 @@ layout: full
 
 <div class="grid items-center h-full grid-cols-2 p-14"> 
   <p class="text-6xl font-black">Solution</p>
-  <ol class="text-sm list-decimal">
-    <li>Design a document upload and <strong>automatic verification</strong> system</li>
-    <li>Provide course information and <strong>filtering functions</strong></li>
-    <li>Display course training <strong>evaluation results</strong></li>
-    <li>Establish a <strong>multilingual</strong> frameworks</li>
-    <li>Create a <strong>dual application mode</strong> with dynamic forms</li>
-    <li>Develop a application <strong>status tracking</strong> feature</li>
-    <li>Build an <strong>online consultation system</strong> to provide real-time assistance</li>
-  </ol>
+  <div class="grid grid-cols-1 gap-1.5 tracking-wide">
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  Design a document upload and<span class="text-blue-400 underline underline-offset-4 "> automatic verification</span> system
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  <span class="text-blue-400 underline underline-offset-4 ">Provide course information and</span> filtering functions
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  Display course training<span class="text-blue-400 underline underline-offset-4 "> evaluation results</span>
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  Establish a<span class="text-blue-400 underline underline-offset-4 "> multilingual</span> frameworks
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  Create a<span class="text-blue-400 underline underline-offset-4 "> dual application mode</span> with dynamic forms
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  Develop a application<span class="text-blue-400 underline underline-offset-4 "> status tracking</span> feature
+      </p>
+    </div>
+    <div class="px-4 rounded-lg bg-blue-50">
+      <p class="text-xs tracking-wide">
+        ✅  Build an<span class="text-blue-400 underline underline-offset-4 "> online consultation system</span> to provide real-time assistance
+      </p>
+    </div>
+  </div>
 </div>
 
 <!--
@@ -671,9 +727,9 @@ layout: full
         Target Audience-Oriented
         <br>
         <span>
-          <ul class="text-gray-500">
-            <li>Courses categorized by professional fields.</li>
-            <li>The color selection is composed of stable and medical tones.</li>
+          <ul class="text-gray-400">
+            <li>Courses categorized by <span class="text-blue-300 underline underline-offset-4 ">professional fields</span>.</li>
+            <li>The color selection is composed of stable and <span class="text-blue-300 underline underline-offset-4 ">medical</span> tones.</li>
           </ul>
         </span>
       </li>
@@ -681,7 +737,7 @@ layout: full
         Enhancing User Experience
         <br>
         <span>
-          <ul class="text-gray-500">
+          <ul class="text-gray-400">
             <li>Provide custom search and filter options.</li>
             <li>A application process that is easy to complete.</li>
             <li>Convenient visibility of the review status.</li>
@@ -745,14 +801,14 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between h-full p-14"> 
+<div class="flex flex-col h-full p-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Competitive Analysis</p>
+    <p class="text-xl font-black text-blue-400">Competitive Analysis</p>
     <p class="text-sm">
-      I researched products on the market with similar course application features but did not find a suitable example.
+      I researched products on the market with similar course application features but did not find a suitable example.<br> We found the functions in this project to be very <span class="text-blue-300 underline underline-offset-4 ">creative</span>, which makes it a <span class="text-blue-300 underline underline-offset-4 ">challenge</span> for our team.
     </p>
   </div>
-  <div class="grid grid-cols-3 gap-y-6 gap-x-32">
+  <div class="grid grid-cols-3 mt-6 gap-y-6 gap-x-32">
     <div class="space-y-3 text-center">
       <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
         <img
@@ -947,7 +1003,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Variable<br><br>Settings</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       The project is developed using <span v-mark.circle.orange>Tailwind</span>. 
       <br>
       <br>
@@ -980,11 +1036,8 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Variable<br><br>Settings</p>
-    <p class="text-xs text-gray-500">
-      The project is developed using Tailwind. 
-      <br>
-      <br>
-      I set up the variables in the files, allowing engineers to directly view the relevant class settings during development.
+    <p class="text-xs text-gray-500 ">
+      You can click directly on the component in the interface to view the related values and variable names.
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
@@ -1013,8 +1066,8 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>i18n<br><br>Settings</p>
-    <p class="text-xs text-gray-500">
-      I set up multilingual variables, allowing for direct switching and viewing in the files during development.
+    <p class="text-xs text-gray-500 ">
+      I’ve set up multilingual variables and organized them by component/page.
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
@@ -1043,8 +1096,8 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>i18n<br><br>Settings</p>
-    <p class="text-xs text-gray-500">
-      I set up multilingual variables, allowing for direct switching and viewing in the files during development.
+    <p class="text-xs text-gray-500 ">
+      In the development process, switching views within the file with a single click helps improve efficiency.
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-gray-200">
@@ -1071,7 +1124,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Figma<br><br>Design<br><br>Files</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       I defined the design system and components in the file, including their usage scenarios and states.
     </p>
   </div>
@@ -1099,7 +1152,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Figma<br><br>Design<br><br>Files</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       I showcased the dimensions of different pages in the files and defined various scenarios and workflows.
     </p>
   </div>
@@ -1127,7 +1180,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">04</span><br><br>Storybook</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       I used Storybook as a platform for visual guidelines and component demonstrations, assisting the development team in referencing concrete design standards during implementation.
     </p>
   </div>
@@ -1218,8 +1271,8 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
-    <p class="text-xs text-gray-500">
-      Use <span v-mark.underline.orange>dynamic switching</span> to toggle between different forms, catering to different user registrations while maintaining a unified design and reducing additional development efforts.
+    <p class="text-xs text-gray-500 ">
+      Use <span v-mark.underline.orange>dynamic switching</span> to toggle between different forms, catering to different user registrations while maintaining a <span v-mark.underline.orange>unified design</span> and reducing additional development efforts.
     </p>
   </div>
   <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-gray-200">
@@ -1250,7 +1303,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Dynamically display fields based on different options.
     </p>
   </div>
@@ -1287,7 +1340,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Integrate API data to enable real-time validation, reducing manual review time.
     </p>
   </div>
@@ -1317,7 +1370,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">02</span><br><br>Course<br><br>Categories</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Provide a collapsible filter that allows filtering by different criteria.
       <br>
       <br>
@@ -1347,11 +1400,11 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-2">
       <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">03</span><br><br>Course<br><br>Page</p>
-      <p class="text-xl font-black text-blue-500">Key Design</p>
+      <span class="px-3 py-2 text-xs font-black text-white bg-blue-500 rounded-full w-fit">⭐️ Key Design</span>
     </div>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Users can instantly switch between information for easy and quick content search.
     </p>
   </div>
@@ -1380,15 +1433,11 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <div class="flex flex-col">
-      <span class="mb-2 text-4xl font-extrabold text-blue-300">04</span>
-      <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
-        Personal
-      </span>
-      <p class="text-4xl font-black">Course<br><br>Application</p>
-      <p class="text-xl font-black text-blue-500">Key Design</p>
+    <div class="flex flex-col gap-2">
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">04</span><br><br><span class="underline underline-offset-4 decoration-dashed decoration-2 decoration-blue-300">Personal</span><br><br>Course<br><br>Application</p>
+      <span class="px-3 py-2 text-xs font-black text-white bg-blue-500 rounded-full w-fit">⭐️ Key Design</span>
     </div>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Displays the application stage with a <span v-mark.underline.orange>progress bar</span>, dividing the steps to avoid a lengthy filling process.
     </p>
   </div>
@@ -1415,15 +1464,11 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <div class="flex flex-col">
-      <span class="mb-2 text-4xl font-extrabold text-blue-300">04</span>
-      <span class="px-2 py-1 text-xs text-white bg-gray-400 rounded-full w-fit">
-        Group
-      </span>
-      <p class="text-4xl font-black">Course<br><br>Application</p>
-      <p class="text-xl font-black text-blue-500">Key Design</p>
+    <div class="flex flex-col gap-2">
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">04</span><br><br><span class="underline underline-offset-4 decoration-dashed decoration-2 decoration-blue-300">Group</span><br><br>Course<br><br>Application</p>
+      <span class="px-3 py-2 text-xs font-black text-white bg-blue-500 rounded-full w-fit">⭐️ Key Design</span>
     </div>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Dynamically adjust the fields to a group application mode based on the <span v-mark.underline.orange>number</span> of selected courses.
     </p>
   </div>
@@ -1453,7 +1498,7 @@ layout: full
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">05</span><br><br>Apply<br><br>Review<br><br>Progress</p>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       Students can switch between different statuses to view the approval progress of their applied courses. Clicking on the card will display detailed information.
     </p>
   </div>
@@ -1484,11 +1529,11 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <div class="flex flex-col">
+    <div class="flex flex-col gap-2">
       <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">06</span><br><br>Online<br><br>Consult</p>
-      <p class="text-xl font-black text-blue-500">Key Design</p>
+      <span class="px-3 py-2 text-xs font-black text-white bg-blue-500 rounded-full w-fit">⭐️ Key Design</span>
     </div>
-    <p class="text-xs text-gray-500">
+    <p class="text-xs text-gray-500 ">
       We provide an online consultation system, allowing students to instantly contact the course organizers to address related issues.
     </p>
   </div>
@@ -1550,9 +1595,9 @@ layout: full
 
 <div class="flex flex-col h-full py-8 px-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Funnel Analysis (Member Registration)</p>
+    <p class="text-xl font-black text-blue-400">Funnel Analysis (Member Registration)</p>
     <p class="text-sm">
-      Out of 124 users who visited the registration page, 94 successfully completed the sign-up process, resulting in a 76% conversion rate. The most significant drop-off occurred at the “Fill in Form Fields” stage, where 10 users exited the process. This indicates potential friction due to form complexity or user hesitation. Further improvements to form design and field clarity could help optimize the completion rate.
+      Out of 124 users who visited the registration page, 94 successfully completed the sign-up process, resulting in a 76% conversion rate. <br><span class="text-blue-300 underline underline-offset-4 ">The most significant drop-off occurred at the “Fill in Form Fields” stage</span>, where 10 users exited the process. This indicates potential friction due to <span class="text-blue-300 underline underline-offset-4 ">form complexity or user hesitation</span>. Further improvements to form design and field clarity could help optimize the completion rate.
     </p>
   </div>
   <div class="mx-auto mt-6 overflow-hidden border border-gray-300 w-2xl rounded-xl">
@@ -1645,11 +1690,11 @@ layout: full
 
 <div class="flex flex-col h-full py-8 px-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Funnel Analysis (Course Application)</p>
+    <p class="text-xl font-black text-blue-400">Funnel Analysis (Course Application)</p>
     <p class="text-sm">
       This funnel analysis compares user behavior between the "Before Optimization" and "After Optimization" course application processes.
       <br>
-      By splitting the registration into multiple steps and adding a save-draft feature, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 48.6% to 75%.
+      By <span class="text-blue-300 underline underline-offset-4 ">splitting the registration into multiple steps</span>, user drop-off during the form-filling stage was significantly reduced, resulting in an increase in final registration completion rate from 48.6% to 75%.
     </p>
   </div>
    <ToggleTable />
@@ -1675,9 +1720,9 @@ layout: full
 
 <div class="flex flex-col h-full py-8 px-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Funnel Analysis (Course Application)</p>
+    <p class="text-xl font-black text-blue-400">Funnel Analysis (Course Application)</p>
     <p class="text-sm">
-      Segmented analysis shows that the final completion rate for users who utilized the save progress feature was 90.2%, which is higher than that of users who did not use the feature. This indicates that the save progress function significantly enhances users’ willingness and experience in completing the registration process.
+      Segmented analysis shows that the final completion rate for users who utilized the save progress feature was 90.2%, which is higher than that of users who did not use the feature. This indicates that <span class="text-blue-300 underline underline-offset-4 ">the save-draft progress function significantly enhances users’ willingness and experience in completing the registration process</span>.
     </p>
   </div>
   <div class="mt-4">
@@ -1766,7 +1811,7 @@ layout: full
     </div>
   </div>
   <p class="text-sm">
-      Overall, splitting the process into steps and providing a save-draft function are key optimization strategies for increasing registration conversion rates.
+      Overall, <span class="text-blue-300 underline underline-offset-4 ">splitting the process into steps and providing a save-draft function</span> are key optimization strategies for increasing registration conversion rates.
     </p>
 </div>
 
