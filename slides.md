@@ -82,6 +82,7 @@ layout: full
 transition: slide-up
 class: p-0
 layout: full
+hide: true
 ---
 
 <div class="flex flex-col h-full gap-24 px-24 text-center py-14">
@@ -164,7 +165,7 @@ layout: full
     <div class="flex flex-col items-center">
       <img
         ref="image"
-        src="https://img.notionusercontent.com/s3/prod-files-secure%2F6e9d863e-7448-4199-b334-811afe339f3b%2F33e08b92-d96a-44a2-898f-4bc4a6bd3d91%2Fimage.png/size/w=2000?exp=1752198725&sig=Jg2XF6HdScXVWV-qFBe1TRWI35HyPK9OV83wu_zFcYU&id=22c74826-7cda-80ef-82d1-c303d7833c5b&table=block&userId=9c6f028c-5864-479b-ad08-69b0e1456b3a"
+        src="https://i.meee.com.tw/SYdgcm7.png"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
       <p>
@@ -232,7 +233,7 @@ layout: full
     </div>
     <div>
       <p class="pb-8 text-6xl font-black">Healthcare<br><br><br>Academy</p>
-      <p class="text-base tracking-wider">
+      <p class="text-base tracking-wider text-gray-400">
         Taiwan International Medical Education
       </p>
     </div>
@@ -281,11 +282,11 @@ layout: full
 <div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
   <p class="text-6xl font-black">Agenda</p>
   <ol class="list-decimal text-md">
-    <li><a href="6" class="transition-colors duration-200">Background</a></li>
-    <li><a href="12" class="transition-colors duration-200">Research & Define</a></li>
-    <li><a href="17" class="transition-colors duration-200">Design System</a></li>
-    <li><a href="25" class="transition-colors duration-200">Feature Demo</a></li>
-    <li><a href="35" class="transition-colors duration-200">Data Analyst</a></li>
+    <li><a href="7" class="transition-colors duration-200">Background</a></li>
+    <li><a href="13" class="transition-colors duration-200">Research & Define</a></li>
+    <li><a href="18" class="transition-colors duration-200">Design System</a></li>
+    <li><a href="26" class="transition-colors duration-200">Feature Demo</a></li>
+    <li><a href="36" class="transition-colors duration-200">Data Analyst</a></li>
   </ol>
   <!-- Circle -->
   <div 
@@ -340,7 +341,7 @@ layout: full
 
 <div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black text-blue-400">Background</p>
+    <p class="text-2xl font-black text-blue-400">Background</p>
     <p class="text-sm">
       This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for <span class="text-blue-300 underline underline-offset-4 ">foreign medical professionals</span>. It also offers more complete training information and application services through the platform.
     </p>
@@ -404,7 +405,7 @@ layout: full
 
 <div class="flex flex-col justify-between h-full p-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black text-blue-400">Design Flow</p>
+    <p class="text-2xl font-black text-blue-400">Design Flow</p>
     <p class="text-sm">
       In this project, I focused on designing the overall <span class="text-blue-300 underline underline-offset-4 ">website architecture</span> to ensure users could <span class="text-blue-300 underline underline-offset-4 ">browse courses and complete the application process</span>. My primary responsibility was to plan an online course application system that is user-friendly and allows users to verify their application results. 
       <br>
@@ -462,11 +463,11 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between h-full p-14"> 
-  <p class="text-xl font-black">
+<div class="flex flex-col h-full p-14"> 
+  <p class="text-2xl font-black">
   ☹️ User Pain Point
   </p>
-  <div class="grid grid-cols-3 gap-6">
+  <div class="grid grid-cols-3 gap-6 mt-4">
     <div class="px-4 py-1 bg-blue-100 rounded-2xl">
       <p class="px-2 py-1 text-sm font-black text-blue-400 bg-white rounded-md">1. Hospital publicity is weak</p>
       <p class="text-xs">
