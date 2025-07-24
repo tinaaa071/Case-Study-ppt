@@ -34,17 +34,29 @@ mdc: true
   />
   </div>
   <div class="w-full">
-    <p class="pb-6 text-2xl font-black">
+    <p class="text-2xl font-black">
       Hi teams! It's me,
     </p>
-    <p class="pb-12 text-6xl font-black">
+    <p class="pb-6 text-6xl font-black">
       Tina Chen
     </p>
-    <p class="tracking-wide text-gray-500 text-md">
+    <p class="pb-4 text-sm tracking-wide text-gray-500 ">
       A <span class="font-extrabold">UI/UX designer</span> with 3 years of experience, integrating diverse expertise in UX research and UI design, combined with software development and business administration to create impactful product designs.
     </p>
+    <div class="flex gap-3 text-xs tracking-wide ">
+      <p class="px-4 py-2 text-blue-400 bg-blue-100 rounded-full"># Passion Driven</p>
+      <p class="px-4 py-2 text-blue-400 bg-blue-100 rounded-full"># Curious-Minded</p>
+      <p class="px-4 py-2 text-blue-400 bg-blue-100 rounded-full"># Fast Learner</p>
+    </div>
   </div>
 </div>
+
+<style>
+  .slidev-layout p {
+    line-height: unset;
+    margin: 0;
+}
+</style>
 
 <!--
 Hi everyone, I’m Tina.
