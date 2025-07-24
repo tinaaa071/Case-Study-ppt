@@ -44,9 +44,9 @@ mdc: true
       A <span class="font-extrabold">UI/UX designer</span> with 3 years of experience, integrating diverse expertise in UX research and UI design, combined with software development and business administration to create impactful product designs.
     </p>
     <div class="flex gap-3 text-xs tracking-wide ">
-      <p class="px-4 py-2 text-blue-400 bg-blue-100 rounded-full"># Passion Driven</p>
-      <p class="px-4 py-2 text-blue-400 bg-blue-100 rounded-full"># Curious-Minded</p>
-      <p class="px-4 py-2 text-blue-400 bg-blue-100 rounded-full"># Fast Learner</p>
+      <p class="px-4 py-2 text-blue-400 rounded-full bg-blue-50"># Passion Driven</p>
+      <p class="px-4 py-2 text-blue-400 rounded-full bg-blue-50"># Curious-Minded</p>
+      <p class="px-4 py-2 text-blue-400 rounded-full bg-blue-50"># Fast Learner</p>
     </div>
   </div>
 </div>
@@ -84,9 +84,9 @@ Next, I’d like to share my work experience.
 
 Before becoming a UI/UX designer, I worked as a <span style="color:red;">**researcher and a PM**</span>. These roles helped me build skills in <span style="color:red;">**data analysis, market research, and cross-team communication**</span>.
 
-I’m now a UI/UX designer at UARK, where I work on end-to-end product design. 
+I’m now a UI/UX designer at UARK, where I work on <span style="color:red;">**end-to-end product design**</span>. 
 
-And I team up with engineers, PMs, and other departments to make sure our designs are not only user-friendly but also practical to build.
+And I team up with engineers, PMs, and other departments to make sure our designs are not only user-friendly but also <span style="color:red;">**practical to build**</span>.
 -->
 
 ---
@@ -388,7 +388,7 @@ layout: full
 </div>
 
 <!--
-This project main goal is to share Taiwan’s medical resources with international healthcare professionals and encourage learning and collaboration.
+This project main goal is to <span style="color:red;">**share Taiwan’s medical resources**</span> with <span style="color:red;">**international healthcare professionals and encourage learning and collaboration**</span>.
 
 The project includes both front-end and back-end design, but today I’ll focus on the front-end part.
 
@@ -452,7 +452,7 @@ layout: full
 </div>
 
 <!--
-Our goal was to create a website that feels intuitive and friendly, so users can easily browse courses and complete their registration.
+Our goal was to create a website that <span style="color:red;">**feels intuitive and friendly**</span>, so users can easily browse courses and complete their application.
 
 Our design process included user research, feature planning, and ongoing design iterations to keep improving the experience.
 -->
@@ -715,7 +715,7 @@ layout: full
   <p class="text-6xl font-black leading-loose">Research<br><br><br>&<br><br><br>Define</p>
   <div>
     <p>
-      After analyzing user needs and the functional architecture, I set 2 design directions for the project:
+      After analyzing user needs and the information architecture, I set 2 design directions for the project:
     </p>
     <ol class="text-sm list-decimal">
       <li>
@@ -746,7 +746,7 @@ layout: full
 <!--
 After analyzing user needs, I set two key design directions.
 
-The first is audience-focused:
+The first is <span style="color:red;">**audience-oriented**</span>:
 
 a. Make sure courses are categorized by professional fields.
 
@@ -754,13 +754,13 @@ b. Choose colors that convey professionalism and trust.
 
 ***
 
-The second focuses on user experience, especially the workflow, like:
+The second focuses on <span style="color:red;">**user experience, especially the user flow**</span>, like:
 
 a. Provide customizable search and filter options for courses.
 
 b. Keep the application process simple.
 
-c. Show clear course review status.
+c. Clearly display course information.
 -->
 
 ---
@@ -911,9 +911,9 @@ layout: full
 <!--
 Here’s the user flow, using the course application process as an example.
 
-In this flow, we used a dynamic layout system that adapts depending on whether the user is registering as an individual or a group.
+In this flow, we used a <span style="color:red;">**dynamic layout system**</span> that adapts depending on whether the <span style="color:red;">**user is registering as an individual or a group**</span>.
 
-If the number of participants is more than one, the system will automatically switch to the group registration layout.
+If the number of participants is more than one, the system will automatically switch to the group application layout.
 -->
 
 ---
@@ -955,7 +955,7 @@ const final = {
 </script>
 
 <!--
-For the design system, I defined a few key areas to help our team stay consistent, like:
+For our design system, I defined some key areas to help our team stay consistent, like:
 1. Variable settings
 2. Multilingual settings
 3. Figma design files
@@ -990,7 +990,7 @@ layout: full
 </div>
 
 <!--
-For variable settings, since our project uses Tailwind CSS, I included related variables directly in the design.
+For <span style="color:red;">**variable settings**</span>, since our project uses Tailwind CSS, I quoted their values in our settings.
 
 Like spacing, border radius, and more to keep the design consistent.
 -->
@@ -1018,7 +1018,7 @@ layout: full
 </div>
 
 <!--
-The variables we defined show up directly on the components, making it easy for developers to reference them quickly.
+The variables we defined show up directly on the components, making it easy for developers to check them quickly.
 -->
 
 ---
@@ -1072,9 +1072,9 @@ layout: full
 </div>
 
 <!--
-As you can see in the video, we can switch languages directly from the design panel.
+In the video, we can switch languages directly from the design panel.
 
-It makes it easy for developers to reference the styles for each language.
+It makes it easy for developers to check the styles for each language.
 -->
 
 ---
@@ -1098,6 +1098,14 @@ layout: full
     />
   </div>
 </div>
+
+<!--
+I also created a Figma Library file where we defined a complete design system and various components.
+
+Each component is labeled with its use case, states, and details.
+
+<!-- Having this design system helps improve efficiency, especially when updating large files. -->
+-->
 
 <!--
 I also created a Figma Library file where we defined a complete design system and various components.
@@ -1130,7 +1138,7 @@ layout: full
 </div>
 
 <!--
-I organized the pages by different use cases and arranged them according to the user flow.
+I organized the pages by different use cases.
 
 In addition, I presented responsive designs to show how each page looks on different devices.
 -->
@@ -1170,7 +1178,7 @@ layout: full
 <!--
 In this project, I also used Storybook to manage components.
 
-Storybook really improves collaboration between designers and developers, making sure design and development stay consistent.
+It improves collaboration between designers and developers, making sure design and development stay consistent.
 
 For example, in the interface, we can copy styles directly, input data to see more detailed settings, and check the code used by components.
 
@@ -1186,7 +1194,7 @@ layout: full
 <div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
   <p class="text-6xl font-black">Feature<br><br><br>Demo</p>
   <ul class="text-sm">
-    <li>Signup</li>
+    <li>Sign Up</li>
     <li>Course Categories</li>
     <li>Course Page</li>
     <li>Course Application</li>
@@ -1237,7 +1245,7 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Sign Up</p>
     <p class="text-xs text-gray-500 ">
       Use <span v-mark.underline.orange>dynamic switching</span> to toggle between different forms, catering to different user registrations while maintaining a <span v-mark.underline.orange>unified design</span> and reducing additional development efforts.
     </p>
@@ -1253,7 +1261,7 @@ layout: full
 </div>
 
 <!--
-On the registration page, we use dynamic switching to adapt to different user types: general users and course providers.
+On the sign up page, we use dynamic switching to adapt to different user types: general users and course providers.
 
 This approach keeps the design consistent and helps reduce development costs.
 
@@ -1270,7 +1278,7 @@ hide: true
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Sign Up</p>
     <p class="text-xs text-gray-500 ">
       Dynamically display fields based on different options.
     </p>
@@ -1307,7 +1315,7 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Signup</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300">01</span><br><br>Sign Up</p>
     <p class="text-xs text-gray-500 ">
       Integrate API data to enable real-time validation, reducing manual review time.
     </p>
@@ -1325,7 +1333,7 @@ layout: full
 <!--
 With API data integration, the system can verify information in real time and show error messages.
 
-This helps users quickly fix issues and reduces the need for manual review.
+This helps users quickly fix issues.
 -->
 
 ---
@@ -1385,9 +1393,9 @@ layout: full
 </div>
 
 <!--
-On the course detail page, since there’s a lot of information, we divided the content into different sections.
+On the course page, since there’s a lot of information, we divided the content into different sections.
 
-We also added tabs so users can quickly jump to the parts they want, without scrolling through everything.
+We also added tabs so users can quickly jump to the parts they want.
 
 On the right side, there’s a fixed card, so users can take action anytime while browsing.
 -->
@@ -1418,9 +1426,9 @@ layout: full
 </div>
 
 <!--
-For the course application, I designed a progress bar to show the steps, so users always know how many steps are left.
+For the course application, I designed a progress bar to show the steps, so users can know how many steps are left.
 
-And the registration system is dynamic — it switches between individual and group registration templates depending on the number of people.
+And the application system can switches between individual and group registration templates depending on the number of people.
 -->
 
 ---
@@ -1449,7 +1457,7 @@ layout: full
 </div>
 
 <!--
-When adding members in group registration, we use a drawer-style panel that slides in from the right, allowing users to view and fill out member information efficiently
+When adding members in group registration, we use a drawer-style panel that slides in from the right, allowing users to view and fill in member information at the same time.
 -->
 
 ---
@@ -1475,7 +1483,7 @@ layout: full
 </div>
 
 <!--
-After completing registration, students can check their application status in the member center.
+After completing application, students can check their application status in the member center.
 
 By clicking on a course card, they can see detailed information about that course.
 -->
@@ -1506,9 +1514,7 @@ layout: full
 </div>
 
 <!--
-For the online consultation feature, users can see a list of all course providers they’ve talked to, and the system also supports file uploads.
-
-This ensures students get the resources and help they need in real time.
+The online consultation feature helps students get the support and resources they need in real time.
 -->
 
 ---
@@ -1559,7 +1565,7 @@ layout: full
 
 <div class="flex flex-col h-full py-8 px-14"> 
   <div class="space-y-2">
-    <p class="text-xl font-black text-blue-400">Funnel Analysis (Member Registration)</p>
+    <p class="text-xl font-black text-blue-400">Funnel Analysis (Sign Up)</p>
     <p class="text-sm">
       Out of 124 users who visited the registration page, 94 successfully completed the sign-up process, resulting in a 76% conversion rate. <br><span class="text-blue-300 underline underline-offset-4 ">The most significant drop-off occurred at the “Fill in Form Fields” stage</span>, where 10 users exited the process. This indicates potential friction due to <span class="text-blue-300 underline underline-offset-4 ">form complexity or user hesitation</span>. Further improvements to form design and field clarity could help optimize the completion rate.
     </p>
@@ -1639,7 +1645,7 @@ layout: full
 </div>
 
 <!--
-We used funnel analysis for the member registration feature.
+We used <span style="color:red;">**funnel analysis**</span> for the sign up feature.
 Out of 124 users who visited the registration page, 94 completed the signup, resulting in a 76% conversion rate.
 
 The biggest drop-off happened at the form filling stage, where 10 users left halfway.
@@ -1674,7 +1680,7 @@ layout: full
 </style>
 
 <!--
-On the course registration page, we compared user behavior before and after optimization.
+On the course application page, we compared user behavior before and after optimization.
 
 After splitting the registration into multiple steps, we significantly reduced drop-offs during the form-filling stage.
 As a result, the completion rate increased from 48.6% to 75%.
