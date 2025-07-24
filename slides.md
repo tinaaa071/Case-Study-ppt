@@ -451,7 +451,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full p-14"> 
+<div class="flex flex-col h-full py-8 px-14"> 
   <p class="text-2xl font-black">
   ☹️ User Pain Point
   </p>
