@@ -30,29 +30,28 @@ mdc: true
     <img
     ref="image"
     src="https://i.imgur.com/XiOOKB4.jpeg"
-    class="object-cover object-top shadow-lg  rounded-[64px] aspect-square"
+    class="object-cover object-top shadow-lg  rounded-[32px] aspect-[3/4]"
   />
   </div>
   <div class="w-full">
-    <p class="text-lg font-black">
-      I am a UI/UX designer with 3 years of experience and a background in Business Administration.
+    <p class="pb-6 text-2xl font-black">
+      Hi teams! It's me,
     </p>
-    <ul class="text-sm">
-      <li>Passion-Driven</li>
-      <li>Curious-Minded</li>
-      <li>Quick Learner</li>
-    </ul>
+    <p class="pb-12 text-6xl font-black">
+      Tina Chen
+    </p>
+    <p class="tracking-wide text-gray-500 text-md">
+      A <span class="font-extrabold">UI/UX designer</span> with 3 years of experience, integrating diverse expertise in UX research and UI design, combined with software development and business administration to create impactful product designs.
+    </p>
   </div>
 </div>
 
 <!--
-大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，並具備<span style="color:red;">***企業管理碩士學位***</span>。
+Hi everyone, I’m Tina.
 
-在這段經歷中，我培養了一些<span style="color:red;">***人格特質***</span>，讓我能夠<span style="color:red;">***勝任這份工作並為團隊創造價值***</span>：
+I’m a UI/UX designer with 3 years of experience, and I also have a Master’s degree in Business Administration.
 
-1. 熱情驅動 – 對設計的熱愛讓我持續精進，投入每個專案都全力以赴。
-2. 充滿好奇心 – 我樂於探索<span style="color:red;">***新技術與趨勢***</span>，並會將<span style="color:red;">***創新思維***</span>應用於設計中。
-3. 快速學習能力 – 能迅速<span style="color:red;">***掌握新工具與技能***</span>，應對多變的專案需求。
+I focus on creating designs that are not only user-friendly but also enjoyable to interact with.
 -->
 
 ---
@@ -69,13 +68,13 @@ layout: full
 </div>
 
 <!--
-接下來，我想與大家分享我的工作經歷。
+Next, I’d like to share my work experience.
 
-我曾在「中經院」擔任研究員，這段經歷讓我培養了<span style="color:red;">***資料分析與市場洞察的能力***</span>。同年，我也在 TCA 擔任 PM，負責行動支付的專案管理，與 Line Pay、街口支付等業者合作，進一步提升了我<span style="color:red;">***跨部門溝通的能力***</span>。
+Before becoming a UI/UX designer, I worked as a <span style="color:red;">**researcher and a PM**</span>. These roles helped me build skills in <span style="color:red;">**data analysis, market research, and cross-team communication**</span>.
 
-後續職涯中，我轉職成為 UI/UX 設計師，目前於「諾亞克科技」任職，在這個職位中，我更專注於<span style="color:red;">***跨團隊協作與大型專案的執行***</span>。
+I’m now a UI/UX designer at UARK, where I work on end-to-end product design. 
 
-這些多元的經歷，豐富了我的專業能力，也讓我能夠以更全面的角度理解<span style="color:red;">***使用者需求***</span>與<span style="color:red;">***產品開發流程***</span>。
+And I team up with engineers, PMs, and other departments to make sure our designs are not only user-friendly but also practical to build.
 -->
 
 ---
@@ -206,12 +205,11 @@ layout: full
 </style>
 
 <!--
-在我的個人生活中，我喜歡旅行、看影集和打電動。
+In my leisure time, I enjoy traveling, watching movies, and learning new things.
 
-假日裡，我會去探索不同的咖啡廳，這也讓我開發了一個「咖啡廳尋店」的專案。
-主要目標是為了幫助用戶<span style="color:red;">***更快速找到適合的咖啡廳***</span>。
+I also built a Figma plugin on my own, and after releasing it, I was invited by the Adobe team for a possible collaboration. 
 
-此外，我獨自開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請。
+I’d be happy to share more about that later if we have time.
 -->
 
 ---
@@ -270,7 +268,7 @@ const final = {
 </script>
 
 <!--
-接下來，我想與大家分享這次的專案——《海外醫事人員培訓平台》。
+Next, I will introduce our project – “Health Academy”.
 -->
 
 ---
@@ -322,15 +320,9 @@ const final = {
 </script>
 
 <!--
-這是今天的議程，我將帶領大家了解這項專案的設計歷程。
+Here’s today’s agenda. 
 
-1. 從「專案背景」開始，了解這個專案的<span style="color:red;">***需求與動機***</span>。
-
-2. 接著，在「研究定義階段」的<span style="color:red;">***重點發現與專案目標***</span>。
-
-3. 之後，我將介紹我們的「設計系統」。
-
-4. 最後，透過一些「功能演示」來展示這項專案的成果。
+I’ll walk through the design process of this project.
 -->
 
 ---
@@ -384,17 +376,13 @@ layout: full
 </div>
 
 <!--
-這項專案由隸屬於衛福部的「醫策會」委託，主要目的是為了<span style="color:red;">***提供台灣醫療資源給海外醫療專業人員，促進彼此間的學習交流***</span>。
+This project main goal is to share Taiwan’s medical resources with international healthcare professionals and encourage learning and collaboration.
 
-專案涵蓋前台與後台的設計規劃，今天我將專注於分享前台的設計部分。
+The project includes both front-end and back-end design, but today I’ll focus on the front-end part.
 
-***
+In this project, I worked as the UI/UX designer.
 
-在這個專案中，我擔任 UI/UX 設計師，負責<span style="color:red;">***功能規劃與介面設計***</span>的工作。
-
-我與跨領域的團隊密切合作，包括專案經理、系統分析師與工程師。
-
-此專案自 2023 年 10 月啟動至今，已歷經一年多的開發歷程，並將持續迭代改進。
+I closely collaborated with a cross-functional team — including the project manager, system analyst, and engineers.
 -->
 
 ---
@@ -452,9 +440,9 @@ layout: full
 </div>
 
 <!--
-我們深入研究<span style="color:red;">***用戶需求***</span>，專注打造<span style="color:red;">***直覺且友善***</span>的網站，確保使用者能輕鬆瀏覽課程並順利完成報名。
+Our goal was to create a website that feels intuitive and friendly, so users can easily browse courses and complete their registration.
 
-我們的設計流程，包含了<span style="color:red;">***用戶研究到功能設計***</span>，以及後續的設計迭代。
+Our design process included user research, feature planning, and ongoing design iterations to keep improving the experience.
 -->
 
 ---
@@ -502,35 +490,27 @@ layout: full
 </div>
 
 <!--
-在研究過程中，我們發現了幾個使用者痛點。
+Through user feedback and interviews, we identified several key pain points for users:
 
-**1. 許多醫院在宣傳上薄弱。**
+<span style="color:red;">**1. Hospital publicity is weak**</span>
 
-儘管台灣的醫院在醫療資源都非常完備，但在宣傳與推廣方面卻較為低調，造成<span style="color:red;">***參與者對課程的了解不足***</span>。
+Although Taiwan’s hospitals offer strong medical resources, they often keep a low profile in promotion. As a result, users don’t get enough information about the available courses.
 
-***
+<span style="color:red;">**2. Lack of clear training information**</span>
 
-**2.培訓資訊不足。**
+The information is scattered and unclear. Users find it hard to understand the course details and application process, which affects their willingness to participate.
 
-資訊混雜，使用者難以理解相關<span style="color:red;">***課程內容及申請流程***</span>，進而影響他們的參與意願。
+<span style="color:red;">**3. No feedback or reviews from past courses**</span>
 
-***
+Overseas professionals have difficulty finding course results or participant feedback. This makes it hard for them to choose the right training program.
 
-**3. 缺乏課程培訓成果與評價。**
+<span style="color:red;">**4. Repeated document submission**</span>
 
-海外醫療人員很難獲取相關課程的<span style="color:red;">***回饋***</span>，這使得他們在<span style="color:red;">***尋找適合課程***</span>時遇到困難。
+Users often need to submit many documents, especially for professional qualification checks. The process is time-consuming and frustrating, which lowers their motivation to apply.
 
-***
+<span style="color:red;">**5. Need for personalized training plans**</span>
 
-**4. 文件重新提交的問題。**
-
-使用者在報名過程中常常需要<span style="color:red;">***提交各種資料***</span>，這個過程既耗時又費力，尤其是專業醫療人員的資格審核也相對嚴格，過程不順利會影響他們的報名意願。
-
-***
-
-**5. 客製化的培訓計劃。**
-
-醫療人員的進修常常會需要<span style="color:red;">***特定的課程規劃***</span>，以幫助他們有效地達成學習目標。
+Medical professionals usually look for specific course plans to meet their learning goals, but current options don’t support this level of customization.
 -->
 
 ---
@@ -581,20 +561,21 @@ layout: full
 </div>
 
 <!--
-我們的目標：
-1. 建立一個包含<span style="color:red;">***身份驗證***</span>的註冊系統。
-2. <span style="color:red;">***整合***</span>全國醫療機構的課程資源。
-3. 提供網站的<span style="color:red;">***多語言切換***</span>功能，確保不同語言使用者的可訪問性。
-4. 提供課程<span style="color:red;">***分類與過濾***</span>功能，幫助使用者輕鬆找到相關課程。
-5. 提供<span style="color:red;">***個人和團體報名***</span>功能，滿足不同學習者的需求。
-6. 讓參與者查看<span style="color:red;">***報名審核結果***</span>。
-7. 學生可以在線上進行<span style="color:red;">***諮詢***</span>，獲得支援與指導。
+Here are some goals of this project, like:
+1. Build a registration system with identity verification.
+2. Integrate course resources from medical institutions across Taiwan.
+3. Provide a multilingual website, so users from different regions can access it easily.
+4. Offer course categories and filters to help users quickly find what they need.
+5. Support both individual and group registration, to meet different learning needs.
+6. Allow users to track their application status after signing up.
+7. Enable online consultation, so students can get support and guidance when needed.
 -->
 
 ---
 transition: slide-up
 class: p-0
 layout: full
+hide: true
 ---
 
 <div class="grid items-center h-full grid-cols-2 p-14"> 
@@ -639,20 +620,21 @@ layout: full
 </div>
 
 <!--
-有了用戶**痛點**和**目標**後，我們提出了解決方案：
-1. 在身份驗證功能上，設計<span style="color:red;">***自動驗證系統***</span>，提升效率。
-2. 提供課程資訊與<span style="color:red;">***篩選功能***</span>，幫助使用者輕鬆找到符合需求的課程。
-3. 顯示課程培訓<span style="color:red;">***回饋結果***</span>，讓使用者能夠清楚了解課程評價。
-4. 建立<span style="color:red;">***多語言框架***</span>，使平台能夠服務來自不同國家的使用者。
-5. 創建<span style="color:red;">***雙重報名模式***</span>，適應個人與團體報名需求。
-6. 開發<span style="color:red;">***報名狀態追蹤***</span>功能，讓使用者能隨時查看其報名進度與審核結果。
-7. 建立<span style="color:red;">***線上諮詢系統***</span>，提供即時的協助。
+Based on the user pain points and project goals, we came up with the following solutions:
+1. Designed an automated identity verification system to improve efficiency.
+2. Added course information and filtering tools to help users easily find what fits their needs.
+3. Displayed feedback and results from past training courses, so users can better understand course quality.
+4. Built a multilingual framework to support users from different countries.
+5. Created a dual registration mode to support both individual and group sign-ups.
+6. Developed a status tracking feature, so users can check their registration progress and approval results at any time.
+7. Set up an online consultation system to provide real-time help and support.
 -->
 
 ---
 transition: slide-left
 class: p-0
 layout: full
+hide: true
 ---
 
 <div class="grid items-center h-full grid-cols-2"> 
@@ -750,29 +732,30 @@ layout: full
 </div>
 
 <!--
-在深入分析<span style="color:red;">***使用者需求和功能架構***</span>後，我設定了兩個關鍵的設計方向。
+After analyzing user needs, I set two key design directions.
 
-1. 第一個方向是<span style="color:red;">***以目標受眾為導向***</span>
+The first is audience-focused:
 
-a. 確保課程根據**專業領域**進行分類
+a. Make sure courses are categorized by professional fields.
 
-b. 並在色彩選擇上使用**醫療相關的色調**，以增強專業性和信任感
+b. Choose colors that convey professionalism and trust.
 
 ***
 
-2. 第二個方向則<span style="color:red;">***強調使用者體驗***</span>，著重在<span style="color:red;">***功能流程***</span>的設計
+The second focuses on user experience, especially the workflow, like:
 
-a. 針對課程提供自訂搜尋和過濾選項
+a. Provide customizable search and filter options for courses.
 
-b. 簡便的註冊和報名流程
+b. Keep the application process simple.
 
-c. 清楚的課程審核狀態
+c. Show clear course review status.
 -->
 
 ---
 transition: slide-up
 class: p-0
 layout: full
+hide: true
 ---
 
 <div class="flex flex-col items-center h-full gap-16 text-center p-14"> 
@@ -874,32 +857,9 @@ layout: full
 </div>
 
 <!--
-在<span style="color:red;">***功能設計***</span>時，因為我們專案的時程較緊迫，我選擇對市場上幾個成熟的平台進行了深入研究。
+Since our timeline was tight, I focused on researching several well-established platforms to guide our feature design.
 
-我們的功能需求涵蓋<span style="color:red;">***個人及團體報名，以及不同角色的資格審核***</span>。
-
-***
-
-我研究了類似功能的平台包括 Hahow、Udemy、Coursera 和 Klook 等。
-
-1. Hahow
-提供了豐富的課程選擇，但它的報名系統主要偏重個人報名，且缺乏團體報名的功能，並且他們是針對線上課程運作的平台。
-
-2. Udemy 
-擁有廣泛的國際課程選擇，但同樣未針對團體報名做出專門設計，以及同樣是線上課程的平台。
-
-3. Future Learn 和 Coursera 
-提供了相對完善的學習平台和多樣化的課程，儘管它們有一定的報名功能，但在團體註冊的支持上不夠靈活，且整體的報名流程較為繁瑣。
-
-4. Techable 
-以科技與創新課程為主，支持部分報名功能，但缺少個人化與團體報名的選項，無法滿足多樣化需求。
-
-5. Klook 
-提供的是旅遊和體驗型課程，報名流程更偏向活動註冊，而非完整的學習管理，無法提供足夠的課程分類與報名選項。
-
-***
-
-雖然它們都是市場上成熟的產品，但都未能完全滿足我們專案的需求。這也讓我們發現，<span style="color:red;">***我們專案開發的功能是比較創新的***</span>，但也因為沒有前例的參考，這會是一個比較困難的挑戰。
+Our project needed to support both individual and group application, as well as qualification review — which made the requirements more complex.
 -->
 
 ---
@@ -918,9 +878,7 @@ layout: full
 </div>
 
 <!--
-在搜集了相關資訊後，我規劃了資訊架構，讓我們可以更瞭解<span style="color:red;">***彼此頁面及功能之間的關聯性***</span>。
-
-並且我也將<span style="color:red;">***相關的元件***</span>使用顏色做區分，在檢視上可以更加便利。
+I created the information architecture to map out how pages and features are connected.
 -->
 
 ---
@@ -939,13 +897,11 @@ layout: full
 </div>
 
 <!--
-接下來是使用者流程圖的說明，我以<span style="color:red;">***課程報名功能***</span>為範例。
+Here’s the user flow, using the course application process as an example.
 
-在這個過程中，我們設計了多個決策點，<span style="color:red;">***根據使用者的回應，提供他們選擇合適的選項***</span>。
+In this flow, we used a dynamic layout system that adapts depending on whether the user is registering as an individual or a group.
 
-並且針對報名功能採用<span style="color:red;">***動態適應設計***</span>，分為「個人及團體報名」。
-
-這個功能是指，在報名的流程中，會有兩套不同的版型，如何區分採用哪一套的版型，則是取決於課程報名的<span style="color:red;">***人數***</span>，若是報名人數大於 1，則會自動轉換為團體報名的模板。
+If the number of participants is more than one, the system will automatically switch to the group registration layout.
 -->
 
 ---
@@ -987,11 +943,11 @@ const final = {
 </script>
 
 <!--
-在設計系統上我定義了以下幾個項目，使我們的團隊可以<span style="color:red;">***保持一致的設計***</span>。
-1. 針對變數進行設置
-2. 多語言設定
-3. Figma 設計文件管理
-4. Storybook 文件管理
+For the design system, I defined a few key areas to help our team stay consistent, like:
+1. Variable settings
+2. Multilingual settings
+3. Figma design files
+4. Storybook management
 -->
 
 ---
@@ -1022,9 +978,9 @@ layout: full
 </div>
 
 <!--
-在變數設定的部分，我們專案使用 Tailwind 開發，所以我也將相關的變數直接納入設計中。
+For variable settings, since our project uses Tailwind CSS, I included related variables directly in the design.
 
-我們對各種變數進行了設定，包括間距、圓角等。
+Like spacing, border radius, and more to keep the design consistent.
 -->
 
 ---
@@ -1050,11 +1006,7 @@ layout: full
 </div>
 
 <!--
-有了剛剛的設定，已設定的變數會直接顯示在元件上，便於開發人員快速參考。
-
-側邊欄也會即時顯示<span style="color:red;">***變數名稱***</span>，如間距、圓角、顏色等。
-
-這樣不僅提高<span style="color:red;">***設計與開發的一致性***</span>，也大大提高了開發的效率。
+The variables we defined show up directly on the components, making it easy for developers to reference them quickly.
 -->
 
 ---
@@ -1082,9 +1034,7 @@ layout: full
 </div>
 
 <!--
-另外，我也設置了多語系變數，使得<span style="color:red;">***切換和查看不同語言的內容***</span>變得更加便捷。
-
-表格中展示了中英文的變數。
+I also set up multilingual variables to make switching and viewing content in different languages easier.
 -->
 
 ---
@@ -1110,9 +1060,9 @@ layout: full
 </div>
 
 <!--
-從影片中可以看到，在設計面板上，我們可以<span style="color:red;">***直接設定語系的切換***</span>，這樣畫面就能即時更新為不同語言版本。
+As you can see in the video, we can switch languages directly from the design panel.
 
-讓開發人員可以方便地<span style="color:red;">***參考各種語系的樣式***</span>。
+It makes it easy for developers to reference the styles for each language.
 -->
 
 ---
@@ -1138,9 +1088,11 @@ layout: full
 </div>
 
 <!--
-我製作了 Figma Library 檔案，定義了<span style="color:red;">***完整的「設計系統」以及各種「元件」***</span>，並標註了每個元件的使用情境、狀態與細節，這些元件依功能分類，方便查找。
+I also created a Figma Library file where we defined a complete design system and various components.
 
-設計系統能在<span style="color:red;">***大型文件更新***</span>時提升工作效率。
+Each component is labeled with its use case, states, and details.
+
+Having this design system helps improve efficiency, especially when updating large files.
 -->
 
 ---
@@ -1166,9 +1118,9 @@ layout: full
 </div>
 
 <!--
-我將<span style="color:red;">***不同使用情境的頁面***</span>進行了分類，並依照<span style="color:red;">***流程***</span>進行排序。
+I organized the pages by different use cases and arranged them according to the user flow.
 
-此外，我也展示了 RWD 畫面設計，呈現各個頁面在不同裝置下的呈現。
+In addition, I presented responsive designs to show how each page looks on different devices.
 -->
 
 ---
@@ -1204,11 +1156,13 @@ layout: full
 </style>
 
 <!--
-在此專案中，我也使用了 Storybook 管理元件。
+In this project, I also used Storybook to manage components.
 
-Storybook 加強了設計人員與開發人員之間的協作，確保設計與開發的一致性。
+Storybook really improves collaboration between designers and developers, making sure design and development stay consistent.
 
-像是在畫面中，我們可以直接複製樣式，或是直接在畫面上輸入資料查看更多細節的設定，以及<span style="color:red;">***參考元件使用的程式碼***</span>，讓我和工程團隊溝通更流暢。
+For example, in the interface, we can copy styles directly, input data to see more detailed settings, and check the code used by components.
+
+This makes communication with the engineering team much smoother.
 -->
 
 ---
@@ -1252,14 +1206,14 @@ const final = {
 </script>
 
 <!--
-接下來，我們將展示平台的主要功能：
+Next, I’ll show you the main features of the platform:
 
-1. 註冊
-2. 課程分類
-3. 課程頁面
-4. 課程報名
-5. 報名審核進度
-6. 線上諮詢
+1. Registration
+2. Course categories
+3. Course page
+4. Course application
+5. Application review progress
+6. Online consultation
 -->
 
 ---
@@ -1287,17 +1241,18 @@ layout: full
 </div>
 
 <!--
-註冊的頁面中，我們通過<span style="color:red;">***動態切換***</span>來適應<span style="color:red;">***不同的使用者類型***</span>，分為「一般使用者」及「開課單位」。
+On the registration page, we use dynamic switching to adapt to different user types: general users and course providers.
 
-這種方法不僅保持了<span style="color:red;">***設計的一致性***</span>，還<span style="color:red;">***減少了開發成本***</span>。
+This approach keeps the design consistent and helps reduce development costs.
 
-此外，用戶可以選擇使用 Google 或 Facebook 帳戶進行註冊，讓註冊過程更加便捷。
+Plus, users can register easily using their Google or Facebook accounts, making the sign-up process quicker and smoother.
 -->
 
 ---
 transition: slide-up
 class: p-0
 layout: full
+hide: true
 ---
 
 <div class="grid h-full grid-cols-4 gap-4">
@@ -1356,9 +1311,9 @@ layout: full
 </div>
 
 <!--
-由於註冊的人員多為<span style="color:red;">***專業領域的人員***</span>，對於<span style="color:red;">***身份審核上較嚴格***</span>，會有較多欄位需要填寫及上傳相關執照。
+With API data integration, the system can verify information in real time and show error messages.
 
-透過<span style="color:red;">***API 資料整合***</span>，系統能進行<span style="color:red;">***即時驗證***</span>，顯示<span style="color:red;">***錯誤訊息提示***</span>，這有助於他們快速修正問題，也減少了<span style="color:red;">***人工審核***</span>的需要。
+This helps users quickly fix issues and reduces the need for manual review.
 -->
 
 ---
@@ -1387,9 +1342,9 @@ layout: full
 </div>
 
 <!--
-針對課程分類頁面，包含一個<span style="color:red;">***可折疊的篩選器***</span>，使用者可以根據各種選項對課程進行篩選和排序。
+On the course categories page, there’s a collapsible filter where users can sort and filter courses based on different options.
 
-課程以卡片形式呈現，基本資訊一目了然，讓使用者能夠快速找到所需的課程。
+Courses are displayed as cards, showing the key information, so users can quickly find what they need.
 -->
 
 ---
@@ -1418,11 +1373,11 @@ layout: full
 </div>
 
 <!--
-在課程詳細頁面，由於內容較為豐富，我們將資訊分為<span style="color:red;">***不同區塊***</span>來呈現。
+On the course detail page, since there’s a lot of information, we divided the content into different sections.
 
-並且加入了<span style="color:red;">***切換按鈕***</span>，讓使用者能<span style="color:red;">***快速跳轉***</span>到相關區塊，避免一一瀏覽冗長的內容。
+We also added tabs so users can quickly jump to the parts they want, without scrolling through everything.
 
-右邊的固定式卡片包含了<span style="color:red;">***報名及諮詢***</span>按鈕，在瀏覽的同時可以隨時進行操做。
+On the right side, there’s a fixed card, so users can take action anytime while browsing.
 -->
 
 ---
@@ -1451,9 +1406,9 @@ layout: full
 </div>
 
 <!--
-在課程報名的部分，我設計了<span style="color:red;">***進度條***</span>來顯示報名的<span style="color:red;">***各個階段***</span>，讓使用者知道還有幾步。
+For the course application, I designed a progress bar to show the steps, so users always know how many steps are left.
 
-另外報名系統是<span style="color:red;">***動態適應設計***</span>，根據<span style="color:red;">***選擇的人數***</span>會決定使用的是「個人報名」還是「團體報名」的模板，這個頁面是以個人報名為例，根據選擇的課程會需要填寫多項資格證明文件。
+And the registration system is dynamic — it switches between individual and group registration templates depending on the number of people.
 -->
 
 ---
@@ -1482,11 +1437,7 @@ layout: full
 </div>
 
 <!--
-在團體報名部分，選擇人數大於 1 時，系統會動態調整填寫欄位，切換為「團體報名」的表單。
-
-這種設計避免了開發兩套系統的複雜性，符合<span style="color:red;">***彈性設計原則***</span>。
-
-另外團體報名在新增成員時使用<span style="color:red;">***抽屜式設計***</span>，會於右側跳出成員的填寫資料，對於需<span style="color:red;">***同時檢視和填寫資料***</span>上提升效率。
+When adding members in group registration, we use a drawer-style panel that slides in from the right, allowing users to view and fill out member information efficiently
 -->
 
 ---
@@ -1512,13 +1463,9 @@ layout: full
 </div>
 
 <!--
-在完成報名後，學員可於「會員中心」檢視報名的審核進度。
+After completing registration, students can check their application status in the member center.
 
-學生可以<span style="color:red;">***依照狀態***</span>點擊切換按鈕，檢視各種狀態的課程。
-
-點擊課程卡片後，可以查看該課程的詳細資訊。
-
-並且在<span style="color:red;">***團體報名***</span>的課程中，主要報名者可以查看到所有成員的審核狀態以及詳細資料。
+By clicking on a course card, they can see detailed information about that course.
 -->
 
 ---
@@ -1547,9 +1494,9 @@ layout: full
 </div>
 
 <!--
-對於線上諮詢功能，列表中可以查看所有對話過的開課單位，並且也支援上傳檔案。
+For the online consultation feature, users can see a list of all course providers they’ve talked to, and the system also supports file uploads.
 
-這項功能確保學生能即時<span style="color:red;">***獲得他們所需的資源及協助***</span>。
+This ensures students get the resources and help they need in real time.
 -->
 
 ---
@@ -1587,6 +1534,10 @@ const final = {
   }
 }
 </script>
+
+<!--
+Finally, we used data analysis to gather feedback and improve our design.
+-->
 
 ---
 transition: slide-up
@@ -1676,11 +1627,14 @@ layout: full
 </div>
 
 <!--
-在124位造訪註冊頁面的使用者中，有94位成功完成註冊，轉換率為76%。
+We used funnel analysis for the member registration feature.
+Out of 124 users who visited the registration page, 94 completed the signup, resulting in a 76% conversion rate.
 
-最大流失點發生在「填寫表單欄位」階段，共有10位使用者中途退出。
+The biggest drop-off happened at the form filling stage, where 10 users left halfway.
 
-這顯示表單複雜度或使用者猶豫可能造成阻礙。進一步優化表單設計與欄位清晰度，有助提升完成率。
+This suggests that the form’s complexity or user hesitation might be causing barriers.
+
+Improving the form design and making the fields clearer could help increase completion rates.
 -->
 
 ---
@@ -1708,9 +1662,10 @@ layout: full
 </style>
 
 <!--
-本次漏斗分析對比了「優化前」與「優化後」課程報名流程的使用者行為。
+On the course registration page, we compared user behavior before and after optimization.
 
-優化後將報名流程拆分為多步驟並加入暫存功能，有效減少填寫表單階段的流失，最終報名完成率從44.4%提升至65.4%。
+After splitting the registration into multiple steps, we significantly reduced drop-offs during the form-filling stage.
+As a result, the completion rate increased from 48.6% to 75%.
 -->
 
 ---
@@ -1823,9 +1778,9 @@ layout: full
 </style>
 
 <!--
-分組分析顯示，使用暫存功能的使用者在各關鍵步驟均有較高留存率，顯示暫存功能顯著提升使用者完成報名的意願與體驗。
+Group analysis shows that users who used the draft feature had higher retention rates at each key step.
 
-整體來看，流程拆分與暫存功能是提升報名轉化率的重要優化策略。
+This indicates that the draft feature significantly improves users’ willingness and experience to complete their registration.
 -->
 
 ---
@@ -1877,25 +1832,13 @@ layout: full
 </div>
 
 <!--
-未來我們也將持續優化提升平台的功能。
+Looking ahead, we will continue to improve and enhance the platform’s features.
 
-***
+We plan to expand the online course system to make the platform more useful and better meet users’ needs.
 
-1. 我們計劃擴展<span style="color:red;">***線上課程系統***</span>
+Right now, we’re improving the course application process to offer a smoother experience for users handling large amounts of data, including batch data uploads.
 
-提升平台的應用性，以更好地滿足用戶需求。
-
-***
-
-2. 目前，我們持續改進課程報名流程
-
-為<span style="color:red;">***大量資料輸入***</span>的用戶提供更加流暢的體驗，預計提供批次資料上傳。
-
-***
-
-3. 此外，我們還計劃實施<span style="color:red;">***常見問答系統***</span>
-
-提供基本的智慧客服支持，以解決人力不足的問題，進一步提升整體服務質量。
+Additionally, we plan to implement a FAQ system to provide basic smart customer support, helping to address staffing shortages and improve overall service quality.
 -->
 
 ---
@@ -1960,8 +1903,5 @@ const final = {
 </style>
 
 <!--
-感謝大家今天的參與！
-
-
-如果您對其他內容感興趣，歡迎隨時查看我的作品集。
+Thank you all for joining today!
 -->
